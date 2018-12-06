@@ -1,6 +1,6 @@
-# IndoorGML_OSM
+# IndoorData Converter
 
-IndoorData Converter
+IndoorGML data <-> OSM data
 
 
 ## Author
