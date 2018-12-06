@@ -42,4 +42,4 @@ CONVERTER IndoorGML OSM ./TEST.gml ./TEST.osm
 
 
 ## Development
-For Developer, we document source code description. see : [MANUAL](https://qudrhs100.github.io/IndoorGML_OSM/)
+For Developer, we document source code description. see : [MANUAL](https://stemlab.github.io/IndoorData_Conversion/)
