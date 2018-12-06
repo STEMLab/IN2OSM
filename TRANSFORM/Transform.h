@@ -58,7 +58,6 @@ namespace CONVERTER {
         std::string latitude;
         std::string longitude;
         std::string height;
-        //int storey=99999;
         Pos(){
            type=0;
         }
@@ -73,7 +72,6 @@ namespace CONVERTER {
     public:
         std::string name;
         std::vector<Pos *> pos_vector;
-        //int storey=99999;
         CellSpace(){
             type=1;
         }
@@ -114,7 +112,6 @@ namespace CONVERTER {
         std::string name;
         std::string weight;
         std::vector<Pos *> pos_vector;
-        //int storey=99999;
         Transition(){
             type=4;
         }
