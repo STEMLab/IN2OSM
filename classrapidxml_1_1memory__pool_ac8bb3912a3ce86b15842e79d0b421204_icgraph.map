@@ -1,0 +1,8 @@
+<map id="clear" name="clear">
+<area shape="rect" id="node2" href="$classrapidxml_1_1xml__document.html#ac8bb3912a3ce86b15842e79d0b421204" title="rapidxml::xml_document\l::clear" alt="" coords="104,74,268,115"/>
+<area shape="rect" id="node3" href="$namespace_i_n_d_o_o_r.html#aaee2f2378361390c5c21507e3c07c7cc" title="INDOOR::Read" alt="" coords="316,5,431,32"/>
+<area shape="rect" id="node5" href="$namespace_i_n_d_o_o_r.html#ab9daea70ef32cbca50789588db04522e" title="INDOOR::Write" alt="" coords="316,56,431,83"/>
+<area shape="rect" id="node6" href="$namespace_o_s_m.html#aaee2f2378361390c5c21507e3c07c7cc" title="OSM::Read" alt="" coords="328,107,419,133"/>
+<area shape="rect" id="node7" href="$namespace_o_s_m.html#a92841692634fa488b8628ead732f9cae" title="OSM::Write" alt="" coords="328,157,419,184"/>
+<area shape="rect" id="node4" href="$_c_o_n_v_e_r_t_e_r_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="479,81,529,108"/>
+</map>

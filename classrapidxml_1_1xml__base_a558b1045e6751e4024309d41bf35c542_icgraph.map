@@ -1,0 +1,15 @@
+<map id="value" name="value">
+<area shape="rect" id="node2" href="$namespace_i_n_d_o_o_r.html#aaee2f2378361390c5c21507e3c07c7cc" title="INDOOR::Read" alt="" coords="325,7,440,34"/>
+<area shape="rect" id="node4" href="$namespace_i_n_d_o_o_r.html#ab9daea70ef32cbca50789588db04522e" title="INDOOR::Write" alt="" coords="325,87,440,114"/>
+<area shape="rect" id="node5" href="$classrapidxml_1_1memory__pool.html#a750ba3c610b129ac057d817509d08f41" title="rapidxml::memory_pool\l::allocate_node" alt="" coords="113,160,271,201"/>
+<area shape="rect" id="node7" href="$classrapidxml_1_1memory__pool.html#a462de142669e0ff649e8e615b82bf457" title="rapidxml::memory_pool\l::allocate_attribute" alt="" coords="113,95,271,136"/>
+<area shape="rect" id="node8" href="$classrapidxml_1_1memory__pool.html#a95c49fcb056e9103ec906a59e3e01d76" title="rapidxml::memory_pool\l::clone_node" alt="" coords="113,225,271,267"/>
+<area shape="rect" id="node9" href="$classrapidxml_1_1xml__document.html#af84fd9da218683654e7c3c08d300cfab" title="rapidxml::xml_document\l::parse_comment" alt="" coords="110,291,274,332"/>
+<area shape="rect" id="node10" href="$classrapidxml_1_1xml__document.html#a7eae8ab07edfd4521665f4033d2d69cc" title="rapidxml::xml_document\l::parse_doctype" alt="" coords="110,356,274,397"/>
+<area shape="rect" id="node11" href="$classrapidxml_1_1xml__document.html#a4fa084dee6ef401dc55c6ec9a255e258" title="rapidxml::xml_document\l::parse_pi" alt="" coords="110,421,274,463"/>
+<area shape="rect" id="node12" href="$classrapidxml_1_1xml__document.html#a72ccd76930e57121828db31d63d6cd3b" title="rapidxml::xml_document\l::parse_and_append_data" alt="" coords="107,487,277,528"/>
+<area shape="rect" id="node13" href="$classrapidxml_1_1xml__document.html#a2c97a36dcf078323f911887d09869437" title="rapidxml::xml_document\l::parse_cdata" alt="" coords="110,552,274,593"/>
+<area shape="rect" id="node14" href="$classrapidxml_1_1xml__document.html#aa9bbcc47e4b9c324f1eb8f0159c52577" title="rapidxml::xml_document\l::parse_node_attributes" alt="" coords="110,617,274,659"/>
+<area shape="rect" id="node3" href="$_c_o_n_v_e_r_t_e_r_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="488,87,539,114"/>
+<area shape="rect" id="node6" href="$namespace_o_s_m.html#a92841692634fa488b8628ead732f9cae" title="OSM::Write" alt="" coords="337,138,428,165"/>
+</map>

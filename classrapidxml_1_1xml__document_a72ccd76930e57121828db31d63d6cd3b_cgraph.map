@@ -1,0 +1,6 @@
+<map id="parse_and_append_data" name="parse_and_append_data">
+<area shape="rect" id="node2" href="$classrapidxml_1_1xml__base.html#a558b1045e6751e4024309d41bf35c542" title="rapidxml::xml_base\l::value" alt="" coords="216,5,351,47"/>
+<area shape="rect" id="node3" href="$classrapidxml_1_1xml__node.html#a86de2e22276826089b7baed2599f8dee" title="rapidxml::xml_node\l::append_node" alt="" coords="216,71,351,112"/>
+<area shape="rect" id="node4" href="$classrapidxml_1_1xml__base.html#a7f177e162f72f65ea1f0f0188e41c1ba" title="rapidxml::xml_base\l::parent" alt="" coords="399,37,533,79"/>
+<area shape="rect" id="node5" href="$classrapidxml_1_1xml__node.html#a026a603e420a2e3e7ab820cfbd1a7e97" title="rapidxml::xml_node\l::type" alt="" coords="399,103,533,144"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="parent" name="parent">
+<area shape="rect" id="node2" href="$classrapidxml_1_1xml__node.html#ae5396d92d09394b37838f2518f430da4" title="rapidxml::xml_node\l::document" alt="" coords="112,5,247,47"/>
+<area shape="rect" id="node3" href="$classrapidxml_1_1xml__node.html#a0c39df6617e709eb2fba11300dea63f2" title="rapidxml::xml_node\l::prepend_node" alt="" coords="112,71,247,112"/>
+<area shape="rect" id="node4" href="$classrapidxml_1_1xml__node.html#a86de2e22276826089b7baed2599f8dee" title="rapidxml::xml_node\l::append_node" alt="" coords="112,201,247,243"/>
+<area shape="rect" id="node10" href="$classrapidxml_1_1xml__node.html#a780972a57fc447250ab47cc8f421b65e" title="rapidxml::xml_node\l::insert_node" alt="" coords="112,267,247,308"/>
+<area shape="rect" id="node11" href="$classrapidxml_1_1xml__node.html#a9316463a2201631e7e2062b17729f9cd" title="Removes specified child from the node. " alt="" coords="112,332,247,373"/>
+<area shape="rect" id="node12" href="$classrapidxml_1_1xml__node.html#af6dffa513da74cc0be71a7ba84f8265e" title="rapidxml::xml_node\l::prepend_attribute" alt="" coords="112,397,247,439"/>
+<area shape="rect" id="node13" href="$classrapidxml_1_1xml__node.html#a8fbd4f5ef7169d493da9f8d87ac04b77" title="rapidxml::xml_node\l::append_attribute" alt="" coords="112,136,247,177"/>
+<area shape="rect" id="node15" href="$classrapidxml_1_1xml__node.html#a070d5888b0557fe06a5b24961de1b988" title="rapidxml::xml_node\l::insert_attribute" alt="" coords="112,463,247,504"/>
+<area shape="rect" id="node16" href="$classrapidxml_1_1xml__node.html#ac75154db2e768c0e5b541fc8cd0775ab" title="rapidxml::xml_node\l::remove_attribute" alt="" coords="112,528,247,569"/>
+<area shape="rect" id="node5" href="$namespace_i_n_d_o_o_r.html#ab9daea70ef32cbca50789588db04522e" title="INDOOR::Write" alt="" coords="323,143,437,170"/>
+<area shape="rect" id="node7" href="$namespace_o_s_m.html#a92841692634fa488b8628ead732f9cae" title="OSM::Write" alt="" coords="335,194,425,221"/>
+<area shape="rect" id="node8" href="$classrapidxml_1_1xml__document.html#a72ccd76930e57121828db31d63d6cd3b" title="rapidxml::xml_document\l::parse_and_append_data" alt="" coords="295,311,465,352"/>
+<area shape="rect" id="node9" href="$classrapidxml_1_1xml__document.html#acd375c4b1cf6d923e9c840514deb38c9" title="rapidxml::xml_document\l::parse_node_contents" alt="" coords="298,245,462,287"/>
+<area shape="rect" id="node6" href="$_c_o_n_v_e_r_t_e_r_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="513,169,564,195"/>
+<area shape="rect" id="node14" href="$classrapidxml_1_1xml__document.html#aa9bbcc47e4b9c324f1eb8f0159c52577" title="rapidxml::xml_document\l::parse_node_attributes" alt="" coords="298,77,462,119"/>
+</map>

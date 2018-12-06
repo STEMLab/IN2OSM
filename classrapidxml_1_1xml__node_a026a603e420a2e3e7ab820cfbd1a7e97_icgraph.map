@@ -1,0 +1,12 @@
+<map id="type" name="type">
+<area shape="rect" id="node2" href="$classrapidxml_1_1memory__pool.html#a95c49fcb056e9103ec906a59e3e01d76" title="rapidxml::memory_pool\l::clone_node" alt="" coords="100,5,257,47"/>
+<area shape="rect" id="node3" href="$classrapidxml_1_1xml__node.html#ae5396d92d09394b37838f2518f430da4" title="document" alt="" coords="139,71,218,98"/>
+<area shape="rect" id="node4" href="$classrapidxml_1_1xml__node.html#a0c39df6617e709eb2fba11300dea63f2" title="prepend_node" alt="" coords="127,122,230,149"/>
+<area shape="rect" id="node5" href="$classrapidxml_1_1xml__node.html#a86de2e22276826089b7baed2599f8dee" title="append_node" alt="" coords="129,173,228,199"/>
+<area shape="rect" id="node11" href="$classrapidxml_1_1xml__node.html#a780972a57fc447250ab47cc8f421b65e" title="insert_node" alt="" coords="134,223,223,250"/>
+<area shape="rect" id="node6" href="$namespace_i_n_d_o_o_r.html#ab9daea70ef32cbca50789588db04522e" title="INDOOR::Write" alt="" coords="333,93,448,119"/>
+<area shape="rect" id="node8" href="$namespace_o_s_m.html#a92841692634fa488b8628ead732f9cae" title="OSM::Write" alt="" coords="345,143,436,170"/>
+<area shape="rect" id="node9" href="$classrapidxml_1_1xml__document.html#a72ccd76930e57121828db31d63d6cd3b" title="rapidxml::xml_document\l::parse_and_append_data" alt="" coords="305,195,476,236"/>
+<area shape="rect" id="node10" href="$classrapidxml_1_1xml__document.html#acd375c4b1cf6d923e9c840514deb38c9" title="rapidxml::xml_document\l::parse_node_contents" alt="" coords="309,260,473,301"/>
+<area shape="rect" id="node7" href="$_c_o_n_v_e_r_t_e_r_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="524,118,575,145"/>
+</map>
