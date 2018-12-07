@@ -27,7 +27,7 @@ file(GLOB IO_FILES
         "IO/*.h"
         "IO/*.cpp"
         )
-add_executable(CONVERTER
+add_executable(IN2OSM
         ${INDOOR_FILES}
         ${OSM_FILES}
         ${TRANSFORM_FILES}

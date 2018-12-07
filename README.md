@@ -30,14 +30,14 @@ mingw32-make
 ## Usage
 
 ```
-CONVERTER [inputfile_type] [outputfile_type] [inputfile_path] [outputfile_path]
+IN2OSM [inputfile_type] [outputfile_type] [inputfile_path] [outputfile_path]
 ```
 
 For example,
 
 ```
-CONVERTER OSM IndoorGML ./TEST.osm ./TEST.gml
-CONVERTER IndoorGML OSM ./TEST.gml ./TEST.osm
+IN2OSM OSM IndoorGML ./TEST.osm ./TEST.gml
+IN2OSM IndoorGML OSM ./TEST.gml ./TEST.osm
 ```
 
 
