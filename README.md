@@ -1,7 +1,7 @@
 # IndoorData Converter
 
 IndoorGML data <-> OSM data
-
+* **This Converter handles only 2D IndoorGML data.**
 
 ## Author
 Byeonggon Kim(byeonggon@pnu.edu), Pusan National University
