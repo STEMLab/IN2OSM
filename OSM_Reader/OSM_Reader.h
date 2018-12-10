@@ -25,5 +25,6 @@ namespace OSM{
     std::vector<CONVERTER::IC*> Read(std::string path);
     bool Cellspace_check(std::vector<CONVERTER::IC*>input);
     char* Read_tag(char* input);
+    CONVERTER::Pos *compute2DPolygonCentroid(const std::vector<CONVERTER::Pos*> vertices, int vertexCount);
 }
 #endif //INDOORGML2OSM_OSM_READER_H

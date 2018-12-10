@@ -27,6 +27,47 @@ namespace OSM{
         else
             return input;
     }
+    CONVERTER::Pos *compute2DPolygonCentroid(const std::vector<CONVERTER::Pos*> vertices, int vertexCount) {
+        CONVERTER::Point2D centroid= {0,0};
+        CONVERTER::Pos * output=new CONVERTER::Pos();
+        double signedArea = 0.0;
+        double x0 = 0.0; // Current vertex X
+        double y0 = 0.0; // Current vertex Y
+        double x1 = 0.0; // Next vertex X
+        double y1 = 0.0; // Next vertex Y
+        double a = 0.0;  // Partial signed area
+
+        // For all vertices except last
+        int i=0;
+        for (i=0; i<vertexCount-1; ++i) {
+            x0 = stod(vertices[i]->longitude);
+            y0 = stod(vertices[i]->latitude);
+            x1 = stod(vertices[i+1]->longitude);
+            y1 = stod(vertices[i+1]->latitude);
+            a = x0*y1 - x1*y0;
+            signedArea += a;
+            centroid.x += (x0 + x1)*a;
+            centroid.y += (y0 + y1)*a;
+        }
+        // Do last vertex separately to avoid performing an expensive
+        // modulus operation in each iteration.
+        x0 = stod(vertices[i]->longitude);
+        y0 = stod(vertices[i]->latitude);
+        x1 = stod(vertices[0]->longitude);
+        y1 = stod(vertices[0]->latitude);
+        a = x0*y1 - x1*y0;
+        signedArea += a;
+        centroid.x += (x0 + x1)*a;
+        centroid.y += (y0 + y1)*a;
+
+        signedArea *= 0.5;
+        centroid.x /= (6.0*signedArea);
+        centroid.y /= (6.0*signedArea);
+
+        output->longitude=to_string(centroid.x);
+        output->latitude=to_string(centroid.y);
+        return output;
+    }
 
     bool Cellspace_check(std::vector<CONVERTER::IC*>input){
         bool result=false;
@@ -143,6 +184,7 @@ namespace OSM{
                     std::string nd_str(xml_nd->first_attribute("ref")->value());
                     CellSpace_Pointer->pos_vector.push_back(matching_id(node_vector,nd_str));
                 }
+
                 for(xml_node<>*xml_tag=xml_way->first_node("tag");xml_tag;xml_tag=xml_tag->next_sibling("tag")){
                     if(strcmp(xml_tag->first_attribute("k")->value(),"name")==0){
                         CellSpace_Pointer->name=xml_tag->first_attribute("v")->value();
@@ -157,6 +199,17 @@ namespace OSM{
                     CellSpace_Pointer->Description.append(xml_tag->first_attribute("v")->value());
                     CellSpace_Pointer->Description.append(";");
                 }
+                //make state
+                if(CellSpace_Pointer->outer==1) {
+                    CONVERTER::State *state_input = new CONVERTER::State();
+                    state_input->pos = compute2DPolygonCentroid(CellSpace_Pointer->pos_vector,CellSpace_Pointer->pos_vector.size());
+                    state_input->osm_id = state_input->pos->osm_id;
+                    state_input->gml_id = "S" + to_string(State_id++);
+                    state_input->storey = CellSpace_Pointer->storey;
+                    State_vector.push_back(state_input);
+                    IC_vector.push_back(state_input);
+                }
+                //
             }//Cellspace_way
             if(matching_id(CellSpaceBoundary_vector,osm_str)!=NULL){
                 CONVERTER::CellSpaceBoundary * CellSpaceBoundary_Pointer=matching_id(CellSpaceBoundary_vector,osm_str);

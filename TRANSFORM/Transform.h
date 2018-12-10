@@ -59,7 +59,9 @@ namespace CONVERTER {
         std::string longitude;
         std::string height;
         Pos(){
-           type=0;
+            latitude="0";
+            longitude="0";
+            type=0;
         }
     };
      /**
@@ -115,6 +117,11 @@ namespace CONVERTER {
         Transition(){
             type=4;
         }
+    };
+    struct Point2D
+    {
+        double x;
+        double y;
     };
 }
 
