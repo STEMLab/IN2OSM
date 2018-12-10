@@ -76,6 +76,7 @@ namespace OSM{
         }
         return result;
     }
+
     std::vector<CONVERTER::IC*> Read(std::string PATH){
         vector <CONVERTER::CellSpace*> CellSpace_vector;
         vector <CONVERTER::CellSpaceBoundary*>CellSpaceBoundary_vector;
@@ -164,6 +165,9 @@ namespace OSM{
             if(Cellspace_check(close)==false)continue;
             std::string osm_str(xml_way->first_attribute("id")->value());
             if(matching_id(CellSpace_vector,osm_str)!=NULL)continue;
+            TPPLPartition pp;
+            list<TPPLPoly> testpolys;
+            ReadPolyList(,&testpolys);
             CONVERTER::CellSpace *cellspace_input = new CONVERTER::CellSpace();
             cellspace_input->osm_id=osm_str;
             cellspace_input->gml_id="C"+to_string(CellSpace_ID++);
@@ -199,17 +203,17 @@ namespace OSM{
                     CellSpace_Pointer->Description.append(xml_tag->first_attribute("v")->value());
                     CellSpace_Pointer->Description.append(";");
                 }
-                //make state
-                if(CellSpace_Pointer->outer==1) {
-                    CONVERTER::State *state_input = new CONVERTER::State();
-                    state_input->pos = compute2DPolygonCentroid(CellSpace_Pointer->pos_vector,CellSpace_Pointer->pos_vector.size());
-                    state_input->osm_id = state_input->pos->osm_id;
-                    state_input->gml_id = "S" + to_string(State_id++);
-                    state_input->storey = CellSpace_Pointer->storey;
-                    State_vector.push_back(state_input);
-                    IC_vector.push_back(state_input);
-                }
-                //
+//                //make state
+//                if(CellSpace_Pointer->outer==1) {
+//                    CONVERTER::State *state_input = new CONVERTER::State();
+//                    state_input->pos = compute2DPolygonCentroid(CellSpace_Pointer->pos_vector,CellSpace_Pointer->pos_vector.size());
+//                    state_input->osm_id = state_input->pos->osm_id;
+//                    state_input->gml_id = "S" + to_string(State_id++);
+//                    state_input->storey = CellSpace_Pointer->storey;
+//                    State_vector.push_back(state_input);
+//                    IC_vector.push_back(state_input);
+//                }
+//                //
             }//Cellspace_way
             if(matching_id(CellSpaceBoundary_vector,osm_str)!=NULL){
                 CONVERTER::CellSpaceBoundary * CellSpaceBoundary_Pointer=matching_id(CellSpaceBoundary_vector,osm_str);
