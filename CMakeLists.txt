@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(IndoorData_Conversion)
+project(IN2OSM)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -33,4 +33,4 @@ add_executable(IN2OSM
         ${TRANSFORM_FILES}
         ${IO_FILES}
         CONVERTER.cpp DOC/mainpage.h)
-include_directories("../IndoorData_Conversion")
+include_directories("../IN2OSM")
