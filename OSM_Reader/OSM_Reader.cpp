@@ -165,9 +165,6 @@ namespace OSM{
             if(Cellspace_check(close)==false)continue;
             std::string osm_str(xml_way->first_attribute("id")->value());
             if(matching_id(CellSpace_vector,osm_str)!=NULL)continue;
-            TPPLPartition pp;
-            list<TPPLPoly> testpolys;
-            ReadPolyList(,&testpolys);
             CONVERTER::CellSpace *cellspace_input = new CONVERTER::CellSpace();
             cellspace_input->osm_id=osm_str;
             cellspace_input->gml_id="C"+to_string(CellSpace_ID++);
