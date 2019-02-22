@@ -10,6 +10,9 @@
 #include <ostream>
 #include "Rapidxml/rapidxml_print.hpp"
 #include "Rapidxml/rapidxml.hpp"
+#include "rapidjson/document.h"
+#include "rapidjson/writer.h"
+#include "rapidjson/stringbuffer.h"
 
 extern int CellSpace_ID;
 extern int CellSpaceBoundary_ID;

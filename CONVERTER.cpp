@@ -5,17 +5,19 @@
 #include "IndoorGML_Writer/IndoorGML_Writer.h"
 #include "OSM_Reader/OSM_Reader.h"
 #include "OSM_Writer/OSM_Writer.h"
+#include "IMDF_Reader/IMDF_Reader.h"
 #include "IO/IO.h"
 #include <iostream>
 #include <string.h>
 
 int main(int argc, char **argv) {
 
-    if(strcmp(IO::lowercase(argv[1]),"indoorgml")==0 && strcmp(IO::lowercase(argv[2]),"osm")==0){
-        OSM::Write(INDOOR::Read(argv[3]),argv[4]);
-    }
-    if(strcmp(IO::lowercase(argv[1]),"osm")==0 && strcmp(IO::lowercase(argv[2]),"indoorgml")==0){
-        INDOOR::Write(OSM::Read(argv[3]),argv[4]);
-    }
+//    if(strcmp(IO::lowercase(argv[1]),"indoorgml")==0 && strcmp(IO::lowercase(argv[2]),"osm")==0){
+//        OSM::Write(INDOOR::Read(argv[3]),argv[4]);
+//    }
+//    if(strcmp(IO::lowercase(argv[1]),"osm")==0 && strcmp(IO::lowercase(argv[2]),"indoorgml")==0){
+//        INDOOR::Write(OSM::Read(argv[3]),argv[4]);
+//    }
+    IMDF::Read("D:\\Project\\IN2OSM\\Data\\VictoriaAirport_IMDF\\unit.geojson");
     return 0;
 }

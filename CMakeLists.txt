@@ -20,6 +20,10 @@ file(GLOB OSM_FILES
         "OSM_Writer/*.h"
         "OSM_Writer/*.cpp"
         )
+file(GLOB IMDF_FILES
+        "IMDF_Reader/*.h"
+        "IMDF_Reader/*.cpp"
+        )
 file(GLOB TRANSFORM_FILES
         "transform/*.h"
         )
@@ -30,7 +34,8 @@ file(GLOB IO_FILES
 add_executable(IN2OSM
         ${INDOOR_FILES}
         ${OSM_FILES}
+        ${IMDF_FILES}
         ${TRANSFORM_FILES}
         ${IO_FILES}
-        CONVERTER.cpp DOC/mainpage.h)
+        CONVERTER.cpp DOC/mainpage.h TRANSFORM/IMDF_FILE.h)
 include_directories("../IN2OSM")
