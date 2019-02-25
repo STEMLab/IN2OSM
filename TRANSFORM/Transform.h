@@ -37,7 +37,7 @@ namespace CONVERTER {
     */
     class IC {
     public:
-        int type;
+        int type;//Cellspace, Cellspaceboundary,State,Transition 나누는 경계 값
         int outer=0;//0 아무것도 아님 1 outer 2 inner
         int storey=99999;
         std::string gml_id;
