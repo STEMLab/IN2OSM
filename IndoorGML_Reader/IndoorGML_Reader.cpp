@@ -26,7 +26,7 @@ namespace INDOOR{
         std::vector <CONVERTER::State*>State_vector;
         std::vector <CONVERTER::Transition*>Transition_vector;
         std::vector <CONVERTER::IC*>IC_vector;
-        cout << "Indoorgml to OSM..."<<endl ;
+        cout << "Indoorgml to ..."<<endl ;
         xml_document<> doc;//input
         xml_document<> doc1;//output
         xml_node<> * root_node;

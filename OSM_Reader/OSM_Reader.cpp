@@ -84,7 +84,7 @@ namespace OSM{
         vector <CONVERTER::Transition*>Transition_vector;
         vector <CONVERTER::Pos*> node_vector;
         vector <CONVERTER::IC*> IC_vector;
-        cout << "OSM to IndoorGML..."<<endl ;
+        cout << "OSM to ..."<<endl ;
         xml_document<> doc;//input
         xml_node<> * root_node;
         ifstream theFile (PATH);
@@ -189,6 +189,10 @@ namespace OSM{
                 for(xml_node<>*xml_tag=xml_way->first_node("tag");xml_tag;xml_tag=xml_tag->next_sibling("tag")){
                     if(strcmp(xml_tag->first_attribute("k")->value(),"name")==0){
                         CellSpace_Pointer->name=xml_tag->first_attribute("v")->value();
+                        continue;
+                    }
+                    if(strcmp(xml_tag->first_attribute("k")->value(),"level")==0){
+                        CellSpace_Pointer->storey=atoi(xml_tag->first_attribute("v")->value());
                         continue;
                     }
                     string str = Read_tag(string(xml_tag->first_attribute("k")->value()));
