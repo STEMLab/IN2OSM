@@ -43,6 +43,7 @@ namespace OSM {
         return out;
     }
     void Write(std::vector<CONVERTER::IC*>IC_vector, std::string PATH){
+        std::cout<<"Indoorgml"<<std::endl;
         rapidxml::xml_document<> doc1;
         rapidxml::xml_node<>* decl = doc1.allocate_node(rapidxml::node_declaration);
         decl->append_attribute(doc1.allocate_attribute("version", "1.0"));
