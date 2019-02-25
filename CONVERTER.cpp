@@ -9,15 +9,20 @@
 #include "IO/IO.h"
 #include <iostream>
 #include <string.h>
-
+#include <io.h>
+#include "assert.h"
 int main(int argc, char **argv) {
-
-//    if(strcmp(IO::lowercase(argv[1]),"indoorgml")==0 && strcmp(IO::lowercase(argv[2]),"osm")==0){
-//        OSM::Write(INDOOR::Read(argv[3]),argv[4]);
-//    }
-//    if(strcmp(IO::lowercase(argv[1]),"osm")==0 && strcmp(IO::lowercase(argv[2]),"indoorgml")==0){
-//        INDOOR::Write(OSM::Read(argv[3]),argv[4]);
-//    }
-    IMDF::Read("D:\\Project\\IN2OSM\\Data\\VictoriaAirport_IMDF\\unit.geojson");
+    try{
+        if(!IO::ISNOT_INDOORGML(argv))
+            throw argv;
+        if(strcmp(IO::lowercase(argv[1]),"indoorgml")==0 && strcmp(IO::lowercase(argv[2]),"osm")==0){
+            OSM::Write(INDOOR::Read(argv[3]),argv[4]);
+        }
+        if(strcmp(IO::lowercase(argv[1]),"osm")==0 && strcmp(IO::lowercase(argv[2]),"indoorgml")==0){
+            INDOOR::Write(OSM::Read(argv[3]),argv[4]);
+        }
+    } catch(char **argv) {
+        IO::ISNOT_INDORGML_MESSAGE();
+    }
     return 0;
 }

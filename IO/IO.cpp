@@ -6,7 +6,7 @@
 #include "TRANSFORM/Transform.h"
 #include <stdio.h>
 #include <ctype.h>
-
+#include <iostream>
 int CellSpace_ID=1;
 int CellSpaceBoundary_ID=1;
 int State_id=1;
@@ -24,5 +24,14 @@ namespace IO{
             i++;
         }
         return input;
+    }
+    bool ISNOT_INDOORGML(char **input){
+        bool output=false;
+        if (strcmp(lowercase(input[1]),"indoorgml")==0||strcmp(lowercase(input[2]),"indoorgml")==0)
+            output=true;
+        return output;
+    }
+    void ISNOT_INDORGML_MESSAGE(){
+        std::cout<<"INDOORGML is not included among INPUT values.";
     }
 }
