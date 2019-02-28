@@ -8,10 +8,50 @@
 #include "IMDF_Reader.h"
 #include "rapidjson/filereadstream.h"
 #include "TRANSFORM/IMDF_FILE.h"
+
 using namespace rapidjson;
 using namespace std;
 
 namespace IMDF {
+    std::vector <CONVERTER::IC*> READ(std::string folder_path);
+    std::vector<CONVERTER::IC*> Read_UNIT(std::string path);
+    std::vector<CONVERTER::IC*> Read_OPENING(std::vector<CONVERTER::IC*>,std::string path);
+
+    std::vector <CONVERTER::IC*> READ(std::string folder_path){
+        cout<<"IMDF to ... ";
+        vector <CONVERTER::IC*> IC_vector;
+        struct _finddata_t fd;
+        intptr_t handle;
+        string FIND_PATH = folder_path+"\\*.geojson";
+        if ((handle = _findfirst(FIND_PATH.c_str(), &fd)) == -1L)
+
+            cout << "No IMDF unit.geojson in directory!" << endl;
+        do{
+            //cout << fd.name << endl;
+            if(strcmp(fd.name,"unit.geojson")==0){
+                FIND_PATH=folder_path+"\\"+"unit.geojson";
+                IC_vector = Read_UNIT(FIND_PATH);
+            }
+
+        } while (_findnext(handle, &fd) == 0);
+        _findclose(handle);
+        //unit.geojson 입력받기
+        //
+        //
+        FIND_PATH = folder_path+"\\*.geojson";
+        if ((handle = _findfirst(FIND_PATH.c_str(), &fd)) == -1L)
+            cout << "No IMDF opening.geojson in directory!" << endl;
+        do{
+            //cout << fd.name << endl;
+            if(strcmp(fd.name,"opening.geojson")==0) {
+                FIND_PATH=folder_path+"\\"+"opening.geojson";
+                IC_vector = Read_OPENING(IC_vector,FIND_PATH);
+
+            }
+        } while (_findnext(handle, &fd) == 0);
+        _findclose(handle);
+        return IC_vector;
+    }
 
     std::vector<CONVERTER::IC*> Read_UNIT(std::string path) {
         vector <CONVERTER::CellSpace*> CellSpace_vector;
@@ -58,7 +98,7 @@ namespace IMDF {
                 POINT_INPUT->pointy=it1[1].GetDouble();
                 FEATURE_INPUT->feature_geometry->coordinates_out.push_back(POINT_INPUT);
             }//outerring
-            if(it["geometry"]["coordinates"].Capacity()==2){
+            if(it["geometry"]["coordinates"].Capacity()==2){//inner ring 이 있을 경우
                 for(auto &it1 :it["geometry"]["coordinates"][1].GetArray()) {
                     UNIT::point * POINT_INPUT=new UNIT::point();
                     POINT_INPUT->pointx=it1[0].GetDouble();
@@ -80,7 +120,7 @@ namespace IMDF {
         //////------------IMDF ---------------------->IC_Vector///
         for(auto it:INPUT_UNIT->features){
             CONVERTER::CellSpace *CELLSPACE_INPUT=new CONVERTER::CellSpace();
-            CELLSPACE_INPUT->gml_id=it->id;
+            CELLSPACE_INPUT->gml_id="C_"+it->id;
             CELLSPACE_INPUT->outer=1;
             for(auto it1 :it->feature_geometry->coordinates_out){
                 CONVERTER::Pos * POS_INPUT= new CONVERTER::Pos();
@@ -116,5 +156,45 @@ namespace IMDF {
            IC_vector.push_back(CELLSPACE_INPUT);
         }
         return IC_vector;
+    }
+    std::vector<CONVERTER::IC*> Read_OPENING(std::vector<CONVERTER::IC*>input,std::string path){
+        FILE* fp = fopen(path.c_str(), "rb"); // non-Windows use "r"
+        char readBuffer[65536];
+        FileReadStream is(fp, readBuffer, sizeof(readBuffer));
+        Document d;
+        d.ParseStream(is);
+
+        OPENING::opening *INPUT_OPENING=new OPENING::opening();
+        INPUT_OPENING->type=d["type"].GetString();
+        INPUT_OPENING->name=d["name"].GetString();
+        //cout<<INPUT_OPENING->type<<endl;
+
+        for(auto &it : d["features"].GetArray()){
+            OPENING::feature *FEATURE_INPUT=new OPENING::feature();
+            FEATURE_INPUT->feature_geometry=new OPENING::geometry();
+            FEATURE_INPUT->feature_properties=new OPENING::properties();
+            FEATURE_INPUT->id=it["id"].GetString();
+            for(auto &it1 :it["geometry"]["coordinates"].GetArray()) {
+                OPENING::point * POINT_INPUT=new OPENING::point();
+                POINT_INPUT->pointx=it1[0].GetDouble();
+                POINT_INPUT->pointy=it1[1].GetDouble();
+                FEATURE_INPUT->feature_geometry->coordinates.push_back(POINT_INPUT);
+            }//outerring
+            INPUT_OPENING->features.push_back(FEATURE_INPUT);
+        }
+        //////------------IMDF ---------------------->IC_Vector///Cellspace_Boundary
+        for(auto it:INPUT_OPENING->features){
+            CONVERTER::CellSpaceBoundary *CELLSPACEBOUNDARY_INPUT=new CONVERTER::CellSpaceBoundary();
+            CELLSPACEBOUNDARY_INPUT->gml_id="B_"+it->id;
+            for(auto it1 :it->feature_geometry->coordinates){
+                CONVERTER::Pos * POS_INPUT= new CONVERTER::Pos();
+                POS_INPUT->longitude=to_string(it1->pointx);
+                POS_INPUT->latitude=to_string(it1->pointy);
+                CELLSPACEBOUNDARY_INPUT->pos_vector.push_back(POS_INPUT);
+            }
+            input.push_back(CELLSPACEBOUNDARY_INPUT);
+        }
+
+        return input;
     }
 }
