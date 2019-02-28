@@ -43,4 +43,4 @@ IN2OSM IndoorGML OSM ./TEST.gml ./TEST.osm
 
 
 ## Development
-For Developer, we document source code description. see : [MANUAL](https://stemlab.github.io/IndoorData_Conversion/)
+For Developer, we document source code description. see : [MANUAL](https://stemlab.github.io/IN2OSM/)
