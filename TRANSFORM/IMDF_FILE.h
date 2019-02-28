@@ -92,5 +92,9 @@ namespace IMDF{
             std::vector<feature*>features;
         };
     }
+    namespace level{
+        int ordinal;
+        std::string id;
+    }
 }
 #endif //IN2OSM_IMDF_FILE_H

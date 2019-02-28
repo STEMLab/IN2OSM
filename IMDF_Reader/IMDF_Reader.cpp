@@ -16,7 +16,6 @@ namespace IMDF {
     std::vector <CONVERTER::IC*> READ(std::string folder_path);
     std::vector<CONVERTER::IC*> Read_UNIT(std::string path);
     std::vector<CONVERTER::IC*> Read_OPENING(std::vector<CONVERTER::IC*>,std::string path);
-
     std::vector <CONVERTER::IC*> READ(std::string folder_path){
         cout<<"IMDF to ... ";
         vector <CONVERTER::IC*> IC_vector;
@@ -113,7 +112,7 @@ namespace IMDF {
                 FEATURE_INPUT->feature_properties->name=it["properties"]["name"]["en"].GetString();
 
             //FEATURE_INPUT->feature_properties->alt_name=it["properties"]["alt_name"].GetString();
-            //FEATURE_INPUT->feature_properties->level_id=it["properties"]["level_id"].GetString();
+            FEATURE_INPUT->feature_properties->level_id=it["properties"]["level_id"].GetString();
             INPUT_UNIT->features.push_back(FEATURE_INPUT);
         }
 
@@ -180,6 +179,7 @@ namespace IMDF {
                 POINT_INPUT->pointy=it1[1].GetDouble();
                 FEATURE_INPUT->feature_geometry->coordinates.push_back(POINT_INPUT);
             }//outerring
+            FEATURE_INPUT->feature_properties->level_id=it["properties"]["level_id"].GetString();
             INPUT_OPENING->features.push_back(FEATURE_INPUT);
         }
         //////------------IMDF ---------------------->IC_Vector///Cellspace_Boundary
@@ -196,5 +196,9 @@ namespace IMDF {
         }
 
         return input;
+    }
+
+    std::vector<CONVERTER::IC*> Read_LEVEL(std::vector<CONVERTER::IC*>,std::string path){
+
     }
 }
