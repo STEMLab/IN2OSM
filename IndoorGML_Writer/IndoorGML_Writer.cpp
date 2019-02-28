@@ -83,12 +83,12 @@ namespace INDOOR{
         xml_bound->append_attribute(doc1.allocate_attribute("xsi:nil", boundedby_value.c_str()));
         xml_PrimalSpaceFeatures->append_node(xml_bound);
 
-        rapidxml::xml_node<>* xml_nodes=doc1.allocate_node(rapidxml::node_element, "nodes");
+        rapidxml::xml_node<>* xml_nodes=doc1.allocate_node(rapidxml::node_element, "core:nodes");
         xml_bound = doc1.allocate_node(rapidxml::node_element, "gml:boundedBy");
         xml_bound->append_attribute(doc1.allocate_attribute("xsi:nil", boundedby_value.c_str()));
         xml_nodes->append_node(xml_bound);
         xml_nodes->append_attribute(doc1.allocate_attribute("gml:id", "nodes"));
-        rapidxml::xml_node<>* xml_edges=doc1.allocate_node(rapidxml::node_element, "edges");
+        rapidxml::xml_node<>* xml_edges=doc1.allocate_node(rapidxml::node_element, "core:edges");
         xml_edges->append_attribute(doc1.allocate_attribute("gml:id", "edges"));
         xml_MultiLayeredGraph->append_node(xml_spaceLayers);
         xml_spaceLayers->append_node(xml_spaceLayerMember);
@@ -137,7 +137,7 @@ namespace INDOOR{
             xml_CellSpace->append_node(xml_description);
             xml_CellSpace->append_node(xml_name);
             xml_CellSpace->append_node(xml_bound);
-            xml_CellSpace->append_node(xml_storey);
+
 
             xml_exterior->append_node(xml_LinearRing);
             xml_Polygon->append_node(xml_exterior);
@@ -157,6 +157,7 @@ namespace INDOOR{
             xml_cellSpaceGeometry->append_node(xml_Geometry2D);
             xml_CellSpace->append_node(xml_cellSpaceGeometry);
             xml_CellSpace->append_node(xml_duality);
+            xml_CellSpace->append_node(xml_storey);
             for(auto it1:it->partialboundedBy){
                 rapidxml::xml_node<>* xml_partialboundedBy= doc1.allocate_node(rapidxml::node_element, "partialboundedBy");
                 xml_partialboundedBy->append_attribute(doc1.allocate_attribute("xlink:href",doc1.allocate_string(("#"+it1->gml_id).c_str())));
@@ -167,17 +168,17 @@ namespace INDOOR{
         }
         for(auto it : IC_vector){//CellspaceBoundary
             if(it->type!=2)continue;
-            rapidxml::xml_node<>* xml_cellSpaceBoundaryMember = doc1.allocate_node(rapidxml::node_element, "cellSpaceBoundaryMember");
-            rapidxml::xml_node<>* xml_CellSpaceBoundary = doc1.allocate_node(rapidxml::node_element, "CellSpaceBoundary");
+            rapidxml::xml_node<>* xml_cellSpaceBoundaryMember = doc1.allocate_node(rapidxml::node_element, "core:cellSpaceBoundaryMember");
+            rapidxml::xml_node<>* xml_CellSpaceBoundary = doc1.allocate_node(rapidxml::node_element, "core:CellSpaceBoundary");
             rapidxml::xml_node<>* xml_CellSpaceBoundary_bound = doc1.allocate_node(rapidxml::node_element, "gml:boundedBy");
             xml_CellSpaceBoundary_bound->append_attribute(doc1.allocate_attribute("xsi:nil", boundedby_value.c_str()));
-            rapidxml::xml_node<>* xml_duality = doc1.allocate_node(rapidxml::node_element, "duality");
+            rapidxml::xml_node<>* xml_duality = doc1.allocate_node(rapidxml::node_element, "core:duality");
             rapidxml::xml_node<>* xml_name= doc1.allocate_node(rapidxml::node_element, "gml:name");
             xml_name->value(doc1.allocate_string((((CONVERTER::CellSpaceBoundary*)it)->name).c_str()));
             if(it->duality!=NULL)
                 xml_duality->append_attribute(doc1.allocate_attribute("xlink:href",doc1.allocate_string(("#"+it->duality->gml_id).c_str())));
-            rapidxml::xml_node<>* xml_cellSpaceBoundaryGeometry = doc1.allocate_node(rapidxml::node_element, "cellSpaceBoundaryGeometry");
-            rapidxml::xml_node<>* xml_Geometry2D = doc1.allocate_node(rapidxml::node_element, "geometry2D");
+            rapidxml::xml_node<>* xml_cellSpaceBoundaryGeometry = doc1.allocate_node(rapidxml::node_element, "core:cellSpaceBoundaryGeometry");
+            rapidxml::xml_node<>* xml_Geometry2D = doc1.allocate_node(rapidxml::node_element, "core:geometry2D");
             rapidxml::xml_node<>* xml_LineString = doc1.allocate_node(rapidxml::node_element, "gml:LineString");
             xml_LineString->append_attribute(doc1.allocate_attribute("gml:id",doc1.allocate_string(("CBG-"+it->gml_id).c_str())));
             for(auto it1 : ((CONVERTER::CellSpaceBoundary*)it)->pos_vector){
@@ -204,24 +205,24 @@ namespace INDOOR{
 
         for(auto it : IC_vector){
             if(it->type!=3)continue;
-            rapidxml::xml_node<>* xml_stateMember=doc1.allocate_node(rapidxml::node_element, "stateMember");
-            rapidxml::xml_node<>* xml_State=doc1.allocate_node(rapidxml::node_element, "State");
+            rapidxml::xml_node<>* xml_stateMember=doc1.allocate_node(rapidxml::node_element, "core:stateMember");
+            rapidxml::xml_node<>* xml_State=doc1.allocate_node(rapidxml::node_element, "core:State");
             xml_State->append_attribute(doc1.allocate_attribute("gml:id",doc1.allocate_string(it->gml_id.c_str())));
             rapidxml::xml_node<>* xml_State_bound = doc1.allocate_node(rapidxml::node_element, "gml:boundedBy");
             rapidxml::xml_node<>* xml_bound = doc1.allocate_node(rapidxml::node_element, "gml:boundedBy");
             xml_bound->append_attribute(doc1.allocate_attribute("xsi:nil", boundedby_value.c_str()));
             xml_State->append_node(xml_bound);
             if(it->duality!=NULL) {
-                rapidxml::xml_node < > *xml_duality = doc1.allocate_node(rapidxml::node_element, "duality");
+                rapidxml::xml_node < > *xml_duality = doc1.allocate_node(rapidxml::node_element, "core:duality");
                 xml_duality->append_attribute(doc1.allocate_attribute("xlink:href", doc1.allocate_string(("#" + it->duality->gml_id).c_str())));
                 xml_State->append_node(xml_duality);
             }
             for(auto it1 : it->connects){
-                rapidxml::xml_node < > *xml_connects = doc1.allocate_node(rapidxml::node_element, "connects");
+                rapidxml::xml_node < > *xml_connects = doc1.allocate_node(rapidxml::node_element, "core:connects");
                 xml_connects->append_attribute(doc1.allocate_attribute("xlink:href", doc1.allocate_string(("#" + it1->gml_id).c_str())));
                 xml_State->append_node(xml_connects);
             }
-            rapidxml::xml_node<>* xml_geometry = doc1.allocate_node(rapidxml::node_element, "geometry");
+            rapidxml::xml_node<>* xml_geometry = doc1.allocate_node(rapidxml::node_element, "core:geometry");
             rapidxml::xml_node<>* xml_gml_Point = doc1.allocate_node(rapidxml::node_element, "gml:Point");
             xml_gml_Point->append_attribute(doc1.allocate_attribute("gml:id", doc1.allocate_string(("SG-"+ it->gml_id).c_str())));
             rapidxml::xml_node<>* xml_pos = doc1.allocate_node(rapidxml::node_element, "gml:pos");
