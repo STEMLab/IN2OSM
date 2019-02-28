@@ -32,6 +32,6 @@ namespace IO{
         return output;
     }
     void ISNOT_INDORGML_MESSAGE(){
-        std::cout<<"INDOORGML is not included among INPUT values.";
+        std::cout<<"INDOORGML FILE is not included among INPUT values.";
     }
 }
