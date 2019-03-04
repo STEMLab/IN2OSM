@@ -7,52 +7,50 @@
 #include <io.h>
 #include "IMDF_Reader.h"
 #include "rapidjson/filereadstream.h"
-#include "TRANSFORM/IMDF_FILE.h"
+#include "TRANSFORM/IMDF_UNIT.h"
+#include "TRANSFORM/IMDF_OPENING.h"
+#include "TRANSFORM/IMDF_LEVEL.h"
 
 using namespace rapidjson;
 using namespace std;
-
+const string IMDF_LIST[20]={"unit","opening","level"};
 namespace IMDF {
     std::vector <CONVERTER::IC*> READ(std::string folder_path);
-    std::vector<CONVERTER::IC*> Read_UNIT(std::string path);
-    std::vector<CONVERTER::IC*> Read_OPENING(std::vector<CONVERTER::IC*>,std::string path);
-    std::vector <CONVERTER::IC*> READ(std::string folder_path){
-        cout<<"IMDF to ... ";
-        vector <CONVERTER::IC*> IC_vector;
+    void Read_UNIT(std::vector<CONVERTER::IC*>*,std::string path);
+    void Read_OPENING(std::vector<CONVERTER::IC*>*,std::string path);
+    void Read_LEVEL(std::vector<CONVERTER::IC*>*,std::string path);
+    void Read_JSON_FILE(std::vector<CONVERTER::IC*> *IC_INPUT,std::string folder_path,std::string FILE_NAME);
+
+    void Read_JSON_FILE(std::vector<CONVERTER::IC*> *IC_INPUT,std::string folder_path,std::string FILE_NAME){
         struct _finddata_t fd;
         intptr_t handle;
         string FIND_PATH = folder_path+"\\*.geojson";
         if ((handle = _findfirst(FIND_PATH.c_str(), &fd)) == -1L)
-
-            cout << "No IMDF unit.geojson in directory!" << endl;
+            cout << "No IMDF"+FILE_NAME+".geojson in directory!" << endl;
         do{
-            //cout << fd.name << endl;
-            if(strcmp(fd.name,"unit.geojson")==0){
-                FIND_PATH=folder_path+"\\"+"unit.geojson";
-                IC_vector = Read_UNIT(FIND_PATH);
-            }
-
-        } while (_findnext(handle, &fd) == 0);
-        _findclose(handle);
-        //unit.geojson 입력받기
-        //
-        //
-        FIND_PATH = folder_path+"\\*.geojson";
-        if ((handle = _findfirst(FIND_PATH.c_str(), &fd)) == -1L)
-            cout << "No IMDF opening.geojson in directory!" << endl;
-        do{
-            //cout << fd.name << endl;
-            if(strcmp(fd.name,"opening.geojson")==0) {
-                FIND_PATH=folder_path+"\\"+"opening.geojson";
-                IC_vector = Read_OPENING(IC_vector,FIND_PATH);
-
+            if(strcmp(fd.name,(FILE_NAME+".geojson").c_str())==0){
+                FIND_PATH=folder_path+"\\"+FILE_NAME+".geojson";
+                if(FILE_NAME=="unit")
+                    Read_UNIT(IC_INPUT, FIND_PATH);
+                if(FILE_NAME=="opening")
+                    Read_OPENING(IC_INPUT,FIND_PATH);
+                if(FILE_NAME=="level")
+                    Read_LEVEL(IC_INPUT,FIND_PATH);
             }
         } while (_findnext(handle, &fd) == 0);
         _findclose(handle);
+    }
+    std::vector <CONVERTER::IC*> READ(std::string folder_path){
+        cout<<"IMDF to ... ";
+        vector <CONVERTER::IC*> IC_vector;
+        Read_JSON_FILE(&IC_vector,folder_path,IMDF_LIST[0]);
+        Read_JSON_FILE(&IC_vector,folder_path,IMDF_LIST[1]);
+        Read_JSON_FILE(&IC_vector,folder_path,IMDF_LIST[2]);
+
         return IC_vector;
     }
 
-    std::vector<CONVERTER::IC*> Read_UNIT(std::string path) {
+    void Read_UNIT(std::vector<CONVERTER::IC*>*input,std::string path) {
         vector <CONVERTER::CellSpace*> CellSpace_vector;
         vector <CONVERTER::CellSpaceBoundary*>CellSpaceBoundary_vector;
         vector <CONVERTER::State*>State_vector;
@@ -85,9 +83,9 @@ namespace IMDF {
 
             FEATURE_INPUT->feature_geometry->type=it["geometry"]["type"].GetString();
             UNIT::point * STATE_INPUT=new UNIT::point();
+            STATE_INPUT->storey_id=it["properties"]["level_id"].GetString();
             STATE_INPUT->pointx=it["properties"]["display_point"]["coordinates"][0].GetDouble();
             STATE_INPUT->pointy=it["properties"]["display_point"]["coordinates"][1].GetDouble();
-
             FEATURE_INPUT->feature_properties->properties_display_point->display_points.push_back(STATE_INPUT);
 
             cout.precision(11);
@@ -120,6 +118,8 @@ namespace IMDF {
         for(auto it:INPUT_UNIT->features){
             CONVERTER::CellSpace *CELLSPACE_INPUT=new CONVERTER::CellSpace();
             CELLSPACE_INPUT->gml_id="C_"+it->id;
+            CELLSPACE_INPUT->imdf_id=it->id;
+            CELLSPACE_INPUT->storey_id=it->feature_properties->level_id;
             CELLSPACE_INPUT->outer=1;
             for(auto it1 :it->feature_geometry->coordinates_out){
                 CONVERTER::Pos * POS_INPUT= new CONVERTER::Pos();
@@ -144,19 +144,20 @@ namespace IMDF {
 
                 POS_INNER_INPUT->longitude=to_string(it->feature_properties->properties_display_point->display_points[0]->pointx);
                 POS_INNER_INPUT->latitude=to_string(it->feature_properties->properties_display_point->display_points[0]->pointy);
-                STATE_INPUT->pos=POS_INNER_INPUT;
 
+                STATE_INPUT->pos=POS_INNER_INPUT;
                 STATE_INPUT->gml_id="S_"+CELLSPACE_INPUT->gml_id;
                 STATE_INPUT->duality=CELLSPACE_INPUT;
+                STATE_INPUT->storey_id=CELLSPACE_INPUT->storey_id;
                 CELLSPACE_INPUT->duality=STATE_INPUT;
-                IC_vector.push_back(STATE_INPUT);
+                input->push_back(STATE_INPUT);
             }
 
-           IC_vector.push_back(CELLSPACE_INPUT);
+           input->push_back(CELLSPACE_INPUT);
         }
-        return IC_vector;
+
     }
-    std::vector<CONVERTER::IC*> Read_OPENING(std::vector<CONVERTER::IC*>input,std::string path){
+    void Read_OPENING(std::vector<CONVERTER::IC*>*input,std::string path){
         FILE* fp = fopen(path.c_str(), "rb"); // non-Windows use "r"
         char readBuffer[65536];
         FileReadStream is(fp, readBuffer, sizeof(readBuffer));
@@ -167,7 +168,6 @@ namespace IMDF {
         INPUT_OPENING->type=d["type"].GetString();
         INPUT_OPENING->name=d["name"].GetString();
         //cout<<INPUT_OPENING->type<<endl;
-
         for(auto &it : d["features"].GetArray()){
             OPENING::feature *FEATURE_INPUT=new OPENING::feature();
             FEATURE_INPUT->feature_geometry=new OPENING::geometry();
@@ -186,19 +186,45 @@ namespace IMDF {
         for(auto it:INPUT_OPENING->features){
             CONVERTER::CellSpaceBoundary *CELLSPACEBOUNDARY_INPUT=new CONVERTER::CellSpaceBoundary();
             CELLSPACEBOUNDARY_INPUT->gml_id="B_"+it->id;
+            CELLSPACEBOUNDARY_INPUT->imdf_id=it->id;
+            CELLSPACEBOUNDARY_INPUT->storey_id=it->feature_properties->level_id;
             for(auto it1 :it->feature_geometry->coordinates){
                 CONVERTER::Pos * POS_INPUT= new CONVERTER::Pos();
                 POS_INPUT->longitude=to_string(it1->pointx);
                 POS_INPUT->latitude=to_string(it1->pointy);
                 CELLSPACEBOUNDARY_INPUT->pos_vector.push_back(POS_INPUT);
             }
-            input.push_back(CELLSPACEBOUNDARY_INPUT);
+            input->push_back(CELLSPACEBOUNDARY_INPUT);
         }
-
-        return input;
     }
 
-    std::vector<CONVERTER::IC*> Read_LEVEL(std::vector<CONVERTER::IC*>,std::string path){
+    void Read_LEVEL(std::vector<CONVERTER::IC*>*input,std::string path){
+        FILE* fp = fopen(path.c_str(), "rb"); // non-Windows use "r"
+        char readBuffer[65536];
+        FileReadStream is(fp, readBuffer, sizeof(readBuffer));
+        Document d;
+        d.ParseStream(is);
 
+        LEVEL::level *INPUT_LEVEL=new LEVEL::level();
+        INPUT_LEVEL->type=d["type"].GetString();
+        INPUT_LEVEL->name=d["name"].GetString();
+        //cout<<INPUT_OPENING->type<<endl;
+
+        for(auto &it : d["features"].GetArray()){
+            LEVEL::feature *FEATURE_INPUT=new LEVEL::feature();
+            FEATURE_INPUT->feature_geometry=new LEVEL::geometry();
+            FEATURE_INPUT->feature_properties=new LEVEL::properties();
+            FEATURE_INPUT->id=it["id"].GetString();
+            FEATURE_INPUT->feature_properties->ordinal=it["properties"]["ordinal"].GetInt();
+            INPUT_LEVEL->faetures.push_back(FEATURE_INPUT);
+        }
+        //////------------IMDF ---------------------->IC_Vector//Each Storey
+        for(auto it:*input){
+            for(auto it1:INPUT_LEVEL->faetures){
+                if(it->storey_id==it1->id){
+                    it->storey=it1->feature_properties->ordinal;
+                }
+            }
+        }
     }
 }
