@@ -37,5 +37,5 @@ add_executable(IN2OSM
         ${IMDF_FILES}
         ${TRANSFORM_FILES}
         ${IO_FILES}
-        CONVERTER.cpp DOC/mainpage.h TRANSFORM/IMDF_FILE.h)
+        CONVERTER.cpp DOC/mainpage.h TRANSFORM/IMDF_UNIT.h TRANSFORM/IMDF_LEVEL.h TRANSFORM/IMDF_OPENING.h)
 include_directories("../IN2OSM")

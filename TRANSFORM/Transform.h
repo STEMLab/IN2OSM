@@ -40,8 +40,10 @@ namespace CONVERTER {
         int type;//Cellspace, Cellspaceboundary,State,Transition 나누는 경계 값
         int outer=0;//0 아무것도 아님 1 outer 2 inner
         int storey=99999;
+        std::string storey_id;//imdf storey id
         std::string gml_id;
         std::string osm_id;
+        std::string imdf_id;
         std::string Description;
         IC *duality = NULL;
         std::vector<IC *> partialboundedBy;
