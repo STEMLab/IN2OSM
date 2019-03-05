@@ -31,7 +31,7 @@ mingw32-make
 ## Usage
 
 ```
-IN2OSM [inputfile_type] [outputfile_type] [inputfile_path] [outputfile_path]
+IN2OSM [inputfile_type] [outputfile_type] [inputfile_path] [outputfile_path].
 ```
 
 For example,
