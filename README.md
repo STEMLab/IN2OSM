@@ -7,7 +7,7 @@ IndoorGML data <-> OSM data
 Byeonggon Kim(byeonggon@pnu.edu), Pusan National University
 
 ## Dependencies
-- InFactory (https://github.com/STEMLab/InFactory) : To generate IndoorGML
+- InFactory (https://github.com/STEMLab/InFactory) : To generate IndoorGML.
 - OSM (https://wiki.openstreetmap.org/wiki/Main_Page) : OSM wiki
 - rapidxml (http://rapidxml.sourceforge.net) : To read COLLADA(*.dae) file
 - rapidjson (http://rapidjson.org/) :  To read IMDF(*.geojson) file
