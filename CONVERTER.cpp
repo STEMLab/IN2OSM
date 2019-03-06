@@ -52,5 +52,6 @@ int main(int argc, char **argv) {
     } catch (char **argv) {
         IO::ISNOT_INDORGML_MESSAGE();
     }
+    s
     return 0;
 }
