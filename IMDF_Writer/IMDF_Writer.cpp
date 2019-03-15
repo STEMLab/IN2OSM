@@ -3,11 +3,18 @@
 //
 
 #include "IMDF_Writer.h"
+#include "string.h"
+#include "rapidjson/writer.h"
+#include "rapidjson/filewritestream.h"
+#include "rapidjson/document.h"
 #include <sstream>
 #include <fstream>
 #include <iostream>
 #include <algorithm>
-#include "string.h"
+
+
 namespace IMDF{
-    void Write
+    void Write_manifest(std::vector<CONVERTER::IC*> IC_vector,std::string PATH){
+
+    }
 }
