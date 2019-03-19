@@ -15,6 +15,6 @@
 
 namespace IMDF{
     void Write_manifest(std::vector<CONVERTER::IC*> IC_vector,std::string PATH){
-
+        std::cout<<"VIVIFY SCRUM TEST";
     }
 }
