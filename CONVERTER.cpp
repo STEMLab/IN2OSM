@@ -6,6 +6,7 @@
 #include "OSM_Reader/OSM_Reader.h"
 #include "OSM_Writer/OSM_Writer.h"
 #include "IMDF_Reader/IMDF_Reader.h"
+#include "IMDF_Writer/IMDF_Writer.h"
 #include "IO/IO.h"
 #include <iostream>
 #include <string.h>
@@ -30,6 +31,7 @@ int main(int argc, char **argv) {
                 output = i;
             }
         }
+
         switch (input) {
             case 0:
                 IC_vector_MEMORY = INDOOR::Read(argv[3]);
@@ -52,6 +54,6 @@ int main(int argc, char **argv) {
     } catch (char **argv) {
         IO::ISNOT_INDORGML_MESSAGE();
     }
-    
+    IMDF::Write_manifest(IC_vector_MEMORY,"123");
     return 0;
 }
