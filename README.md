@@ -43,6 +43,6 @@ IN2OSM IndoorGML OSM ./TEST.gml ./TEST.osm
 
 
 [User Guide](https://github.com/STEMLab/IN2OSM/blob/master/GUIDE/index.md)
-
+[Video](https://github.com/STEMLab/IN2OSM/blob/master/GUIDE/Video/IN2OSM.mp4)
 ## Development
 For Developer, we document source code description. see : [MANUAL](https://stemlab.github.io/IN2OSM/)
