@@ -22,4 +22,4 @@ A simple example to create IndoorGML from OSM data.
 ## *IndoorGML->OSM*
 * Only support core module Indoorgml
 1. IN2OSM Indoorgml OSM [inputfile_path] [outputfile_path].<br>
-   <img width="500" src="Photo/cmd2.png" style="margin:10px"></img>
+   <img width="500" src="Photo/cmd2.PNG" style="margin:10px"></img>
