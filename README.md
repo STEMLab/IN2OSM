@@ -9,8 +9,8 @@ Byeonggon Kim(byeonggon@pnu.edu), Pusan National University
 ## Dependencies
 - InFactory (https://github.com/STEMLab/InFactory) : To generate IndoorGML.
 - OSM (https://wiki.openstreetmap.org/wiki/Main_Page) : OSM wiki
-- rapidxml (http://rapidxml.sourceforge.net) : To read OSM(*.osm),IndoorGML(*.gml) file
-- rapidjson (http://rapidjson.org/) :  To read IMDF(*.geojson) file
+- rapidxml (http://rapidxml.sourceforge.net) : To read OSM(.osm),IndoorGML(.gml) file
+- rapidjson (http://rapidjson.org/) :  To read IMDF(.geojson) file
 ## Building
 
 Dependencies should be pre-installed in your environment.
