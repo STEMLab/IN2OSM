@@ -131,7 +131,6 @@ namespace INDOOR{
 
             rapidxml::xml_node<>* xml_storey = doc1.allocate_node(rapidxml::node_element, "storeyext:storey");
             xml_storey->value(doc1.allocate_string(std::to_string((((CONVERTER::CellSpace*)it)->storey)).c_str()));
-            //std::cout<<((((CONVERTER::CellSpace*)it)->storey))<<std::endl;
             xml_bound->append_attribute(doc1.allocate_attribute("xsi:nil", boundedby_value.c_str()));
 
             xml_CellSpace->append_node(xml_description);
