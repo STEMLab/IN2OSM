@@ -54,6 +54,5 @@ int main(int argc, char **argv) {
     } catch (char **argv) {
         IO::ISNOT_INDORGML_MESSAGE();
     }
-    IMDF::Write_manifest(IC_vector_MEMORY,"123");
     return 0;
 }
