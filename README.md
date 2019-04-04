@@ -41,8 +41,8 @@ IN2OSM OSM IndoorGML ./TEST.osm ./TEST.gml
 IN2OSM IndoorGML OSM ./TEST.gml ./TEST.osm
 ```
 
-## USER GUIDE
-https://github.com/STEMLab/IN2OSM/blob/master/GUIDE/index.md
+
+[User Guide](https://github.com/STEMLab/IN2OSM/blob/master/GUIDE/index.md)
 
 ## Development
 For Developer, we document source code description. see : [MANUAL](https://stemlab.github.io/IN2OSM/)
