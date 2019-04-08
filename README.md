@@ -44,6 +44,7 @@ IN2OSM IndoorGML OSM ./TEST.gml ./TEST.osm
 
 -   [Simple User Guide](https://github.com/STEMLab/IN2OSM/blob/master/GUIDE/index.md)<br>
 -   [Video how to work](https://youtu.be/tkrDRZThtmE)
+-   [Handling indoorgml in josm](https://github.com/STEMLab/IN2OSM/blob/master/GUIDE/IndoorGML_JOSM.md)
 
 ## Development
 For Developer, we document source code description. see : [MANUAL](https://stemlab.github.io/IN2OSM/)
