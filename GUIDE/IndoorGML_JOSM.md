@@ -22,5 +22,5 @@ Handling IndoorGML in JSOM
    <img width="500" src="Photo/download_josm.PNG" style="margin:10px"></img>
 7. Save osm file<br>
    <img width="500" src="Photo/save_osmdata.PNG" style="margin:10px"></img>
-8. Convert osm -> Indoorgml
+8. Convert osm -> Indoorgml<br>
    <img width="500" src="Photo/cmd.png" style="margin:10px"></img>
