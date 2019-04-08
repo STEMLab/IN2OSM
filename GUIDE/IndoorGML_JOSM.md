@@ -19,7 +19,7 @@ Handling IndoorGML in JSOM
 5. The generated point is assigned to the state using the relation of osm.<br>
    <img width="500" src="Photo/josm_state_relation.PNG" style="margin:10px"></img>
 6. The duality is defined using the relation of osm.<br>
-   <img width="500" src="Photo/download_josm.PNG" style="margin:10px"></img>
+   <img width="500" src="Photo/josm_make_duality.PNG" style="margin:10px"></img>
 7. Save osm file<br>
    <img width="500" src="Photo/save_osmdata.PNG" style="margin:10px"></img>
 8. Convert osm -> Indoorgml<br>
