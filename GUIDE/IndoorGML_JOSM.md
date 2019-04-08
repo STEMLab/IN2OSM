@@ -6,6 +6,7 @@ Handling IndoorGML in JSOM
 
 *   This approach can help to study the real coordinates of Indoorgml.
 
+*   The relation provided by IN2OSM includes partialboundedBy, duality, and connects..
 ## Quick Start 
 - We create one cellspace and one state and define duality.
 1. Create polygon in JOSM<br>
