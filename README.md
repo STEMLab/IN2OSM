@@ -41,9 +41,8 @@ IN2OSM OSM IndoorGML ./TEST.osm ./TEST.gml
 IN2OSM IndoorGML OSM ./TEST.gml ./TEST.osm
 ```
 
-
+-   [Video how to work](https://youtu.be/xzT3sgQjprg)<br>
 -   [Simple User Guide](https://github.com/STEMLab/IN2OSM/blob/master/GUIDE/index.md)<br>
--   [Video how to work](https://youtu.be/tkrDRZThtmE)
 -   [Handling indoorgml in josm](https://github.com/STEMLab/IN2OSM/blob/master/GUIDE/IndoorGML_JOSM.md)
 
 ## Development
