@@ -100,7 +100,8 @@ namespace INDOOR{
             if(it->type!=1)continue;
             if(it->outer!=1)continue;
             rapidxml::xml_node<>* xml_cellSpaceMember = doc1.allocate_node(rapidxml::node_element, "core:cellSpaceMember");
-            rapidxml::xml_node<>* xml_CellSpace = doc1.allocate_node(rapidxml::node_element, "storeyext:CellSpaceStorey");
+//            rapidxml::xml_node<>* xml_CellSpace = doc1.allocate_node(rapidxml::node_element, "storeyext:CellSpaceStorey");
+            rapidxml::xml_node<>* xml_CellSpace = doc1.allocate_node(rapidxml::node_element, "core:CellSpace");
             xml_CellSpace->append_attribute(doc1.allocate_attribute("gml:id",doc1.allocate_string(it->gml_id.c_str())));
             rapidxml::xml_node<>* xml_description= doc1.allocate_node(rapidxml::node_element, "gml:description");
 
@@ -130,8 +131,10 @@ namespace INDOOR{
             rapidxml::xml_node<>* xml_bound = doc1.allocate_node(rapidxml::node_element, "gml:boundedBy");
 
             rapidxml::xml_node<>* xml_storey = doc1.allocate_node(rapidxml::node_element, "storeyext:storey");
-            if(((((CONVERTER::CellSpace*)it)->storey))!=99999)
-                xml_storey->value(doc1.allocate_string(std::to_string((((CONVERTER::CellSpace*)it)->storey)).c_str()));
+            if(((((CONVERTER::CellSpace*)it)->storey))!=99999){
+                xml_description->value(doc1.allocate_string(("storey="+std::to_string((((CONVERTER::CellSpace*)it)->storey))).c_str()));
+            }
+//                xml_storey->value(doc1.allocate_string(std::to_string((((CONVERTER::CellSpace*)it)->storey)).c_str()));
             xml_bound->append_attribute(doc1.allocate_attribute("xsi:nil", boundedby_value.c_str()));
 
             xml_CellSpace->append_node(xml_description);
@@ -157,7 +160,7 @@ namespace INDOOR{
             xml_cellSpaceGeometry->append_node(xml_Geometry2D);
             xml_CellSpace->append_node(xml_cellSpaceGeometry);
             xml_CellSpace->append_node(xml_duality);
-            xml_CellSpace->append_node(xml_storey);
+            //xml_CellSpace->append_node(xml_storey);
             for(auto it1:it->partialboundedBy){
                 rapidxml::xml_node<>* xml_partialboundedBy= doc1.allocate_node(rapidxml::node_element, "partialboundedBy");
                 xml_partialboundedBy->append_attribute(doc1.allocate_attribute("xlink:href",doc1.allocate_string(("#"+it1->gml_id).c_str())));
