@@ -11,7 +11,7 @@
  *
 - InFactory (https://github.com/STEMLab/InFactory) : To generate IndoorGML
 - OSM (https://wiki.openstreetmap.org/wiki/Main_Page) : Openstreetmap wiki
-- rapidxml (http://rapidxml.sourceforge.net) : To read COLLADA(*.dae) file
+- rapidxml (http://rapidxml.sourceforge.net) : To read IndoorGML(*.gml),OpenStreetMap(*.osm) file
  *
  * @section geometric_features_sec Geometric Indoor Features
  *
