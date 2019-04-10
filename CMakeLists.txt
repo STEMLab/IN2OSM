@@ -20,12 +20,12 @@ file(GLOB OSM_FILES
         "OSM_Writer/*.h"
         "OSM_Writer/*.cpp"
         )
-file(GLOB IMDF_FILES
-        "IMDF_Reader/*.h"
-        "IMDF_Reader/*.cpp"
-        "IMDF_Writer/*.h"
-        "IMDF_Writer/*.cpp"
-        )
+#file(GLOB IMDF_FILES
+#        "IMDF_Reader/*.h"
+#        "IMDF_Reader/*.cpp"
+#        "IMDF_Writer/*.h"
+#        "IMDF_Writer/*.cpp"
+#        )
 file(GLOB TRANSFORM_FILES
         "TRANSFORM/*.h"
         )
@@ -36,7 +36,7 @@ file(GLOB IO_FILES
 add_executable(IN2OSM
         ${INDOOR_FILES}
         ${OSM_FILES}
-        ${IMDF_FILES}
+#        ${IMDF_FILES}
         ${TRANSFORM_FILES}
         ${IO_FILES}
         CONVERTER.cpp DOC/mainpage.h)

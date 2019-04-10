@@ -39,8 +39,8 @@ int main(int argc, char **argv) {
             case 1:
                 IC_vector_MEMORY = OSM::Read(argv[3]);
                 break;
-            case 2:
-                IC_vector_MEMORY = IMDF::READ(argv[3]);
+//            case 2:
+//                IC_vector_MEMORY = IMDF::READ(argv[3]);
                 break;
         }
         switch (output) {
