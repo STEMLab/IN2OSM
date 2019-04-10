@@ -10,7 +10,7 @@
 #include "IO/IO.h"
 #include <iostream>
 #include <string.h>
-#include <io.h>
+//#include <io.h>
 #include "assert.h"
 
 const char *DATA[3] = {"indoorgml", "osm", "imdf"};
