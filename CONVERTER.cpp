@@ -5,8 +5,8 @@
 #include "IndoorGML_Writer/IndoorGML_Writer.h"
 #include "OSM_Reader/OSM_Reader.h"
 #include "OSM_Writer/OSM_Writer.h"
-#include "IMDF_Reader/IMDF_Reader.h"
-#include "IMDF_Writer/IMDF_Writer.h"
+//#include "IMDF_Reader/IMDF_Reader.h"
+//#include "IMDF_Writer/IMDF_Writer.h"
 #include "IO/IO.h"
 #include <iostream>
 #include <string.h>
