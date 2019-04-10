@@ -4,7 +4,7 @@
 #include <iostream>
 #include <sstream>
 #include <fstream>
-#include "IO/io.h"
+#include "io.h"
 #include "IMDF_Reader.h"
 #include "rapidjson/filereadstream.h"
 #include "TRANSFORM/IMDF_UNIT.h"
