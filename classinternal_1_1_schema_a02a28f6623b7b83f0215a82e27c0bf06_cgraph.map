@@ -1,0 +1,5 @@
+<map id="CheckInt" name="CheckInt">
+<area shape="rect" id="node2" href="$classinternal_1_1_i_validation_error_handler.html#ad0f3acbc03241d5adc5c7c4ad1536805" title="internal::IValidationError\lHandler::BelowMinimum" alt="" coords="131,5,295,47"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_i_validation_error_handler.html#a074eaf1102adb1181e6f965decad0386" title="internal::IValidationError\lHandler::AboveMaximum" alt="" coords="128,71,297,112"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_i_validation_error_handler.html#a21217aaa0b76db16cccee98017ff714b" title="internal::IValidationError\lHandler::NotMultipleOf" alt="" coords="132,136,293,177"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NormalizedBoundaries" name="NormalizedBoundaries">
+<area shape="rect" id="node2" href="$namespaceinternal.html#aeb7b6c0784b644968003cbd1b9da57e3" title="internal::Grisu2" alt="" coords="207,31,317,57"/>
+<area shape="rect" id="node3" href="$namespaceinternal.html#a2547fbfd0790a9997cb5fb7b543f0485" title="internal::dtoa" alt="" coords="365,31,463,57"/>
+<area shape="rect" id="node4" href="$class_writer.html#a38ddf47e32442429d0760f8777ce37ee" title="Writer::WriteDouble" alt="" coords="511,31,648,57"/>
+<area shape="rect" id="node5" href="$class_pretty_writer.html#ab0849c2598ffcad58d01b468676ed580" title="PrettyWriter::Double" alt="" coords="696,5,837,32"/>
+<area shape="rect" id="node6" href="$class_writer.html#ab0849c2598ffcad58d01b468676ed580" title="Writes the given double value to the stream. " alt="" coords="713,56,820,83"/>
+</map>

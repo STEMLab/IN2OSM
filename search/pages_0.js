@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['indoorgml_5fosm',['IndoorGML_OSM',['../index.html',1,'']]],
-  ['indoorgml_5fosm',['IndoorGML_OSM',['../md__home_byeonggon__indoor_g_m_l__o_s_m__r_e_a_d_m_e.html',1,'']]]
+  ['handling_20indoorgml_20in_20jsom',['Handling IndoorGML in JSOM',['../md__g_u_i_d_e__indoor_g_m_l__j_o_s_m.html',1,'']]]
 ];

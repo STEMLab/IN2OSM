@@ -1,0 +1,14 @@
+<map id="EndObject" name="EndObject">
+<area shape="rect" id="node2" href="$classinternal_1_1_i_validation_error_handler.html#a1e174445d871158ba6ad08397238a98d" title="internal::IValidationError\lHandler::StartMissingProperties" alt="" coords="165,5,372,47"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_i_validation_error_handler.html#acc8502b9b2f95a0b480467a0a043248e" title="internal::IValidationError\lHandler::AddMissingProperty" alt="" coords="173,71,365,112"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_i_validation_error_handler.html#a39e8c892a9c9c5df73ea215b60674224" title="internal::IValidationError\lHandler::EndMissingProperties" alt="" coords="167,136,370,177"/>
+<area shape="rect" id="node5" href="$classinternal_1_1_i_validation_error_handler.html#a37ebfa263f91bb533f3bafe9201a4d6a" title="internal::IValidationError\lHandler::TooFewProperties" alt="" coords="178,201,359,243"/>
+<area shape="rect" id="node6" href="$classinternal_1_1_i_validation_error_handler.html#af384e2c28645f35d10e7e0848b5d0451" title="internal::IValidationError\lHandler::TooManyProperties" alt="" coords="175,267,363,308"/>
+<area shape="rect" id="node7" href="$classinternal_1_1_i_validation_error_handler.html#a588b554d687399a1481feb8af8a67722" title="internal::IValidationError\lHandler::StartDependencyErrors" alt="" coords="163,332,374,373"/>
+<area shape="rect" id="node8" href="$classinternal_1_1_i_validation_error_handler.html#a24d5989e62ec7e099ddca110653b8e86" title="internal::IValidationError\lHandler::StartMissingDependent\lProperties" alt="" coords="163,398,374,454"/>
+<area shape="rect" id="node9" href="$classinternal_1_1_i_validation_error_handler.html#a024c953b680f388376807ec2c759a073" title="internal::IValidationError\lHandler::AddMissingDependentProperty" alt="" coords="141,479,396,520"/>
+<area shape="rect" id="node10" href="$classinternal_1_1_i_validation_error_handler.html#a4467d136369b58b5301a5c6c86965349" title="internal::IValidationError\lHandler::EndMissingDependentProperties" alt="" coords="136,544,401,585"/>
+<area shape="rect" id="node11" href="$classinternal_1_1_i_schema_validator.html#aedec2959336b77211e97d8d072b33f88" title="internal::ISchemaValidator\l::IsValid" alt="" coords="181,609,356,651"/>
+<area shape="rect" id="node12" href="$classinternal_1_1_i_validation_error_handler.html#a3b1d474c395464d577867d825d03f7a0" title="internal::IValidationError\lHandler::AddDependencySchemaError" alt="" coords="145,675,392,716"/>
+<area shape="rect" id="node13" href="$classinternal_1_1_i_validation_error_handler.html#a1acc55041796fba702d196763513bbb1" title="internal::IValidationError\lHandler::EndDependencyErrors" alt="" coords="165,740,372,781"/>
+</map>

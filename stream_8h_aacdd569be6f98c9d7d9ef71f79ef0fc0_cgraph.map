@@ -1,0 +1,4 @@
+<map id="PutN" name="PutN">
+<area shape="rect" id="node2" href="$stream_8h.html#aa817b00a466bb84d96c5de1616436c95" title="Reserve n characters for writing to a stream. " alt="" coords="105,5,196,32"/>
+<area shape="rect" id="node3" href="$stream_8h.html#ad57ba7f2912c5509924b69dec7db4396" title="Write character to a stream, presuming buffer is reserved. " alt="" coords="109,56,193,83"/>
+</map>

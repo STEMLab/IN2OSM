@@ -1,0 +1,14 @@
+<map id="ConvexPartition_OPT" name="ConvexPartition_OPT">
+<area shape="rect" id="node2" href="$class_t_p_p_l_poly.html#a470438bf41ff0f2cc2fc41682c8f839e" title="TPPLPoly::Valid" alt="" coords="231,5,349,32"/>
+<area shape="rect" id="node3" href="$class_t_p_p_l_poly.html#a790f5b05034574867019615d467d0183" title="TPPLPoly::GetNumPoints" alt="" coords="203,56,377,83"/>
+<area shape="rect" id="node4" href="$class_t_p_p_l_poly.html#abeaa44bf33d580b77f2794b24c74a4af" title="TPPLPoly::GetPoint" alt="" coords="220,107,360,133"/>
+<area shape="rect" id="node5" href="$class_t_p_p_l_partition.html#a5c5945b47ce31fa94e854356cab92ce3" title="UpdateVertexReflexity" alt="" coords="213,157,367,184"/>
+<area shape="rect" id="node7" href="$class_t_p_p_l_partition.html#a39c0eb473fec6597b832b576f5b5cc19" title="InCone" alt="" coords="258,309,322,336"/>
+<area shape="rect" id="node9" href="$class_t_p_p_l_partition.html#a6e88ba7434a662e544d00df7eed9b8ab" title="Intersects" alt="" coords="250,360,330,387"/>
+<area shape="rect" id="node10" href="$class_t_p_p_l_partition.html#aa81752dd7881cf52cc3e80d5fb730da7" title="TypeA" alt="" coords="260,259,320,285"/>
+<area shape="rect" id="node12" href="$class_t_p_p_l_partition.html#a9e5ffa07fed47a030e3af22527bcab9d" title="TypeB" alt="" coords="260,208,320,235"/>
+<area shape="rect" id="node13" href="$class_t_p_p_l_poly.html#ac692ff8821fcab50be699a3c8f455383" title="TPPLPoly::Init" alt="" coords="237,411,343,437"/>
+<area shape="rect" id="node6" href="$class_t_p_p_l_partition.html#a2d0d73c440c3aec4cf9e64c432f9a4a7" title="IsReflex" alt="" coords="437,208,508,235"/>
+<area shape="rect" id="node8" href="$class_t_p_p_l_partition.html#ae52154364d3f64a0de7d88f1cd93d3fd" title="IsConvex" alt="" coords="433,309,512,336"/>
+<area shape="rect" id="node11" href="$class_t_p_p_l_partition.html#af1263a24904777862366f9e6c120f84f" title="UpdateState" alt="" coords="425,259,520,285"/>
+</map>

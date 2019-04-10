@@ -1,0 +1,27 @@
+var class_basic_i_stream_wrapper =
+[
+    [ "Ch", "class_basic_i_stream_wrapper.html#a0d4b777ee9eeb95ce4b5edfcc9ef4eb7", null ],
+    [ "BasicIStreamWrapper", "class_basic_i_stream_wrapper.html#a6f2635465e02f0cb9d019346b0ee538e", null ],
+    [ "BasicIStreamWrapper", "class_basic_i_stream_wrapper.html#a910c4b2e18ca1e20e25ed5b04bea64c7", null ],
+    [ "BasicIStreamWrapper", "class_basic_i_stream_wrapper.html#a40699f63bcc33bd8792b1de61a3f9be0", null ],
+    [ "BasicIStreamWrapper", "class_basic_i_stream_wrapper.html#a4ec0cbc9b73a0ebc1b797869b70cae53", null ],
+    [ "Flush", "class_basic_i_stream_wrapper.html#a0e2644b2df3c228e8d71a55b60723f31", null ],
+    [ "operator=", "class_basic_i_stream_wrapper.html#a9026b8c41593f5cf5cc5350cc2a56b79", null ],
+    [ "Peek", "class_basic_i_stream_wrapper.html#af6bb0127bbccb78c66052870fde2f63f", null ],
+    [ "Peek4", "class_basic_i_stream_wrapper.html#a1073206ed4d4637e16c51b7fc538663b", null ],
+    [ "Put", "class_basic_i_stream_wrapper.html#a5a649bcaa76443356183a2d25bd935e2", null ],
+    [ "PutBegin", "class_basic_i_stream_wrapper.html#a587aecc2139119d450b04766c9b73f4f", null ],
+    [ "PutEnd", "class_basic_i_stream_wrapper.html#a0ead1ca407bf1c60b6197d2c39bd39ba", null ],
+    [ "Read", "class_basic_i_stream_wrapper.html#ab317462bf7f1811cdcb7ac1f17e5b28b", null ],
+    [ "Take", "class_basic_i_stream_wrapper.html#a443b9845a6e3d58438abe9de6c2003db", null ],
+    [ "Tell", "class_basic_i_stream_wrapper.html#a4942c1b9fd2b773ed5dddd92a17336ee", null ],
+    [ "buffer_", "class_basic_i_stream_wrapper.html#af6889f2722f7a5d0ff45bf12f29c738e", null ],
+    [ "bufferLast_", "class_basic_i_stream_wrapper.html#a71571b7266396ebdfd0cc85485d7879e", null ],
+    [ "bufferSize_", "class_basic_i_stream_wrapper.html#ad9a6807c0dd700e50bbb21a0aafc8162", null ],
+    [ "count_", "class_basic_i_stream_wrapper.html#a6b06728795e8f208c0755874665b3a51", null ],
+    [ "current_", "class_basic_i_stream_wrapper.html#a8e4e189b0b3b1b3685e6ed0c4d636b23", null ],
+    [ "eof_", "class_basic_i_stream_wrapper.html#a48e5406cbc1972d62d70b233399ad49c", null ],
+    [ "peekBuffer_", "class_basic_i_stream_wrapper.html#aa40498ee65effaa596063d45fdcbf7e8", null ],
+    [ "readCount_", "class_basic_i_stream_wrapper.html#aab5539baa19fddadd45fcf9dc3522f79", null ],
+    [ "stream_", "class_basic_i_stream_wrapper.html#a1af6a2c13b851dd8cc9a3a9a9caf30b1", null ]
+];

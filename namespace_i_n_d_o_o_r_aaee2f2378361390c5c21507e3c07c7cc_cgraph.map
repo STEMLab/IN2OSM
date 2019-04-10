@@ -2,11 +2,11 @@
 <area shape="rect" id="node2" href="$classrapidxml_1_1xml__document.html#aa280fd704731128b4556b41c1e9182b8" title="rapidxml::xml_document\l::parse" alt="" coords="107,5,271,47"/>
 <area shape="rect" id="node3" href="$classrapidxml_1_1xml__node.html#a610e83c4a4877329412220586e9745c5" title="rapidxml::xml_node\l::first_node" alt="" coords="121,71,256,112"/>
 <area shape="rect" id="node4" href="$classrapidxml_1_1xml__node.html#af90fc6230f1929fad951b92025d16654" title="rapidxml::xml_node\l::next_sibling" alt="" coords="330,100,465,141"/>
-<area shape="rect" id="node5" href="$classrapidxml_1_1xml__node.html#a979a98287748c4ee994f5009122bc997" title="rapidxml::xml_node\l::first_attribute" alt="" coords="121,188,256,229"/>
-<area shape="rect" id="node6" href="$namespace_o_s_m.html#a5a01f705cc7b4a7317a57f6bf41aef25" title="using because of IndoorGML Description " alt="" coords="356,313,439,339"/>
-<area shape="rect" id="node7" href="$classrapidxml_1_1xml__base.html#a558b1045e6751e4024309d41bf35c542" title="rapidxml::xml_base\l::value" alt="" coords="121,305,256,347"/>
-<area shape="rect" id="node8" href="$namespace_o_s_m.html#af6bb6262c7029c1373aa7e05fec5359a" title="OSM::split" alt="" coords="147,371,231,398"/>
-<area shape="rect" id="node9" href="$namespace_i_n_d_o_o_r.html#ac782be986c96abf9c21f817a4de9ee7d" title="return IC* using indoorgml ID " alt="" coords="143,422,235,449"/>
-<area shape="rect" id="node10" href="$classrapidxml_1_1xml__document.html#ac8bb3912a3ce86b15842e79d0b421204" title="rapidxml::xml_document\l::clear" alt="" coords="107,473,271,515"/>
-<area shape="rect" id="node11" href="$classrapidxml_1_1memory__pool.html#ac8bb3912a3ce86b15842e79d0b421204" title="rapidxml::memory_pool\l::clear" alt="" coords="319,473,476,515"/>
+<area shape="rect" id="node5" href="$namespace_o_s_m.html#a5a01f705cc7b4a7317a57f6bf41aef25" title="using because of IndoorGML Description " alt="" coords="356,279,439,306"/>
+<area shape="rect" id="node6" href="$classrapidxml_1_1xml__node.html#a979a98287748c4ee994f5009122bc997" title="rapidxml::xml_node\l::first_attribute" alt="" coords="121,239,256,280"/>
+<area shape="rect" id="node7" href="$classrapidxml_1_1xml__base.html#a558b1045e6751e4024309d41bf35c542" title="rapidxml::xml_base\l::value" alt="" coords="121,304,256,345"/>
+<area shape="rect" id="node8" href="$namespace_o_s_m.html#af6bb6262c7029c1373aa7e05fec5359a" title="OSM::split" alt="" coords="147,370,231,397"/>
+<area shape="rect" id="node9" href="$namespace_i_n_d_o_o_r.html#ac782be986c96abf9c21f817a4de9ee7d" title="return IC* using indoorgml ID " alt="" coords="143,421,235,447"/>
+<area shape="rect" id="node10" href="$classrapidxml_1_1xml__document.html#ac8bb3912a3ce86b15842e79d0b421204" title="rapidxml::xml_document\l::clear" alt="" coords="107,472,271,513"/>
+<area shape="rect" id="node11" href="$classrapidxml_1_1memory__pool.html#ac8bb3912a3ce86b15842e79d0b421204" title="rapidxml::memory_pool\l::clear" alt="" coords="319,472,476,513"/>
 </map>

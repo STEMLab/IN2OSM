@@ -1,0 +1,8 @@
+<map id="Swap" name="Swap">
+<area shape="rect" id="node2" href="$class_generic_value.html#a1f37d7975dd51323247a4041b5340d12" title="Assignment of constant string reference (no copy) " alt="" coords="110,5,309,47"/>
+<area shape="rect" id="node3" href="$class_generic_document.html#ab888843e2d12ce91a48886c41f16be88" title="Exchange the contents of this document with those of another. " alt="" coords="125,71,293,98"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_generic_regex_search.html#af8b1d2cba884ae0ad09e4c7f6e7e0ffa" title="internal::GenericRegexSearch\l::SearchWithAnchoring" alt="" coords="111,123,307,164"/>
+<area shape="rect" id="node5" href="$classinternal_1_1_stack.html#ae5a499107062b22f358dc430ce332c35" title="internal::Stack\&lt; StackAllocator\l \&gt;::Swap" alt="" coords="108,188,311,229"/>
+<area shape="rect" id="node6" href="$class_generic_pointer.html#a000ededf494e15fc93094289f9107802" title="Swap the content of this pointer with an other. " alt="" coords="135,254,284,281"/>
+<area shape="rect" id="node7" href="$pointer_8h.html#ad3de3c5603fb925ad5eafcb180d6353f" title="SwapValueByPointer" alt="" coords="359,254,504,281"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="Int64" name="Int64">
+<area shape="rect" id="node2" href="$class_pretty_writer.html#a8cfdb2497abc4b448d1f935c8480bc17" title="PrettyPrefix" alt="" coords="121,51,212,77"/>
+<area shape="rect" id="node8" href="$class_writer.html#a6a871b44e089883e1f8c9034a715f530" title="Writer::EndValue" alt="" coords="106,120,227,147"/>
+<area shape="rect" id="node11" href="$class_writer.html#aaba3a73795b97b0fa707f44a86f857b7" title="Writer::WriteInt64" alt="" coords="104,196,229,223"/>
+<area shape="rect" id="node3" href="$class_pretty_writer.html#adf8f107f25e5065028f8ae704e4c6f0c" title="WriteIndent" alt="" coords="309,31,398,57"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_stack.html#a0af4f3bf511770f64efd9b03197fe05d" title="internal::Stack::GetSize" alt="" coords="477,5,639,32"/>
+<area shape="rect" id="node5" href="$filewritestream_8h.html#a5c9b0f0e6249be2acf7f3505c295c132" title="Implement specialized version of PutN() with memset() for better performance. " alt="" coords="532,56,584,83"/>
+<area shape="rect" id="node6" href="$class_file_write_stream.html#a4e2e6a6a3e1676fda12a54d6e9eb29cf" title="FileWriteStream::PutN" alt="" coords="687,56,841,83"/>
+<area shape="rect" id="node7" href="$class_file_write_stream.html#a0e2644b2df3c228e8d71a55b60723f31" title="FileWriteStream::Flush" alt="" coords="889,56,1045,83"/>
+<area shape="rect" id="node9" href="$classinternal_1_1_stack.html#abcfbdba215d3b15fbb4b682969943a6e" title="internal::Stack::Empty" alt="" coords="277,81,429,108"/>
+<area shape="rect" id="node10" href="$class_writer.html#a0e2644b2df3c228e8d71a55b60723f31" title="Flush the output stream. " alt="" coords="305,132,402,159"/>
+<area shape="rect" id="node12" href="$namespaceinternal.html#a51566359e64c9746656c396c63a23d61" title="internal::i64toa" alt="" coords="300,183,407,209"/>
+<area shape="rect" id="node15" href="$stream_8h.html#aa817b00a466bb84d96c5de1616436c95" title="Reserve n characters for writing to a stream. " alt="" coords="308,233,399,260"/>
+<area shape="rect" id="node16" href="$encodings_8h.html#ad57ba7f2912c5509924b69dec7db4396" title="Write character to a stream, presuming buffer is reserved. " alt="" coords="311,284,395,311"/>
+<area shape="rect" id="node13" href="$namespaceinternal.html#aff16deebb94b3ea88a1dfff7bbc377b0" title="internal::u64toa" alt="" coords="503,183,613,209"/>
+<area shape="rect" id="node14" href="$namespaceinternal.html#a95459e80b3f0e89ad03ebd0c8e55844c" title="internal::GetDigitsLut" alt="" coords="691,183,837,209"/>
+</map>

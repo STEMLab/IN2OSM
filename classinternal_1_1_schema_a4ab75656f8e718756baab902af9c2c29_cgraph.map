@@ -1,0 +1,5 @@
+<map id="DisallowedType" name="DisallowedType">
+<area shape="rect" id="node2" href="$classinternal_1_1_i_validation_error_handler.html#a21c70cdd388f6d4b9cb535484ef7ce9a" title="internal::IValidationError\lHandler::StartDisallowedType" alt="" coords="168,5,364,47"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_i_validation_error_handler.html#a665da3c0bd18233aa7ff0af5c9c23b87" title="internal::IValidationError\lHandler::AddExpectedType" alt="" coords="175,71,357,112"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_i_validation_error_handler.html#a72810566d53fb50ea444595119ffb2c0" title="internal::IValidationError\lHandler::EndDisallowedType" alt="" coords="171,136,361,177"/>
+</map>

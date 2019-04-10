@@ -1,0 +1,10 @@
+<map id="Bool" name="Bool">
+<area shape="rect" id="node2" href="$class_writer.html#aa7acf8b71a11cb67124c5cad6547c289" title="Prefix" alt="" coords="113,19,169,45"/>
+<area shape="rect" id="node4" href="$class_writer.html#a6a871b44e089883e1f8c9034a715f530" title="EndValue" alt="" coords="101,81,180,108"/>
+<area shape="rect" id="node7" href="$class_writer.html#aece775cfdffb485a2b369235a01920a8" title="WriteBool" alt="" coords="101,157,180,184"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_stack.html#a0af4f3bf511770f64efd9b03197fe05d" title="internal::Stack::GetSize" alt="" coords="228,5,389,32"/>
+<area shape="rect" id="node5" href="$classinternal_1_1_stack.html#abcfbdba215d3b15fbb4b682969943a6e" title="internal::Stack::Empty" alt="" coords="233,56,385,83"/>
+<area shape="rect" id="node6" href="$class_writer.html#a0e2644b2df3c228e8d71a55b60723f31" title="Flush the output stream. " alt="" coords="281,107,336,133"/>
+<area shape="rect" id="node8" href="$stream_8h.html#aa817b00a466bb84d96c5de1616436c95" title="Reserve n characters for writing to a stream. " alt="" coords="263,157,354,184"/>
+<area shape="rect" id="node9" href="$encodings_8h.html#ad57ba7f2912c5509924b69dec7db4396" title="Write character to a stream, presuming buffer is reserved. " alt="" coords="267,208,351,235"/>
+</map>

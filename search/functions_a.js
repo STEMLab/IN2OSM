@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['read',['Read',['../namespace_i_n_d_o_o_r.html#aaee2f2378361390c5c21507e3c07c7cc',1,'INDOOR::Read()'],['../namespace_o_s_m.html#aaee2f2378361390c5c21507e3c07c7cc',1,'OSM::Read()']]],
-  ['remove_5fall_5fattributes',['remove_all_attributes',['../classrapidxml_1_1xml__node.html#a59e6ad4cfd5e8096c052e71d79561eda',1,'rapidxml::xml_node']]],
-  ['remove_5fall_5fnodes',['remove_all_nodes',['../classrapidxml_1_1xml__node.html#a0218147d13e41d5fa60ced4e7a7e9726',1,'rapidxml::xml_node']]],
-  ['remove_5fattribute',['remove_attribute',['../classrapidxml_1_1xml__node.html#ac75154db2e768c0e5b541fc8cd0775ab',1,'rapidxml::xml_node']]],
-  ['remove_5ffirst_5fattribute',['remove_first_attribute',['../classrapidxml_1_1xml__node.html#a4eea4a7f6cb484ca9944f7eafe6e1843',1,'rapidxml::xml_node']]],
-  ['remove_5ffirst_5fnode',['remove_first_node',['../classrapidxml_1_1xml__node.html#a9a31d861e1bddc710839c551a5d2b3a4',1,'rapidxml::xml_node']]],
-  ['remove_5flast_5fattribute',['remove_last_attribute',['../classrapidxml_1_1xml__node.html#a37d87c4d5d89fa0cf05b72ee8d4cba3b',1,'rapidxml::xml_node']]],
-  ['remove_5flast_5fnode',['remove_last_node',['../classrapidxml_1_1xml__node.html#a87addf2bc127ee31aa4b5295d3c9b530',1,'rapidxml::xml_node']]],
-  ['remove_5fnode',['remove_node',['../classrapidxml_1_1xml__node.html#a9316463a2201631e7e2062b17729f9cd',1,'rapidxml::xml_node']]]
+  ['last_5fattribute',['last_attribute',['../classrapidxml_1_1xml__node.html#aa22c8a8f85f0a46c7e41726bbe5848bf',1,'rapidxml::xml_node']]],
+  ['last_5fnode',['last_node',['../classrapidxml_1_1xml__node.html#a3f9087133c55c0c7bea46ea216ae2abe',1,'rapidxml::xml_node']]],
+  ['length',['Length',['../class_generic_reader_1_1_stack_stream.html#aa63d0332a20e86302501c8bd1db921c2',1,'GenericReader::StackStream::Length()'],['../class_generic_reader_1_1_number_stream_3_01_input_stream_00_01false_00_01false_01_4.html#a45cf7c98efa61b2255e4c97ace872576',1,'GenericReader::NumberStream&lt; InputStream, false, false &gt;::Length()'],['../class_generic_reader_1_1_number_stream_3_01_input_stream_00_01true_00_01false_01_4.html#a45cf7c98efa61b2255e4c97ace872576',1,'GenericReader::NumberStream&lt; InputStream, true, false &gt;::Length()']]],
+  ['level',['Level',['../struct_writer_1_1_level.html#a3eb448088e34c01b0bf08f75c1a0bb99',1,'Writer::Level']]],
+  ['lowercase',['lowercase',['../namespace_i_o.html#a97e8f14796288778ec7519c813f59b6b',1,'IO']]]
 ];

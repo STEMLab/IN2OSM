@@ -1,0 +1,6 @@
+<map id="WriteUint" name="WriteUint">
+<area shape="rect" id="node2" href="$namespaceinternal.html#a8628d3698be60950743bc49d41a1cca7" title="internal::u32toa" alt="" coords="131,5,241,32"/>
+<area shape="rect" id="node4" href="$stream_8h.html#aa817b00a466bb84d96c5de1616436c95" title="Reserve n characters for writing to a stream. " alt="" coords="141,56,231,83"/>
+<area shape="rect" id="node5" href="$encodings_8h.html#ad57ba7f2912c5509924b69dec7db4396" title="Write character to a stream, presuming buffer is reserved. " alt="" coords="144,107,228,133"/>
+<area shape="rect" id="node3" href="$namespaceinternal.html#a95459e80b3f0e89ad03ebd0c8e55844c" title="internal::GetDigitsLut" alt="" coords="289,5,435,32"/>
+</map>

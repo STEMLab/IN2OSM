@@ -1,0 +1,22 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "address",
+	"features" : [
+		{
+			"type" : "Feature",
+			"id" : "c421b151-e3a9-4a0c-956e-23738f31a927",
+			"feature_type" : "address",
+			"geometry" : null,
+			"properties" : {
+				"address" : "1640 Electra Blvd.",
+				"unit" : null,
+				"locality" : "Sidney",
+				"province" : "CA-BC",
+				"country" : "CA",
+				"postal_code" : "V8L 5V4",
+				"postal_code_ext" : null,
+				"postal_code_vanity" : null
+			}
+		}
+	]
+}

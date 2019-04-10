@@ -1,0 +1,15 @@
+<map id="Triangulate_EC" name="Triangulate_EC">
+<area shape="rect" id="node2" href="$class_t_p_p_l_partition.html#a09ed6b65768cd8935e99a010887ef6f8" title="RemoveHoles" alt="" coords="169,85,274,112"/>
+<area shape="rect" id="node9" href="$class_t_p_p_l_partition.html#a9734b1d0d16c1d48088596eb09fbf65e" title="Triangulate_EC" alt="" coords="165,237,277,264"/>
+<area shape="rect" id="node3" href="$class_t_p_p_l_partition.html#a39c0eb473fec6597b832b576f5b5cc19" title="InCone" alt="" coords="557,9,621,36"/>
+<area shape="rect" id="node5" href="$class_t_p_p_l_partition.html#a8464ff9a662f5250acf4bfae22783a62" title="Normalize" alt="" coords="548,111,629,137"/>
+<area shape="rect" id="node6" href="$class_t_p_p_l_partition.html#a6e88ba7434a662e544d00df7eed9b8ab" title="Intersects" alt="" coords="373,60,453,87"/>
+<area shape="rect" id="node7" href="$class_t_p_p_l_poly.html#ac692ff8821fcab50be699a3c8f455383" title="TPPLPoly::Init" alt="" coords="359,111,466,137"/>
+<area shape="rect" id="node8" href="$class_t_p_p_l_poly.html#abeaa44bf33d580b77f2794b24c74a4af" title="TPPLPoly::GetPoint" alt="" coords="343,161,483,188"/>
+<area shape="rect" id="node4" href="$class_t_p_p_l_partition.html#ae52154364d3f64a0de7d88f1cd93d3fd" title="IsConvex" alt="" coords="677,263,756,289"/>
+<area shape="rect" id="node10" href="$class_t_p_p_l_poly.html#a470438bf41ff0f2cc2fc41682c8f839e" title="TPPLPoly::Valid" alt="" coords="353,212,472,239"/>
+<area shape="rect" id="node11" href="$class_t_p_p_l_poly.html#a790f5b05034574867019615d467d0183" title="TPPLPoly::GetNumPoints" alt="" coords="325,263,500,289"/>
+<area shape="rect" id="node12" href="$class_t_p_p_l_partition.html#a17d5933c907b89a53dc17e62aa74131e" title="UpdateVertex" alt="" coords="361,313,464,340"/>
+<area shape="rect" id="node14" href="$class_t_p_p_l_poly.html#a15a475c39adf1fba03ccbf0beb5d7e4c" title="TPPLPoly::Triangle" alt="" coords="345,364,480,391"/>
+<area shape="rect" id="node13" href="$class_t_p_p_l_partition.html#a3578219a466e3ac5e68efadf9284d46b" title="IsInside" alt="" coords="555,313,623,340"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Valid" name="Valid">
+<area shape="rect" id="node2" href="$class_t_p_p_l_partition.html#a9734b1d0d16c1d48088596eb09fbf65e" title="TPPLPartition::Triangulate_EC" alt="" coords="123,5,324,32"/>
+<area shape="rect" id="node4" href="$class_t_p_p_l_partition.html#a051c6912d85470a5837ade1d738c74fb" title="TPPLPartition::ConvexPartition_HM" alt="" coords="391,56,623,83"/>
+<area shape="rect" id="node6" href="$class_t_p_p_l_partition.html#a333835289d6cf8a868527efc83d54674" title="TPPLPartition::Triangulate_OPT" alt="" coords="119,107,328,133"/>
+<area shape="rect" id="node7" href="$class_t_p_p_l_partition.html#af7f7fbaa641cbb2fe15cc934e632a9cc" title="TPPLPartition::ConvexPartition_OPT" alt="" coords="104,157,343,184"/>
+<area shape="rect" id="node8" href="$class_t_p_p_l_partition.html#a17ac51e0a051c62c202909808f7515e1" title="TPPLPartition::Triangulate\lMonotone" alt="" coords="136,209,311,250"/>
+<area shape="rect" id="node3" href="$class_t_p_p_l_partition.html#a24c1b4144598661490126059302a15a0" title="TPPLPartition::Triangulate_EC" alt="" coords="406,5,607,32"/>
+<area shape="rect" id="node5" href="$class_t_p_p_l_partition.html#a256809859748d3093e92881812805535" title="TPPLPartition::ConvexPartition_HM" alt="" coords="671,56,903,83"/>
+<area shape="rect" id="node9" href="$class_t_p_p_l_partition.html#a518caaf3474e97fbbb4013eeee99eb7c" title="TPPLPartition::Triangulate_MONO" alt="" coords="395,216,618,243"/>
+</map>

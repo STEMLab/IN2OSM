@@ -1,7 +1,7 @@
 <map id="IC" name="IC">
-<area shape="rect" id="node2" href="$class_c_o_n_v_e_r_t_e_r_1_1_cell_space.html" title="CellSpace" alt="" coords="5,80,88,107"/>
-<area shape="rect" id="node3" href="$class_c_o_n_v_e_r_t_e_r_1_1_cell_space_boundary.html" title="CellSpaceBoundary class in IndoorGML, CellSpaceBoundary(way) in OSM &#160;Member of pos in CellSpaceBounda..." alt="" coords="113,80,250,107"/>
-<area shape="rect" id="node4" href="$class_c_o_n_v_e_r_t_e_r_1_1_pos.html" title="Pos class in IndoorGML, Node in OSM &#160;latitude in OSM and IndoorGML &#160;longitude in OSM and IndoorGML &#160;h..." alt="" coords="275,80,320,107"/>
-<area shape="rect" id="node5" href="$class_c_o_n_v_e_r_t_e_r_1_1_state.html" title="State class in IndoorGML, State(Node) in OSM &#160;State Pos. " alt="" coords="344,80,397,107"/>
-<area shape="rect" id="node6" href="$class_c_o_n_v_e_r_t_e_r_1_1_transition.html" title="Transition class in IndoorGML, Transition(way) in OSM &#160;weight in IndoorGML &#160;Member of pos in Transiti..." alt="" coords="422,80,501,107"/>
+<area shape="rect" id="node2" href="$class_c_o_n_v_e_r_t_e_r_1_1_cell_space.html" title="{CellSpace\n|+ name\l+ pos_vector\l|+ CellSpace()\l}" alt="" coords="5,299,108,391"/>
+<area shape="rect" id="node3" href="$class_c_o_n_v_e_r_t_e_r_1_1_cell_space_boundary.html" title="CellSpaceBoundary class in IndoorGML, CellSpaceBoundary(way) in OSM &#160;Member of pos in CellSpaceBounda..." alt="" coords="133,299,290,391"/>
+<area shape="rect" id="node4" href="$class_c_o_n_v_e_r_t_e_r_1_1_pos.html" title="Pos class in IndoorGML, Node in OSM &#160;latitude in OSM and IndoorGML &#160;longitude in OSM and IndoorGML &#160;h..." alt="" coords="315,292,401,399"/>
+<area shape="rect" id="node5" href="$class_c_o_n_v_e_r_t_e_r_1_1_state.html" title="State class in IndoorGML, State(Node) in OSM &#160;State Pos. " alt="" coords="425,307,499,384"/>
+<area shape="rect" id="node6" href="$class_c_o_n_v_e_r_t_e_r_1_1_transition.html" title="Transition class in IndoorGML, Transition(way) in OSM &#160;weight in IndoorGML &#160;Member of pos in Transiti..." alt="" coords="523,292,622,399"/>
 </map>

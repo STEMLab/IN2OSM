@@ -1,0 +1,374 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "relationship",
+	"features" : [
+		{
+			"type" : "Feature",
+			"id" : "332c5dbe-b656-4cad-b02a-59083da9a94d",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "escalator",
+				"direction" : "directed",
+				"origin" : {
+					"feature_type" : "opening",
+					"id" : "c3870d66-a6cf-4249-b352-ce4c7ecdaf36"
+				},
+				"intermediary" : [
+					{
+						"feature_type" : "escalator",
+						"fme_basename" : "ATB2",
+						"id" : "39c3a608-c941-4a61-b953-8641c9d814fc",
+						"opening_id" : "c3870d66-a6cf-4249-b352-ce4c7ecdaf36"
+					},
+					{
+						"feature_type" : "escalator",
+						"fme_basename" : "ATB1",
+						"id" : "e4ca3a66-bd93-4c97-a169-a2a7d80be7fe",
+						"opening_id" : "0649c598-96dc-4b74-b7ac-60c1ae6957b5"
+					}
+				],
+				"destination" : {
+					"feature_type" : "opening",
+					"id" : "0649c598-96dc-4b74-b7ac-60c1ae6957b5"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "e646a62d-dec8-4e84-8c1b-4fb42b6fde1c",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "escalator",
+				"direction" : "directed",
+				"origin" : {
+					"feature_type" : "opening",
+					"id" : "4f3064a1-ef02-4ae5-be84-b8fe86a1c726"
+				},
+				"intermediary" : [
+					{
+						"feature_type" : "escalator",
+						"fme_basename" : "ATB2",
+						"id" : "446081b2-ceac-4232-bf0d-8cddd81be8e4",
+						"opening_id" : "4f3064a1-ef02-4ae5-be84-b8fe86a1c726"
+					},
+					{
+						"feature_type" : "escalator",
+						"fme_basename" : "ATB1",
+						"id" : "0fd8b95c-b41d-4756-8f91-6c873c79e351",
+						"opening_id" : "878113f6-dcf2-44ba-bc43-a30392c9036d"
+					}
+				],
+				"destination" : {
+					"feature_type" : "opening",
+					"id" : "878113f6-dcf2-44ba-bc43-a30392c9036d"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "1a7a2e7e-3e06-4015-bb21-2532ffccddfe",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "escalator",
+				"direction" : "directed",
+				"origin" : {
+					"feature_type" : "opening",
+					"id" : "8187b322-47a5-4fc7-ad7c-ad8cf47b6cc8"
+				},
+				"intermediary" : [
+					{
+						"feature_type" : "escalator",
+						"fme_basename" : "ATB1",
+						"id" : "4d629d65-be13-49db-aba2-0991fd543272",
+						"opening_id" : "8187b322-47a5-4fc7-ad7c-ad8cf47b6cc8"
+					},
+					{
+						"feature_type" : "escalator",
+						"fme_basename" : "ATB2",
+						"id" : "8b420bcd-3005-49f8-8dde-62197aa13bef",
+						"opening_id" : "c0626f2b-797a-4f92-9e30-df983e60a439"
+					}
+				],
+				"destination" : {
+					"feature_type" : "opening",
+					"id" : "c0626f2b-797a-4f92-9e30-df983e60a439"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "9b54b05f-bbe4-49ca-b419-73322b9a8343",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "stairs",
+				"direction" : "undirected",
+				"origin" : {
+					"feature_type" : "opening",
+					"id" : "9bc43312-b1c1-4010-9181-efd4345227f6"
+				},
+				"intermediary" : [
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB1",
+						"id" : "fb6565ff-7f57-40ba-9248-b57dcccd080e",
+						"opening_id" : "9bc43312-b1c1-4010-9181-efd4345227f6"
+					},
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB2",
+						"id" : "7048bc74-6ead-4acb-b01c-d99c93e35b7b",
+						"opening_id" : "2313875a-9419-417e-a5cb-6af664bd72bd"
+					}
+				],
+				"destination" : {
+					"feature_type" : "opening",
+					"id" : "2313875a-9419-417e-a5cb-6af664bd72bd"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "6c5f5b50-9cb4-4df8-b145-f6043e412c54",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "stairs",
+				"direction" : "undirected",
+				"origin" : {
+					"feature_type" : "opening",
+					"id" : "e5446a91-c5d4-49e5-b1cd-15e729071f6f"
+				},
+				"intermediary" : [
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB1",
+						"id" : "ba372d8a-5ce8-4e3f-b660-2adc2ddd779b",
+						"opening_id" : "e5446a91-c5d4-49e5-b1cd-15e729071f6f"
+					},
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB2",
+						"id" : "237b02e6-2aec-4c09-89a6-51a477ac9ed8",
+						"opening_id" : "c9bddc3c-538c-42c1-8bcd-8140359bda1a"
+					},
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB3",
+						"id" : "a644ec4b-a6de-4017-8b40-adbe6d3543d8",
+						"opening_id" : "8804b731-f2d7-4843-a3b2-9bf4f394015d"
+					}
+				],
+				"destination" : {
+					"feature_type" : "opening",
+					"id" : "8804b731-f2d7-4843-a3b2-9bf4f394015d"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "0333095a-cf6e-4f4c-9b47-5fd8d6e077f7",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "stairs",
+				"direction" : "undirected",
+				"origin" : {
+					"feature_type" : "opening",
+					"id" : "c9bddc3c-538c-42c1-8bcd-8140359bda1a"
+				},
+				"intermediary" : [
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB2",
+						"id" : "237b02e6-2aec-4c09-89a6-51a477ac9ed8",
+						"opening_id" : "c9bddc3c-538c-42c1-8bcd-8140359bda1a"
+					},
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB3",
+						"id" : "a644ec4b-a6de-4017-8b40-adbe6d3543d8",
+						"opening_id" : "8804b731-f2d7-4843-a3b2-9bf4f394015d"
+					}
+				],
+				"destination" : {
+					"feature_type" : "opening",
+					"id" : "8804b731-f2d7-4843-a3b2-9bf4f394015d"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "b13ba32c-3d8b-4f32-9d17-33f73c5683ed",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "stairs",
+				"direction" : "undirected",
+				"origin" : {
+					"feature_type" : "opening",
+					"id" : "e5446a91-c5d4-49e5-b1cd-15e729071f6f"
+				},
+				"intermediary" : [
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB1",
+						"id" : "ba372d8a-5ce8-4e3f-b660-2adc2ddd779b",
+						"opening_id" : "e5446a91-c5d4-49e5-b1cd-15e729071f6f"
+					},
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB2",
+						"id" : "237b02e6-2aec-4c09-89a6-51a477ac9ed8",
+						"opening_id" : "c9bddc3c-538c-42c1-8bcd-8140359bda1a"
+					}
+				],
+				"destination" : {
+					"feature_type" : "opening",
+					"id" : "c9bddc3c-538c-42c1-8bcd-8140359bda1a"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "4bf7f00c-047e-467e-9ddf-2da5b5a27836",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "stairs",
+				"direction" : "undirected",
+				"origin" : {
+					"feature_type" : "opening",
+					"id" : "dd738df7-30b4-46d5-910f-9cd578d2ee68"
+				},
+				"intermediary" : [
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB1",
+						"id" : "b43cd56a-d05f-4666-9c22-b338c3efc0a3",
+						"opening_id" : "dd738df7-30b4-46d5-910f-9cd578d2ee68"
+					},
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB2",
+						"id" : "84286df2-f838-4b2c-96a4-0469badd7620",
+						"opening_id" : "13a57733-838a-4b06-865d-a9e976cd87bd"
+					}
+				],
+				"destination" : {
+					"feature_type" : "opening",
+					"id" : "13a57733-838a-4b06-865d-a9e976cd87bd"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "8ba6c292-fd74-4c14-bed1-7d278b6ad2e7",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "stairs",
+				"direction" : "undirected",
+				"origin" : {
+					"feature_type" : "opening",
+					"id" : "0f97a17e-ff27-4bcc-ad32-be14e51eaf52"
+				},
+				"intermediary" : [
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB1",
+						"id" : "4169710f-7367-4e91-b905-a0457031a07b",
+						"opening_id" : "0f97a17e-ff27-4bcc-ad32-be14e51eaf52"
+					},
+					{
+						"feature_type" : "stairs",
+						"fme_basename" : "ATB2",
+						"id" : "b270f5f7-e51b-417b-b560-4732a73468d5",
+						"opening_id" : "ad8c36a2-9486-446c-ba41-d13f391f50c9"
+					}
+				],
+				"destination" : {
+					"feature_type" : "opening",
+					"id" : "ad8c36a2-9486-446c-ba41-d13f391f50c9"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "a10ab267-c679-4983-ba14-3739e208960e",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "elevator",
+				"direction" : "undirected",
+				"origin" : {
+					"feature_type" : "elevator",
+					"id" : "6e02a733-e251-4761-b700-c459454c9778"
+				},
+				"intermediary" : [
+					{
+						"feature_type" : "elevator",
+						"id" : "4aee1798-7fd1-49ba-b9e8-6073f9addc61"
+					}
+				],
+				"destination" : {
+					"feature_type" : "elevator",
+					"id" : "c0b30976-e73e-4f49-85fc-85f551ccbdce"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "c71a6ca5-824a-40fa-a69b-7ef7f7fce33f",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "elevator",
+				"direction" : "undirected",
+				"origin" : {
+					"feature_type" : "elevator",
+					"id" : "38442435-21ca-4cba-8295-b894020cea8a"
+				},
+				"intermediary" : null,
+				"destination" : {
+					"feature_type" : "elevator",
+					"id" : "6cc6d5ee-f387-41e4-8770-aef5a7a384a2"
+				},
+				"hours" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"id" : "28e9c58d-c715-402b-a543-edd54d87a22d",
+			"feature_type" : "relationship",
+			"geometry" : null,
+			"properties" : {
+				"category" : "elevator",
+				"direction" : "undirected",
+				"origin" : {
+					"feature_type" : "elevator",
+					"id" : "859f1e32-b061-4b24-b31d-831516038d35"
+				},
+				"intermediary" : null,
+				"destination" : {
+					"feature_type" : "elevator",
+					"id" : "98b43355-67de-4962-b9cb-41e76305bf05"
+				},
+				"hours" : null
+			}
+		}
+	]
+}

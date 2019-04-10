@@ -1,0 +1,7 @@
+<map id="Intersects" name="Intersects">
+<area shape="rect" id="node2" href="$class_t_p_p_l_partition.html#a09ed6b65768cd8935e99a010887ef6f8" title="RemoveHoles" alt="" coords="155,31,261,57"/>
+<area shape="rect" id="node5" href="$class_t_p_p_l_partition.html#a333835289d6cf8a868527efc83d54674" title="Triangulate_OPT" alt="" coords="148,81,268,108"/>
+<area shape="rect" id="node6" href="$class_t_p_p_l_partition.html#af7f7fbaa641cbb2fe15cc934e632a9cc" title="ConvexPartition_OPT" alt="" coords="133,132,283,159"/>
+<area shape="rect" id="node3" href="$class_t_p_p_l_partition.html#a24c1b4144598661490126059302a15a0" title="Triangulate_EC" alt="" coords="346,5,458,32"/>
+<area shape="rect" id="node4" href="$class_t_p_p_l_partition.html#a256809859748d3093e92881812805535" title="ConvexPartition_HM" alt="" coords="331,56,473,83"/>
+</map>

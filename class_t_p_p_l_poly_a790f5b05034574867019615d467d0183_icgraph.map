@@ -1,0 +1,11 @@
+<map id="GetNumPoints" name="GetNumPoints">
+<area shape="rect" id="node2" href="$class_t_p_p_l_partition.html#a9734b1d0d16c1d48088596eb09fbf65e" title="TPPLPartition::Triangulate_EC" alt="" coords="180,5,381,32"/>
+<area shape="rect" id="node4" href="$class_t_p_p_l_partition.html#a051c6912d85470a5837ade1d738c74fb" title="TPPLPartition::ConvexPartition_HM" alt="" coords="448,56,680,83"/>
+<area shape="rect" id="node6" href="$class_t_p_p_l_partition.html#a333835289d6cf8a868527efc83d54674" title="TPPLPartition::Triangulate_OPT" alt="" coords="176,107,385,133"/>
+<area shape="rect" id="node7" href="$class_t_p_p_l_partition.html#af7f7fbaa641cbb2fe15cc934e632a9cc" title="TPPLPartition::ConvexPartition_OPT" alt="" coords="161,157,400,184"/>
+<area shape="rect" id="node8" href="$class_t_p_p_l_partition.html#ad03005d87da7f8c82dbf154ad99f8e5c" title="TPPLPartition::MonotonePartition" alt="" coords="173,208,389,235"/>
+<area shape="rect" id="node10" href="$class_t_p_p_l_partition.html#a17ac51e0a051c62c202909808f7515e1" title="TPPLPartition::Triangulate\lMonotone" alt="" coords="193,259,368,301"/>
+<area shape="rect" id="node3" href="$class_t_p_p_l_partition.html#a24c1b4144598661490126059302a15a0" title="TPPLPartition::Triangulate_EC" alt="" coords="463,5,665,32"/>
+<area shape="rect" id="node5" href="$class_t_p_p_l_partition.html#a256809859748d3093e92881812805535" title="TPPLPartition::ConvexPartition_HM" alt="" coords="728,56,960,83"/>
+<area shape="rect" id="node9" href="$class_t_p_p_l_partition.html#a518caaf3474e97fbbb4013eeee99eb7c" title="TPPLPartition::Triangulate_MONO" alt="" coords="453,237,675,264"/>
+</map>

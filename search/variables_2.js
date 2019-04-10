@@ -1,5 +1,22 @@
 var searchData=
 [
-  ['description',['Description',['../class_c_o_n_v_e_r_t_e_r_1_1_i_c.html#a72a1a381861908396ddca53a1fa28f97',1,'CONVERTER::IC']]],
-  ['duality',['duality',['../class_c_o_n_v_e_r_t_e_r_1_1_i_c.html#ae1b69c949fddf0c2d1c09846761d5e87',1,'CONVERTER::IC']]]
+  ['capacity',['capacity',['../struct_memory_pool_allocator_1_1_chunk_header.html#ad721fc6ca6a3d6ba3bc506576622aab0',1,'MemoryPoolAllocator::ChunkHeader::capacity()'],['../struct_generic_value_1_1_object_data.html#a701d458694dba21fe5cbdd608878af4d',1,'GenericValue::ObjectData::capacity()'],['../struct_generic_value_1_1_array_data.html#a701d458694dba21fe5cbdd608878af4d',1,'GenericValue::ArrayData::capacity()']]],
+  ['category',['category',['../class_i_m_d_f_1_1_l_e_v_e_l_1_1properties.html#ad153dc5a1af8457498a6cecf0dba0b62',1,'IMDF::LEVEL::properties::category()'],['../class_i_m_d_f_1_1_o_p_e_n_i_n_g_1_1properties.html#ad153dc5a1af8457498a6cecf0dba0b62',1,'IMDF::OPENING::properties::category()'],['../class_i_m_d_f_1_1_u_n_i_t_1_1properties.html#ad153dc5a1af8457498a6cecf0dba0b62',1,'IMDF::UNIT::properties::category()']]],
+  ['cellspace_5fid',['CellSpace_ID',['../_i_o_8cpp.html#a4a80e32be641db5a03b8dcfdb126b3f9',1,'CellSpace_ID():&#160;IO.cpp'],['../_transform_8h.html#a4a80e32be641db5a03b8dcfdb126b3f9',1,'CellSpace_ID():&#160;IO.cpp']]],
+  ['cellspaceboundary_5fid',['CellSpaceBoundary_ID',['../_i_o_8cpp.html#ad0eefd9719bb7b7f784fdcd1aab85c1b',1,'CellSpaceBoundary_ID():&#160;IO.cpp'],['../_transform_8h.html#ad0eefd9719bb7b7f784fdcd1aab85c1b',1,'CellSpaceBoundary_ID():&#160;IO.cpp']]],
+  ['chunk_5fcapacity_5f',['chunk_capacity_',['../class_memory_pool_allocator.html#ab5026123542570a6cdf181c08d08cc5d',1,'MemoryPoolAllocator']]],
+  ['chunkhead_5f',['chunkHead_',['../class_memory_pool_allocator.html#a589c8d9a258fc595a3c155d45da18980',1,'MemoryPoolAllocator']]],
+  ['code_5f',['code_',['../struct_parse_result.html#a7eebb02e466ed930a2e117589b38b346',1,'ParseResult']]],
+  ['codepoint',['codepoint',['../structinternal_1_1_generic_regex_1_1_state.html#ae007d95eaaa52100f5453abbd19c7f59',1,'internal::GenericRegex::State']]],
+  ['codepoint_5f',['codepoint_',['../classinternal_1_1_decoded_stream.html#a722cb97cc6ce867ee79d750cc531ecc2',1,'internal::DecodedStream']]],
+  ['col_5f',['col_',['../class_cursor_stream_wrapper.html#a707e8f01f6c56b345f0d8448856ee8c6',1,'CursorStreamWrapper']]],
+  ['connects',['connects',['../class_c_o_n_v_e_r_t_e_r_1_1_i_c.html#a590b499faae0ae808cb48cfdc7ba0d43',1,'CONVERTER::IC']]],
+  ['const',['const',['../class_generic_array.html#a6069187eeb1a905961cddee39d513525',1,'GenericArray::const()'],['../class_generic_object.html#a607a4640ee03a7f6190825ce1458165a',1,'GenericObject::const()']]],
+  ['coordinates',['coordinates',['../class_i_m_d_f_1_1_l_e_v_e_l_1_1geometry.html#ae1aeaa981122fa8361e0fb2e2b88366f',1,'IMDF::LEVEL::geometry::coordinates()'],['../class_i_m_d_f_1_1_o_p_e_n_i_n_g_1_1geometry.html#a52b3b5bf08e5fe54b35873efb7b4bbaa',1,'IMDF::OPENING::geometry::coordinates()']]],
+  ['coordinates_5fin',['coordinates_in',['../class_i_m_d_f_1_1_u_n_i_t_1_1geometry.html#a05d9795173777d3afb031d9bc6ee3549',1,'IMDF::UNIT::geometry']]],
+  ['coordinates_5fout',['coordinates_out',['../class_i_m_d_f_1_1_u_n_i_t_1_1geometry.html#a06058c6cc0741de996018dc6cbd0880d',1,'IMDF::UNIT::geometry']]],
+  ['count',['count',['../structinternal_1_1_schema_1_1_schema_array.html#a92dbc9f07303bbfb2b49c22b117d7bee',1,'internal::Schema::SchemaArray']]],
+  ['count_5f',['count_',['../class_file_read_stream.html#a6b06728795e8f208c0755874665b3a51',1,'FileReadStream::count_()'],['../classinternal_1_1_big_integer.html#a6b06728795e8f208c0755874665b3a51',1,'internal::BigInteger::count_()'],['../class_basic_i_stream_wrapper.html#a6b06728795e8f208c0755874665b3a51',1,'BasicIStreamWrapper::count_()']]],
+  ['current_5f',['current_',['../class_encoded_input_stream.html#a875693930beb175266eff19451201582',1,'EncodedInputStream::current_()'],['../class_auto_u_t_f_input_stream.html#a875693930beb175266eff19451201582',1,'AutoUTFInputStream::current_()'],['../class_file_read_stream.html#a8e4e189b0b3b1b3685e6ed0c4d636b23',1,'FileReadStream::current_()'],['../class_file_write_stream.html#a625d9a5c3468cfde56be2b7642e8465a',1,'FileWriteStream::current_()'],['../class_basic_i_stream_wrapper.html#a8e4e189b0b3b1b3685e6ed0c4d636b23',1,'BasicIStreamWrapper::current_()']]],
+  ['currenterror_5f',['currentError_',['../class_generic_schema_validator.html#a4d3914c64b4ef143c068e285f11bda95',1,'GenericSchemaValidator']]]
 ];

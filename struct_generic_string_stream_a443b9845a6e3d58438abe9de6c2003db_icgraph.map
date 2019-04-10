@@ -1,0 +1,9 @@
+<map id="Take" name="Take">
+<area shape="rect" id="node2" href="$class_writer.html#a27a314c72df9349e54643de30ba527fe" title="Writer::WriteString" alt="" coords="104,81,235,108"/>
+<area shape="rect" id="node3" href="$class_pretty_writer.html#a89f91d1d4227d67db8df58864c0be9dd" title="PrettyWriter::RawNumber" alt="" coords="283,5,456,32"/>
+<area shape="rect" id="node4" href="$class_pretty_writer.html#ad92413ac61bb6efc02026361551b6b56" title="PrettyWriter::String" alt="" coords="302,56,437,83"/>
+<area shape="rect" id="node6" href="$class_writer.html#a89f91d1d4227d67db8df58864c0be9dd" title="Writer::RawNumber" alt="" coords="300,107,439,133"/>
+<area shape="rect" id="node7" href="$class_writer.html#ad92413ac61bb6efc02026361551b6b56" title="Writer::String" alt="" coords="320,157,419,184"/>
+<area shape="rect" id="node5" href="$class_pretty_writer.html#a8aed8b5e494ca3e6d56f1f848f4419c8" title="PrettyWriter::Key" alt="" coords="504,56,627,83"/>
+<area shape="rect" id="node8" href="$class_writer.html#a8aed8b5e494ca3e6d56f1f848f4419c8" title="Writer::Key" alt="" coords="521,157,609,184"/>
+</map>

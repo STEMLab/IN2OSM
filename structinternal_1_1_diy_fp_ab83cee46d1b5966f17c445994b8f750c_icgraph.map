@@ -1,0 +1,17 @@
+<map id="DiyFp" name="DiyFp">
+<area shape="rect" id="node2" href="$structinternal_1_1_diy_fp.html#a5d05dd01bb606b1bc67855434f0d9b47" title="operator&#45;" alt="" coords="161,5,235,32"/>
+<area shape="rect" id="node3" href="$structinternal_1_1_diy_fp.html#a88d40110b9160873684f1f6f7d354e5c" title="operator*" alt="" coords="161,56,235,83"/>
+<area shape="rect" id="node4" href="$structinternal_1_1_diy_fp.html#a8f2c2ddb2bf902775e5256bbf754824e" title="Normalize" alt="" coords="387,249,469,276"/>
+<area shape="rect" id="node13" href="$structinternal_1_1_diy_fp.html#aef48075288343b66571a64b4ac2de5ad" title="NormalizedBoundaries" alt="" coords="351,97,505,124"/>
+<area shape="rect" id="node14" href="$namespaceinternal.html#a3e95f043ed6c40cda1c1bc33c2f0ece2" title="internal::GetCachedPower\lByIndex" alt="" coords="111,158,285,199"/>
+<area shape="rect" id="node5" href="$namespaceinternal.html#aeb7b6c0784b644968003cbd1b9da57e3" title="internal::Grisu2" alt="" coords="587,148,697,175"/>
+<area shape="rect" id="node10" href="$namespaceinternal.html#a1c2f6cd37a0445a85495724e407cd8c0" title="internal::StrtodDiyFp" alt="" coords="571,224,713,251"/>
+<area shape="rect" id="node6" href="$namespaceinternal.html#a2547fbfd0790a9997cb5fb7b543f0485" title="internal::dtoa" alt="" coords="804,148,901,175"/>
+<area shape="rect" id="node7" href="$class_writer.html#a38ddf47e32442429d0760f8777ce37ee" title="Writer::WriteDouble" alt="" coords="1022,148,1159,175"/>
+<area shape="rect" id="node8" href="$class_pretty_writer.html#ab0849c2598ffcad58d01b468676ed580" title="PrettyWriter::Double" alt="" coords="1237,123,1379,149"/>
+<area shape="rect" id="node9" href="$class_writer.html#ab0849c2598ffcad58d01b468676ed580" title="Writes the given double value to the stream. " alt="" coords="1255,173,1361,200"/>
+<area shape="rect" id="node11" href="$namespaceinternal.html#a899ff5a0c5f9b203d720bb6f5631ed10" title="internal::StrtodFullPrecision" alt="" coords="761,224,944,251"/>
+<area shape="rect" id="node12" href="$class_generic_reader.html#af04ac9e48881f04b7df26db88c8099b1" title="GenericReader::ParseNumber" alt="" coords="992,224,1189,251"/>
+<area shape="rect" id="node15" href="$namespaceinternal.html#abac3dbfa1070756c37725829148f6038" title="internal::GetCachedPower" alt="" coords="341,148,515,175"/>
+<area shape="rect" id="node16" href="$namespaceinternal.html#a74b8503d044bf6c0a5e90c5bea3aba42" title="internal::GetCachedPower10" alt="" coords="333,199,523,225"/>
+</map>

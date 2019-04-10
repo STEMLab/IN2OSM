@@ -1,0 +1,6 @@
+<map id="StringRef" name="StringRef">
+<area shape="rect" id="node2" href="$document_8h.html#a578c51ab574a50a9c760b9da7c7562f2" title="Mark a character pointer as constant string. " alt="" coords="191,5,269,32"/>
+<area shape="rect" id="node3" href="$class_generic_value.html#a69cef830cfe6c108c06475432de9f92e" title="Explicit copy constructor (with allocator) " alt="" coords="131,57,329,98"/>
+<area shape="rect" id="node4" href="$class_generic_value.html#a1f37d7975dd51323247a4041b5340d12" title="Assignment of constant string reference (no copy) " alt="" coords="131,122,329,163"/>
+<area shape="rect" id="node5" href="$class_generic_object.html#a0e62ce6c7fdb14042dc96580224f218c" title="GenericObject::EraseMember" alt="" coords="133,188,327,215"/>
+</map>

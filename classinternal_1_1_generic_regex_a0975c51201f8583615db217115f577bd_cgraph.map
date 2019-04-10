@@ -1,0 +1,5 @@
+<map id="ParseRange" name="ParseRange">
+<area shape="rect" id="node2" href="$classinternal_1_1_decoded_stream.html#a0137fbe44d75af70e10bb9f67172f2e6" title="internal::DecodedStream\l::Take" alt="" coords="148,5,315,47"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_decoded_stream.html#afa0721a32f4b8fc12e17982868f9ba18" title="internal::DecodedStream\l::Peek" alt="" coords="148,71,315,112"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_decoded_stream.html#a3c80c21235e4c5ee89b7ed1c6ca9d496" title="internal::DecodedStream\l::Decode" alt="" coords="363,5,529,47"/>
+</map>

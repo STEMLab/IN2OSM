@@ -1,0 +1,11 @@
+<map id="Significand" name="Significand">
+<area shape="rect" id="node2" href="$classinternal_1_1_double.html#a821ae02f7b63dfbd5a5b430ee56dd43a" title="IsNan" alt="" coords="149,5,206,32"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_double.html#a8358b14cb53f71cb11d422edbe00d689" title="IsInf" alt="" coords="153,56,201,83"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_double.html#a6d2c61f0e899175534c73c286e0c13d9" title="IsNormal" alt="" coords="140,157,215,184"/>
+<area shape="rect" id="node5" href="$classinternal_1_1_double.html#ae614b5c260583215860240b81f5f4d4a" title="IntegerSignificand" alt="" coords="263,107,389,133"/>
+<area shape="rect" id="node7" href="$namespaceinternal.html#a1880ef34e46ff75764f9e86987c52dd7" title="internal::StrtodBigInteger" alt="" coords="683,183,849,209"/>
+<area shape="rect" id="node10" href="$classinternal_1_1_double.html#aa11874369d046de0798de1e70bc6ea21" title="IntegerExponent" alt="" coords="267,157,385,184"/>
+<area shape="rect" id="node6" href="$namespaceinternal.html#a190f9c286df64526a7e3550528ed6b02" title="internal::CheckWithinHalfULP" alt="" coords="437,157,635,184"/>
+<area shape="rect" id="node8" href="$namespaceinternal.html#a899ff5a0c5f9b203d720bb6f5631ed10" title="internal::StrtodFullPrecision" alt="" coords="897,183,1080,209"/>
+<area shape="rect" id="node9" href="$class_generic_reader.html#af04ac9e48881f04b7df26db88c8099b1" title="GenericReader::ParseNumber" alt="" coords="1128,183,1325,209"/>
+</map>

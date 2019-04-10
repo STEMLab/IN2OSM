@@ -1,0 +1,13 @@
+<map id="Int" name="Int">
+<area shape="rect" id="node2" href="$class_writer.html#aa7acf8b71a11cb67124c5cad6547c289" title="Prefix" alt="" coords="103,25,159,52"/>
+<area shape="rect" id="node4" href="$class_writer.html#a6a871b44e089883e1f8c9034a715f530" title="EndValue" alt="" coords="92,95,171,121"/>
+<area shape="rect" id="node7" href="$class_writer.html#a15d6565a240ab0a3dc185bbb861486b4" title="WriteInt" alt="" coords="97,171,165,197"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_stack.html#a0af4f3bf511770f64efd9b03197fe05d" title="internal::Stack::GetSize" alt="" coords="219,5,380,32"/>
+<area shape="rect" id="node5" href="$classinternal_1_1_stack.html#abcfbdba215d3b15fbb4b682969943a6e" title="internal::Stack::Empty" alt="" coords="223,56,375,83"/>
+<area shape="rect" id="node6" href="$class_writer.html#a0e2644b2df3c228e8d71a55b60723f31" title="Flush the output stream. " alt="" coords="272,107,327,133"/>
+<area shape="rect" id="node8" href="$namespaceinternal.html#a79bdea0c3f5e0c34c5c0aa686fc823c1" title="internal::i32toa" alt="" coords="246,157,353,184"/>
+<area shape="rect" id="node11" href="$stream_8h.html#aa817b00a466bb84d96c5de1616436c95" title="Reserve n characters for writing to a stream. " alt="" coords="254,208,345,235"/>
+<area shape="rect" id="node12" href="$encodings_8h.html#ad57ba7f2912c5509924b69dec7db4396" title="Write character to a stream, presuming buffer is reserved. " alt="" coords="257,259,341,285"/>
+<area shape="rect" id="node9" href="$namespaceinternal.html#a8628d3698be60950743bc49d41a1cca7" title="internal::u32toa" alt="" coords="428,157,539,184"/>
+<area shape="rect" id="node10" href="$namespaceinternal.html#a95459e80b3f0e89ad03ebd0c8e55844c" title="internal::GetDigitsLut" alt="" coords="587,157,732,184"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="SwapValueByPointer" name="SwapValueByPointer">
+<area shape="rect" id="node2" href="$class_generic_pointer.html#a000ededf494e15fc93094289f9107802" title="Swap the content of this pointer with an other. " alt="" coords="199,5,348,32"/>
+<area shape="rect" id="node3" href="$namespaceinternal.html#a72b2c71d36273b9691487f58c671ce04" title="Custom swap() to avoid dependency on C++ &lt;algorithm&gt; header. " alt="" coords="396,5,501,32"/>
+</map>

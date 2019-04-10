@@ -1,0 +1,15 @@
+<map id="GenericDocument&lt; Encoding, Allocator, StackAllocator &gt;" name="GenericDocument&lt; Encoding, Allocator, StackAllocator &gt;">
+<area shape="rect" id="node2" href="$class_generic_value.html" title="Represents a JSON value. Use Value for UTF8 encoding and default allocator. " alt="" coords="581,145,769,663"/>
+<area shape="rect" id="node5" href="$struct_generic_value_1_1_array_data.html" title="{ArrayData\n|+ size\l+ capacity\l|}" alt="" coords="798,1055,881,1147"/>
+<area shape="rect" id="node3" href="$union_generic_value_1_1_data.html" title="{Data\n||}" alt="" coords="923,1540,974,1617"/>
+<area shape="rect" id="node4" href="$struct_generic_value_1_1_string.html" title="{String\n|+ length\l+ hashcode\l+ str\l|}" alt="" coords="683,1048,774,1155"/>
+<area shape="rect" id="node6" href="$struct_generic_value_1_1_object_data.html" title="{ObjectData\n|+ size\l+ capacity\l|}" alt="" coords="905,1055,993,1147"/>
+<area shape="rect" id="node7" href="$struct_generic_member.html" title="Name&#45;value pair in a JSON object value. " alt="" coords="799,351,983,457"/>
+<area shape="rect" id="node8" href="$union_generic_value_1_1_number.html" title="{Number\n|+ i64\l+ u64\l+ d\l|}" alt="" coords="1017,1048,1085,1155"/>
+<area shape="rect" id="node9" href="$struct_generic_value_1_1_number_1_1_u.html" title="{U\n|+ u\l+ padding2\l|}" alt="" coords="1008,358,1095,450"/>
+<area shape="rect" id="node10" href="$struct_generic_value_1_1_number_1_1_i.html" title="{I\n|+ i\l+ padding\l|}" alt="" coords="1119,358,1197,450"/>
+<area shape="rect" id="node11" href="$struct_generic_value_1_1_short_string.html" title="{ShortString\n|+ str\l|+ SetLength()\l+ GetLength()\l+ Usable()\l}" alt="" coords="1109,1048,1212,1155"/>
+<area shape="rect" id="node12" href="$struct_generic_value_1_1_flag.html" title="{Flag\n|+ payload\l+ flags\l|}" alt="" coords="1236,1055,1315,1147"/>
+<area shape="rect" id="node13" href="$struct_parse_result.html" title="Result of parsing (wraps ParseErrorCode) " alt="" coords="5,285,175,523"/>
+<area shape="rect" id="node15" href="$classinternal_1_1_stack.html" title="{Stack\&lt; StackAllocator \&gt;\n|&#45; allocator_\l&#45; ownAllocator_\l&#45; stack_\l&#45; stackTop_\l&#45; stackEnd_\l|+ Stack()\l+ ~Stack()\l+ Swap()\l+ Clear()\l+ ShrinkToFit()\l+ Reserve()\l+ Push()\l+ PushUnsafe()\l+ Pop()\l+ Top()\land 10 more...\l&#45; Stack()\l&#45; Expand()\l&#45; Resize()\l&#45; Destroy()\l&#45; operator=()\l}" alt="" coords="391,226,557,582"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="PrettyPrefix" name="PrettyPrefix">
+<area shape="rect" id="node2" href="$class_pretty_writer.html#adf8f107f25e5065028f8ae704e4c6f0c" title="WriteIndent" alt="" coords="144,31,233,57"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_stack.html#a0af4f3bf511770f64efd9b03197fe05d" title="internal::Stack::GetSize" alt="" coords="281,5,443,32"/>
+<area shape="rect" id="node4" href="$filewritestream_8h.html#a5c9b0f0e6249be2acf7f3505c295c132" title="Implement specialized version of PutN() with memset() for better performance. " alt="" coords="336,56,388,83"/>
+<area shape="rect" id="node5" href="$class_file_write_stream.html#a4e2e6a6a3e1676fda12a54d6e9eb29cf" title="FileWriteStream::PutN" alt="" coords="491,56,645,83"/>
+<area shape="rect" id="node6" href="$class_file_write_stream.html#a0e2644b2df3c228e8d71a55b60723f31" title="FileWriteStream::Flush" alt="" coords="693,56,849,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="i64toa" name="i64toa">
+<area shape="rect" id="node2" href="$class_writer.html#aaba3a73795b97b0fa707f44a86f857b7" title="Writer::WriteInt64" alt="" coords="111,31,236,57"/>
+<area shape="rect" id="node3" href="$class_pretty_writer.html#ab57d0f5570905d393450daca545d3a46" title="PrettyWriter::Int64" alt="" coords="284,5,413,32"/>
+<area shape="rect" id="node4" href="$class_writer.html#ab57d0f5570905d393450daca545d3a46" title="Writer::Int64" alt="" coords="301,56,396,83"/>
+</map>

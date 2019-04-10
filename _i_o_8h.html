@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>IndoorGML_OSM: /home/byeonggon/IndoorGML_OSM/IO/IO.h File Reference</title>
+<title>IN2OSM: IO/IO.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,8 +28,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">IndoorGML_OSM
-   &#160;<span id="projectnumber">1.0.0</span>
+   <div id="projectname">IN2OSM
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
   </td>
  </tr>
@@ -87,13 +87,23 @@ $(document).ready(function(){initNavTree('_i_o_8h.html','');});
 <div class="title">IO.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for IO.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="_i_o_8h__incl.png" border="0" usemap="#_i_o_2_i_o_8h" alt=""/></div>
+<map name="_i_o_2_i_o_8h" id="_i_o_2_i_o_8h">
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="_i_o_8h__dep__incl.png" border="0" usemap="#_2home_2byeonggon_2_indoor_g_m_l___o_s_m_2_i_o_2_i_o_8hdep" alt=""/></div>
-<map name="_2home_2byeonggon_2_indoor_g_m_l___o_s_m_2_i_o_2_i_o_8hdep" id="_2home_2byeonggon_2_indoor_g_m_l___o_s_m_2_i_o_2_i_o_8hdep">
-<area shape="rect" id="node2" href="_c_o_n_v_e_r_t_e_r_8cpp.html" title="/home/byeonggon/IndoorGML\l_OSM/CONVERTER.cpp" alt="" coords="5,95,199,136"/>
-<area shape="rect" id="node3" href="_i_o_8cpp.html" title="/home/byeonggon/IndoorGML\l_OSM/IO/IO.cpp" alt="" coords="223,95,416,136"/>
+<div class="center"><img src="_i_o_8h__dep__incl.png" border="0" usemap="#_i_o_2_i_o_8hdep" alt=""/></div>
+<map name="_i_o_2_i_o_8hdep" id="_i_o_2_i_o_8hdep">
+<area shape="rect" id="node2" href="_c_o_n_v_e_r_t_e_r_8cpp.html" title="CONVERTER.cpp" alt="" coords="5,80,137,107"/>
+<area shape="rect" id="node3" href="_i_o_8cpp.html" title="IO/IO.cpp" alt="" coords="161,80,240,107"/>
+<area shape="rect" id="node4" href="_o_s_m___reader_8cpp.html" title="OSM_Reader/OSM_Reader.cpp" alt="" coords="264,80,473,107"/>
 </map>
 </div>
 </div>
@@ -109,13 +119,19 @@ Functions</h2></td></tr>
 <tr class="memitem:a97e8f14796288778ec7519c813f59b6b"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#a97e8f14796288778ec7519c813f59b6b">lowercase</a> (char *input)</td></tr>
 <tr class="memdesc:a97e8f14796288778ec7519c813f59b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">change char * to lower case  <a href="namespace_i_o.html#a97e8f14796288778ec7519c813f59b6b">More...</a><br /></td></tr>
 <tr class="separator:a97e8f14796288778ec7519c813f59b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc6e34a4902fa46d6a15afbafeec5610"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#acc6e34a4902fa46d6a15afbafeec5610">ISNOT_INDOORGML</a> (char **input)</td></tr>
+<tr class="separator:acc6e34a4902fa46d6a15afbafeec5610"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae006aeefd01b9a9bdbbccb990da4d78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#aae006aeefd01b9a9bdbbccb990da4d78">ISNOT_INDORGML_MESSAGE</a> ()</td></tr>
+<tr class="separator:aae006aeefd01b9a9bdbbccb990da4d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0713f904f2c2f670bd76c4b67c114f99"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#a0713f904f2c2f670bd76c4b67c114f99">IMDF_FILE_LIST</a> (std::string path)</td></tr>
+<tr class="separator:a0713f904f2c2f670bd76c4b67c114f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_41ce16b0efa4d53c1e9a5c4b4d03bacf.html">IndoorGML_OSM</a></li><li class="navelem"><a class="el" href="dir_ea069f376bdec592295c5c070f92bd22.html">IO</a></li><li class="navelem"><a class="el" href="_i_o_8h.html">IO.h</a></li>
+    <li class="navelem"><a class="el" href="dir_f0b8d3380d5649deec2d780f35ec3ac5.html">IO</a></li><li class="navelem"><a class="el" href="_i_o_8h.html">IO.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

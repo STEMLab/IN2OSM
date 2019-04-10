@@ -1,0 +1,29 @@
+<map id="ParseNumber" name="ParseNumber">
+<area shape="rect" id="node2" href="$namespaceinternal.html#a899ff5a0c5f9b203d720bb6f5631ed10" title="internal::StrtodFullPrecision" alt="" coords="166,111,349,137"/>
+<area shape="rect" id="node28" href="$namespaceinternal.html#a9e5fac4695310f09892fe52b1d24ab19" title="internal::StrtodNormalPrecision" alt="" coords="156,33,359,60"/>
+<area shape="rect" id="node3" href="$namespaceinternal.html#a598b2d2f85130bff3c3942e4750b9185" title="internal::StrtodFast" alt="" coords="423,56,557,83"/>
+<area shape="rect" id="node6" href="$namespaceinternal.html#a1c2f6cd37a0445a85495724e407cd8c0" title="internal::StrtodDiyFp" alt="" coords="419,640,561,667"/>
+<area shape="rect" id="node13" href="$namespaceinternal.html#a1880ef34e46ff75764f9e86987c52dd7" title="internal::StrtodBigInteger" alt="" coords="407,165,573,192"/>
+<area shape="rect" id="node4" href="$namespaceinternal.html#af01c41d045d596e2f8d1888cf6fbecb6" title="Computes integer powers of 10 in double (10.0^n). " alt="" coords="898,5,1010,32"/>
+<area shape="rect" id="node5" href="$namespaceinternal.html#aa1bb51d788788eb5390a16462b40d98d" title="internal::FastPath" alt="" coords="657,5,783,32"/>
+<area shape="rect" id="node7" href="$structinternal_1_1_diy_fp.html#a8f2c2ddb2bf902775e5256bbf754824e" title="internal::DiyFp::Normalize" alt="" coords="633,691,807,717"/>
+<area shape="rect" id="node9" href="$namespaceinternal.html#a74b8503d044bf6c0a5e90c5bea3aba42" title="internal::GetCachedPower10" alt="" coords="625,743,815,769"/>
+<area shape="rect" id="node11" href="$classinternal_1_1_double.html#a67b8490741b6e154792adb08f45ecfae" title="internal::Double::Effective\lSignificandSize" alt="" coords="633,574,807,615"/>
+<area shape="rect" id="node12" href="$structinternal_1_1_diy_fp.html#af8f12fbfc7c5d89dc2ead89ea9d8e2b1" title="internal::DiyFp::ToDouble" alt="" coords="635,640,805,667"/>
+<area shape="rect" id="node8" href="$structinternal_1_1_diy_fp.html#ab83cee46d1b5966f17c445994b8f750c" title="internal::DiyFp::DiyFp" alt="" coords="1102,717,1253,744"/>
+<area shape="rect" id="node10" href="$namespaceinternal.html#a3e95f043ed6c40cda1c1bc33c2f0ece2" title="internal::GetCachedPower\lByIndex" alt="" coords="867,739,1041,781"/>
+<area shape="rect" id="node14" href="$namespaceinternal.html#a190f9c286df64526a7e3550528ed6b02" title="internal::CheckWithinHalfULP" alt="" coords="621,281,819,308"/>
+<area shape="rect" id="node17" href="$classinternal_1_1_double.html#a8fc19d25c0365d059183d2ff73c37e0e" title="internal::Double::Significand" alt="" coords="1313,421,1499,448"/>
+<area shape="rect" id="node24" href="$classinternal_1_1_double.html#a8554e97d98d05016f16300cedf2be9f6" title="internal::Double::Value" alt="" coords="643,107,797,133"/>
+<area shape="rect" id="node25" href="$classinternal_1_1_double.html#adc62df66334fc7bddd74320068715c7d" title="internal::Double::NextPositive\lDouble" alt="" coords="622,158,818,199"/>
+<area shape="rect" id="node15" href="$classinternal_1_1_double.html#ae614b5c260583215860240b81f5f4d4a" title="internal::Double::Integer\lSignificand" alt="" coords="873,391,1035,433"/>
+<area shape="rect" id="node18" href="$classinternal_1_1_double.html#aa11874369d046de0798de1e70bc6ea21" title="internal::Double::Integer\lExponent" alt="" coords="873,457,1035,498"/>
+<area shape="rect" id="node20" href="$namespaceinternal.html#ace304441347098a4953ea99f50805da9" title="internal::Min3" alt="" coords="904,157,1004,184"/>
+<area shape="rect" id="node21" href="$classinternal_1_1_big_integer.html#a81d2a6e13783095b0fd2b472269e4e7b" title="internal::BigInteger\l::MultiplyPow5" alt="" coords="889,209,1019,250"/>
+<area shape="rect" id="node22" href="$classinternal_1_1_big_integer.html#aae8d27745810b8d57be1506e87379490" title="internal::BigInteger\l::Difference" alt="" coords="889,274,1019,315"/>
+<area shape="rect" id="node23" href="$classinternal_1_1_big_integer.html#a73b0b22b98c08b9daaf90c1f82223912" title="internal::BigInteger\l::Compare" alt="" coords="1112,290,1243,331"/>
+<area shape="rect" id="node16" href="$classinternal_1_1_double.html#a6d2c61f0e899175534c73c286e0c13d9" title="internal::Double::IsNormal" alt="" coords="1090,421,1265,448"/>
+<area shape="rect" id="node19" href="$classinternal_1_1_double.html#a87fa45096b5bd83b4cff6e5ee12f4909" title="internal::Double::Exponent" alt="" coords="1089,472,1265,499"/>
+<area shape="rect" id="node26" href="$classinternal_1_1_double.html#ae87ac270b3bc082b7cf9872894364a60" title="internal::Double::Sign" alt="" coords="881,56,1027,83"/>
+<area shape="rect" id="node27" href="$classinternal_1_1_double.html#adacb91143a52cdb7044f6d908a2e048f" title="internal::Double::Double" alt="" coords="873,107,1035,133"/>
+</map>

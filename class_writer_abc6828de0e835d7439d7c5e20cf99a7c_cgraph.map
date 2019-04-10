@@ -1,0 +1,5 @@
+<map id="WriteRawValue" name="WriteRawValue">
+<area shape="rect" id="node2" href="$stream_8h.html#aa817b00a466bb84d96c5de1616436c95" title="Reserve n characters for writing to a stream. " alt="" coords="193,5,283,32"/>
+<area shape="rect" id="node3" href="$struct_generic_string_stream.html#a4942c1b9fd2b773ed5dddd92a17336ee" title="GenericStringStream\l::Tell" alt="" coords="167,57,309,98"/>
+<area shape="rect" id="node4" href="$struct_generic_string_stream.html#af6bb0127bbccb78c66052870fde2f63f" title="GenericStringStream\l::Peek" alt="" coords="167,122,309,163"/>
+</map>

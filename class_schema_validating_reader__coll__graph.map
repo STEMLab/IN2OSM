@@ -1,0 +1,15 @@
+<map id="SchemaValidatingReader&lt; parseFlags, InputStream, SourceEncoding, SchemaDocumentType, StackAllocator &gt;" name="SchemaValidatingReader&lt; parseFlags, InputStream, SourceEncoding, SchemaDocumentType, StackAllocator &gt;">
+<area shape="rect" id="node2" href="$struct_parse_result.html" title="Result of parsing (wraps ParseErrorCode) " alt="" coords="5,623,175,862"/>
+<area shape="rect" id="node4" href="$class_generic_value.html" title="{GenericValue\&lt; SourceEncoding,\l StackAllocator \&gt;\n|+ kDefaultArrayCapacity\l+ kDefaultObjectCapacity\l|+ RAPIDJSON_DISABLEIF\l_RETURN()\l+ GetStringPointer()\l+ SetStringPointer()\l+ GetElementsPointer()\l+ SetElementsPointer()\l+ GetMembersPointer()\l+ SetMembersPointer()\l+ SetArrayRaw()\l+ SetObjectRaw()\l+ SetStringRaw()\l+ SetStringRaw()\l+ RawAssign()\l+ StringEqual()\l+ operator=()\l+ operator=()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\land 8 more...\l* operator=()\l* operator=()\l}" alt="" coords="199,484,410,1001"/>
+<area shape="rect" id="node5" href="$union_generic_value_1_1_data.html" title="{Data\n||}" alt="" coords="503,344,554,421"/>
+<area shape="rect" id="node8" href="$class_generic_value.html" title="Represents a JSON value. Use Value for UTF8 encoding and default allocator. " alt="" coords="435,484,623,1001"/>
+<area shape="rect" id="node6" href="$struct_generic_value_1_1_string.html" title="{String\n|+ length\l+ hashcode\l+ str\l|}" alt="" coords="267,175,358,281"/>
+<area shape="rect" id="node7" href="$struct_generic_value_1_1_array_data.html" title="{ArrayData\n|+ size\l+ capacity\l|}" alt="" coords="586,1174,669,1266"/>
+<area shape="rect" id="node9" href="$struct_generic_value_1_1_object_data.html" title="{ObjectData\n|+ size\l+ capacity\l|}" alt="" coords="382,182,470,274"/>
+<area shape="rect" id="node10" href="$struct_generic_member.html" title="Name&#45;value pair in a JSON object value. " alt="" coords="277,5,461,112"/>
+<area shape="rect" id="node11" href="$union_generic_value_1_1_number.html" title="{Number\n|+ i64\l+ u64\l+ d\l|}" alt="" coords="495,175,563,281"/>
+<area shape="rect" id="node12" href="$struct_generic_value_1_1_number_1_1_u.html" title="{U\n|+ u\l+ padding2\l|}" alt="" coords="485,13,572,105"/>
+<area shape="rect" id="node13" href="$struct_generic_value_1_1_number_1_1_i.html" title="{I\n|+ i\l+ padding\l|}" alt="" coords="596,13,675,105"/>
+<area shape="rect" id="node14" href="$struct_generic_value_1_1_short_string.html" title="{ShortString\n|+ str\l|+ SetLength()\l+ GetLength()\l+ Usable()\l}" alt="" coords="587,175,689,281"/>
+<area shape="rect" id="node15" href="$struct_generic_value_1_1_flag.html" title="{Flag\n|+ payload\l+ flags\l|}" alt="" coords="713,182,792,274"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="i32toa" name="i32toa">
+<area shape="rect" id="node2" href="$class_writer.html#a15d6565a240ab0a3dc185bbb861486b4" title="Writer::WriteInt" alt="" coords="111,31,221,57"/>
+<area shape="rect" id="node3" href="$class_pretty_writer.html#ac33a3b8045cfa32baebf44c4f832b83c" title="PrettyWriter::Int" alt="" coords="269,5,384,32"/>
+<area shape="rect" id="node4" href="$class_writer.html#ac33a3b8045cfa32baebf44c4f832b83c" title="Writer::Int" alt="" coords="287,56,367,83"/>
+</map>

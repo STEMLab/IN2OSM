@@ -1,0 +1,8 @@
+<map id="InCone" name="InCone">
+<area shape="rect" id="node2" href="$class_t_p_p_l_partition.html#a09ed6b65768cd8935e99a010887ef6f8" title="RemoveHoles" alt="" coords="139,31,245,57"/>
+<area shape="rect" id="node5" href="$class_t_p_p_l_partition.html#a4829f4d68d1467413fd17803060e23de" title="InCone" alt="" coords="160,81,224,108"/>
+<area shape="rect" id="node6" href="$class_t_p_p_l_partition.html#a333835289d6cf8a868527efc83d54674" title="Triangulate_OPT" alt="" coords="132,132,252,159"/>
+<area shape="rect" id="node7" href="$class_t_p_p_l_partition.html#af7f7fbaa641cbb2fe15cc934e632a9cc" title="ConvexPartition_OPT" alt="" coords="117,183,267,209"/>
+<area shape="rect" id="node3" href="$class_t_p_p_l_partition.html#a24c1b4144598661490126059302a15a0" title="Triangulate_EC" alt="" coords="330,5,442,32"/>
+<area shape="rect" id="node4" href="$class_t_p_p_l_partition.html#a256809859748d3093e92881812805535" title="ConvexPartition_HM" alt="" coords="315,56,457,83"/>
+</map>

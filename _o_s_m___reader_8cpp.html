@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>IndoorGML_OSM: /home/byeonggon/IndoorGML_OSM/OSM_Reader/OSM_Reader.cpp File Reference</title>
+<title>IN2OSM: OSM_Reader/OSM_Reader.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,8 +28,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">IndoorGML_OSM
-   &#160;<span id="projectnumber">1.0.0</span>
+   <div id="projectname">IN2OSM
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
   </td>
  </tr>
@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('_o_s_m___reader_8cpp.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="_o_s_m___reader_8h_source.html">OSM_Reader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_i_o_8h_source.html">IO/IO.h</a>&quot;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
@@ -95,12 +96,35 @@ $(document).ready(function(){initNavTree('_o_s_m___reader_8cpp.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for OSM_Reader.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="_o_s_m___reader_8cpp__incl.png" border="0" usemap="#_2home_2byeonggon_2_indoor_g_m_l___o_s_m_2_o_s_m___reader_2_o_s_m___reader_8cpp" alt=""/></div>
-<map name="_2home_2byeonggon_2_indoor_g_m_l___o_s_m_2_o_s_m___reader_2_o_s_m___reader_8cpp" id="_2home_2byeonggon_2_indoor_g_m_l___o_s_m_2_o_s_m___reader_2_o_s_m___reader_8cpp">
-<area shape="rect" id="node2" href="_o_s_m___reader_8h.html" title="OSM_Reader.h" alt="" coords="125,95,237,121"/>
-<area shape="rect" id="node3" href="_transform_8h.html" title="TRANSFORM/Transform.h" alt="" coords="90,169,271,196"/>
-<area shape="rect" id="node7" href="rapidxml__print_8hpp.html" title="This file contains rapidxml printer implementation. " alt="" coords="218,244,405,271"/>
-<area shape="rect" id="node8" href="rapidxml_8hpp.html" title="This file contains rapidxml parser and DOM implementation. " alt="" coords="381,319,477,345"/>
+<div class="center"><img src="_o_s_m___reader_8cpp__incl.png" border="0" usemap="#_o_s_m___reader_2_o_s_m___reader_8cpp" alt=""/></div>
+<map name="_o_s_m___reader_2_o_s_m___reader_8cpp" id="_o_s_m___reader_2_o_s_m___reader_8cpp">
+<area shape="rect" id="node2" href="_o_s_m___reader_8h.html" title="OSM_Reader.h" alt="" coords="229,80,341,107"/>
+<area shape="rect" id="node40" href="_i_o_8h.html" title="IO/IO.h" alt="" coords="81,155,147,181"/>
+<area shape="rect" id="node3" href="_transform_8h.html" title="TRANSFORM/Transform.h" alt="" coords="221,155,402,181"/>
+<area shape="rect" id="node7" href="rapidxml__print_8hpp.html" title="This file contains rapidxml printer implementation. " alt="" coords="218,229,405,256"/>
+<area shape="rect" id="node8" href="rapidxml_8hpp.html" title="This file contains rapidxml parser and DOM implementation. " alt="" coords="119,304,215,331"/>
+<area shape="rect" id="node14" href="document_8h.html" title="rapidjson/document.h" alt="" coords="805,229,951,256"/>
+<area shape="rect" id="node36" href="writer_8h.html" title="rapidjson/writer.h" alt="" coords="472,304,593,331"/>
+<area shape="rect" id="node39" href="stringbuffer_8h.html" title="stringbuffer.h" alt="" coords="522,379,621,405"/>
+<area shape="rect" id="node15" href="reader_8h.html" title="reader.h" alt="" coords="1183,304,1253,331"/>
+<area shape="rect" id="node21" href="encodedstream_8h.html" title="encodedstream.h" alt="" coords="1007,379,1130,405"/>
+<area shape="rect" id="node22" href="memorystream_8h.html" title="memorystream.h" alt="" coords="770,453,890,480"/>
+<area shape="rect" id="node23" href="meta_8h.html" title="internal/meta.h" alt="" coords="824,379,932,405"/>
+<area shape="rect" id="node34" href="strfunc_8h.html" title="internal/strfunc.h" alt="" coords="379,379,497,405"/>
+<area shape="rect" id="node16" href="allocators_8h.html" title="allocators.h" alt="" coords="1055,528,1144,555"/>
+<area shape="rect" id="node19" href="stream_8h.html" title="stream.h" alt="" coords="797,528,871,555"/>
+<area shape="rect" id="node24" href="stack_8h.html" title="internal/stack.h" alt="" coords="965,453,1076,480"/>
+<area shape="rect" id="node26" href="strtod_8h.html" title="internal/strtod.h" alt="" coords="1399,379,1511,405"/>
+<area shape="rect" id="node33" href="error_8h.html" title="error/error.h" alt="" coords="1229,603,1319,629"/>
+<area shape="rect" id="node17" href="rapidjson_8h.html" title="common definitions and configuration " alt="" coords="974,677,1059,704"/>
+<area shape="rect" id="node20" href="encodings_8h.html" title="encodings.h" alt="" coords="789,603,881,629"/>
+<area shape="rect" id="node25" href="swap_8h.html" title="swap.h" alt="" coords="985,603,1049,629"/>
+<area shape="rect" id="node27" href="ieee754_8h.html" title="ieee754.h" alt="" coords="1203,453,1281,480"/>
+<area shape="rect" id="node28" href="biginteger_8h.html" title="biginteger.h" alt="" coords="1408,603,1497,629"/>
+<area shape="rect" id="node29" href="diyfp_8h.html" title="diyfp.h" alt="" coords="1357,453,1418,480"/>
+<area shape="rect" id="node31" href="pow10_8h.html" title="pow10.h" alt="" coords="1497,528,1568,555"/>
+<area shape="rect" id="node37" href="dtoa_8h.html" title="internal/dtoa.h" alt="" coords="695,379,799,405"/>
+<area shape="rect" id="node38" href="itoa_8h.html" title="itoa.h" alt="" coords="255,453,309,480"/>
 </map>
 </div>
 </div>
@@ -113,9 +137,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4f91917796036a17f313acbb417dffb1"><td class="memTemplParams" colspan="2">template&lt;class T1 &gt; </td></tr>
-<tr class="memitem:a4f91917796036a17f313acbb417dffb1"><td class="memTemplItemLeft" align="right" valign="top">T1&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_s_m.html#a4f91917796036a17f313acbb417dffb1">matching_id</a> (std::vector&lt; T1 &gt; &amp;a, int b)</td></tr>
-<tr class="separator:a4f91917796036a17f313acbb417dffb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a608d4ef92fa20d7ce77ce803346e692f"><td class="memTemplParams" colspan="2">template&lt;class T1 &gt; </td></tr>
+<tr class="memitem:a608d4ef92fa20d7ce77ce803346e692f"><td class="memTemplItemLeft" align="right" valign="top">T1&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_o_s_m.html#a608d4ef92fa20d7ce77ce803346e692f">matching_id</a> (std::vector&lt; T1 &gt; &amp;<a class="el" href="pointer_8h.html#aeeddce917cf130d62c370b8f216026dd">a</a>, string b)</td></tr>
+<tr class="separator:a608d4ef92fa20d7ce77ce803346e692f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fd6271718db8403d750489ef212a88e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_s_m.html#a9fd6271718db8403d750489ef212a88e">Read_tag</a> (string input)</td></tr>
+<tr class="separator:a9fd6271718db8403d750489ef212a88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba06ef5397585102497608576b415df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_n_v_e_r_t_e_r_1_1_pos.html">CONVERTER::Pos</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_s_m.html#a6ba06ef5397585102497608576b415df">compute2DPolygonCentroid</a> (const std::vector&lt; <a class="el" href="class_c_o_n_v_e_r_t_e_r_1_1_pos.html">CONVERTER::Pos</a> *&gt; vertices, int vertexCount)</td></tr>
+<tr class="separator:a6ba06ef5397585102497608576b415df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb5feebef6d0537f0fe0df8825b81bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_s_m.html#afeb5feebef6d0537f0fe0df8825b81bb">Cellspace_check</a> (std::vector&lt; <a class="el" href="class_c_o_n_v_e_r_t_e_r_1_1_i_c.html">CONVERTER::IC</a> *&gt;input)</td></tr>
+<tr class="separator:afeb5feebef6d0537f0fe0df8825b81bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaee2f2378361390c5c21507e3c07c7cc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_c_o_n_v_e_r_t_e_r_1_1_i_c.html">CONVERTER::IC</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_s_m.html#aaee2f2378361390c5c21507e3c07c7cc">Read</a> (std::string PATH)</td></tr>
 <tr class="separator:aaee2f2378361390c5c21507e3c07c7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -124,7 +154,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_41ce16b0efa4d53c1e9a5c4b4d03bacf.html">IndoorGML_OSM</a></li><li class="navelem"><a class="el" href="dir_832c1a365c8d9f9351615d57329e8ca6.html">OSM_Reader</a></li><li class="navelem"><a class="el" href="_o_s_m___reader_8cpp.html">OSM_Reader.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_80c55b6deef6c429c2f6e8bf502477f8.html">OSM_Reader</a></li><li class="navelem"><a class="el" href="_o_s_m___reader_8cpp.html">OSM_Reader.cpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

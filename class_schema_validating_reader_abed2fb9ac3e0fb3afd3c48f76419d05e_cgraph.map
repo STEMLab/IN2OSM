@@ -1,0 +1,7 @@
+<map id="operator()" name="operator()">
+<area shape="rect" id="node2" href="$class_generic_schema_validator.html#ad1c48d0236295cb5534b6bd9c683a107" title="Checks whether the current state is valid. " alt="" coords="143,5,309,47"/>
+<area shape="rect" id="node3" href="$class_generic_schema_validator.html#a19c1c7c6eaa8d9e6c05cdc9bd8f47fbe" title="Gets the JSON pointer pointed to the invalid schema. " alt="" coords="137,71,315,112"/>
+<area shape="rect" id="node4" href="$class_generic_schema_validator.html#a6ee570724cd7cf0a391cacdee9b5f483" title="Gets the keyword of invalid schema. " alt="" coords="132,136,320,177"/>
+<area shape="rect" id="node5" href="$class_generic_schema_validator.html#a2c7460bbf31afb619f5f50f1cdfca930" title="Gets the JSON pointer pointed to the invalid value. " alt="" coords="131,201,321,243"/>
+<area shape="rect" id="node6" href="$class_generic_schema_validator.html#a74d2ea140533b4a793a009afc8496a08" title="Gets the error object. " alt="" coords="143,267,309,308"/>
+</map>

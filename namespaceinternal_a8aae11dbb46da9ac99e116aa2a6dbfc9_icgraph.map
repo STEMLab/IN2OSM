@@ -1,0 +1,8 @@
+<map id="CountDecimalDigit32" name="CountDecimalDigit32">
+<area shape="rect" id="node2" href="$namespaceinternal.html#a47be9aea8d0f9cae49dc03dc046d2450" title="DigitGen" alt="" coords="200,31,273,57"/>
+<area shape="rect" id="node3" href="$namespaceinternal.html#aeb7b6c0784b644968003cbd1b9da57e3" title="Grisu2" alt="" coords="321,31,381,57"/>
+<area shape="rect" id="node4" href="$namespaceinternal.html#a2547fbfd0790a9997cb5fb7b543f0485" title="dtoa" alt="" coords="429,31,476,57"/>
+<area shape="rect" id="node5" href="$class_writer.html#a38ddf47e32442429d0760f8777ce37ee" title="Writer::WriteDouble" alt="" coords="524,31,661,57"/>
+<area shape="rect" id="node6" href="$class_pretty_writer.html#ab0849c2598ffcad58d01b468676ed580" title="PrettyWriter::Double" alt="" coords="709,5,851,32"/>
+<area shape="rect" id="node7" href="$class_writer.html#ab0849c2598ffcad58d01b468676ed580" title="Writes the given double value to the stream. " alt="" coords="727,56,833,83"/>
+</map>

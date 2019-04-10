@@ -1,0 +1,10 @@
+<map id="Normalize" name="Normalize">
+<area shape="rect" id="node2" href="$namespaceinternal.html#aeb7b6c0784b644968003cbd1b9da57e3" title="internal::Grisu2" alt="" coords="151,31,261,57"/>
+<area shape="rect" id="node7" href="$namespaceinternal.html#a1c2f6cd37a0445a85495724e407cd8c0" title="internal::StrtodDiyFp" alt="" coords="135,81,277,108"/>
+<area shape="rect" id="node3" href="$namespaceinternal.html#a2547fbfd0790a9997cb5fb7b543f0485" title="internal::dtoa" alt="" coords="368,31,465,57"/>
+<area shape="rect" id="node4" href="$class_writer.html#a38ddf47e32442429d0760f8777ce37ee" title="Writer::WriteDouble" alt="" coords="586,31,723,57"/>
+<area shape="rect" id="node5" href="$class_pretty_writer.html#ab0849c2598ffcad58d01b468676ed580" title="PrettyWriter::Double" alt="" coords="801,5,943,32"/>
+<area shape="rect" id="node6" href="$class_writer.html#ab0849c2598ffcad58d01b468676ed580" title="Writes the given double value to the stream. " alt="" coords="819,56,925,83"/>
+<area shape="rect" id="node8" href="$namespaceinternal.html#a899ff5a0c5f9b203d720bb6f5631ed10" title="internal::StrtodFullPrecision" alt="" coords="325,81,508,108"/>
+<area shape="rect" id="node9" href="$class_generic_reader.html#af04ac9e48881f04b7df26db88c8099b1" title="GenericReader::ParseNumber" alt="" coords="556,81,753,108"/>
+</map>

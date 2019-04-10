@@ -1,0 +1,4 @@
+<map id="TPPLPartition::VertexSorter" name="TPPLPartition::VertexSorter">
+<area shape="rect" id="node2" href="$struct_t_p_p_l_partition_1_1_monotone_vertex.html" title="{MonotoneVertex\n|+ previous\l+ next\l|}" alt="" coords="39,248,156,340"/>
+<area shape="rect" id="node3" href="$struct_t_p_p_l_point.html" title="{TPPLPoint\n|+ x\l+ y\l+ id\l|+ operator+()\l+ operator&#45;()\l+ operator*()\l+ operator/()\l+ operator==()\l+ operator!=()\l}" alt="" coords="45,5,150,185"/>
+</map>

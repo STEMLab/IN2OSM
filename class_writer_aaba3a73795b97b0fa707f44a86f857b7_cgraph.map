@@ -1,0 +1,7 @@
+<map id="WriteInt64" name="WriteInt64">
+<area shape="rect" id="node2" href="$namespaceinternal.html#a51566359e64c9746656c396c63a23d61" title="internal::i64toa" alt="" coords="136,5,243,32"/>
+<area shape="rect" id="node5" href="$stream_8h.html#aa817b00a466bb84d96c5de1616436c95" title="Reserve n characters for writing to a stream. " alt="" coords="144,56,235,83"/>
+<area shape="rect" id="node6" href="$encodings_8h.html#ad57ba7f2912c5509924b69dec7db4396" title="Write character to a stream, presuming buffer is reserved. " alt="" coords="147,107,231,133"/>
+<area shape="rect" id="node3" href="$namespaceinternal.html#aff16deebb94b3ea88a1dfff7bbc377b0" title="internal::u64toa" alt="" coords="291,5,401,32"/>
+<area shape="rect" id="node4" href="$namespaceinternal.html#a95459e80b3f0e89ad03ebd0c8e55844c" title="internal::GetDigitsLut" alt="" coords="449,5,595,32"/>
+</map>

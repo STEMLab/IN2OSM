@@ -1,0 +1,19 @@
+<map id="WriteDouble" name="WriteDouble">
+<area shape="rect" id="node2" href="$stream_8h.html#aa817b00a466bb84d96c5de1616436c95" title="Reserve n characters for writing to a stream. " alt="" coords="151,10,242,37"/>
+<area shape="rect" id="node3" href="$encodings_8h.html#ad57ba7f2912c5509924b69dec7db4396" title="Write character to a stream, presuming buffer is reserved. " alt="" coords="155,61,239,87"/>
+<area shape="rect" id="node4" href="$namespaceinternal.html#a2547fbfd0790a9997cb5fb7b543f0485" title="internal::dtoa" alt="" coords="148,111,245,138"/>
+<area shape="rect" id="node5" href="$classinternal_1_1_double.html#a6d666801efee1f9166508f097e24969f" title="internal::Double::IsZero" alt="" coords="293,35,452,62"/>
+<area shape="rect" id="node6" href="$classinternal_1_1_double.html#ae87ac270b3bc082b7cf9872894364a60" title="internal::Double::Sign" alt="" coords="299,86,446,113"/>
+<area shape="rect" id="node7" href="$namespaceinternal.html#aeb7b6c0784b644968003cbd1b9da57e3" title="internal::Grisu2" alt="" coords="317,137,428,163"/>
+<area shape="rect" id="node16" href="$namespaceinternal.html#a172fb2d42a4fda6f296b1e9304177f12" title="internal::Prettify" alt="" coords="315,213,430,239"/>
+<area shape="rect" id="node8" href="$structinternal_1_1_diy_fp.html#aef48075288343b66571a64b4ac2de5ad" title="internal::DiyFp::Normalized\lBoundaries" alt="" coords="730,5,911,47"/>
+<area shape="rect" id="node10" href="$namespaceinternal.html#abac3dbfa1070756c37725829148f6038" title="internal::GetCachedPower" alt="" coords="500,82,675,109"/>
+<area shape="rect" id="node12" href="$structinternal_1_1_diy_fp.html#a8f2c2ddb2bf902775e5256bbf754824e" title="internal::DiyFp::Normalize" alt="" coords="500,137,675,163"/>
+<area shape="rect" id="node13" href="$namespaceinternal.html#a47be9aea8d0f9cae49dc03dc046d2450" title="internal::DigitGen" alt="" coords="526,187,649,214"/>
+<area shape="rect" id="node9" href="$structinternal_1_1_diy_fp.html#ab83cee46d1b5966f17c445994b8f750c" title="internal::DiyFp::DiyFp" alt="" coords="967,78,1117,105"/>
+<area shape="rect" id="node11" href="$namespaceinternal.html#a3e95f043ed6c40cda1c1bc33c2f0ece2" title="internal::GetCachedPower\lByIndex" alt="" coords="733,71,908,112"/>
+<area shape="rect" id="node14" href="$namespaceinternal.html#a8aae11dbb46da9ac99e116aa2a6dbfc9" title="internal::CountDecimalDigit32" alt="" coords="723,187,919,214"/>
+<area shape="rect" id="node15" href="$namespaceinternal.html#a234e10bef097ccb2f202b7a133086e71" title="internal::GrisuRound" alt="" coords="750,238,891,265"/>
+<area shape="rect" id="node17" href="$namespaceinternal.html#acc9a114f2a03bb4c68e9ee99b9ca99c5" title="internal::WriteExponent" alt="" coords="508,263,667,290"/>
+<area shape="rect" id="node18" href="$namespaceinternal.html#a95459e80b3f0e89ad03ebd0c8e55844c" title="internal::GetDigitsLut" alt="" coords="748,289,893,315"/>
+</map>

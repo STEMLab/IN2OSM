@@ -1,0 +1,5 @@
+<map id="GenericSchemaValidator&lt; SchemaDocumentType, OutputHandler, StateAllocator &gt;" name="GenericSchemaValidator&lt; SchemaDocumentType, OutputHandler, StateAllocator &gt;">
+<area shape="rect" id="node2" href="$classinternal_1_1_i_schema_state_factory.html" title="{ISchemaStateFactory\l\&lt; SchemaDocumentType\l::SchemaType \&gt;\n||+ ~ISchemaStateFactory()\l+ CreateSchemaValidator()\l+ DestroySchemaValidator()\l+ CreateHasher()\l+ GetHashCode()\l+ DestroryHasher()\l+ MallocState()\l+ FreeState()\l}" alt="" coords="5,27,192,237"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_i_schema_validator.html" title="{ISchemaValidator\n||+ ~ISchemaValidator()\l+ IsValid()\l}" alt="" coords="217,86,370,178"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_i_validation_error_handler.html" title="{IValidationErrorHandler\l\&lt; SchemaDocumentType::\lSchemaType \&gt;\n||+ ~IValidationErrorHandler()\l+ NotMultipleOf()\l+ NotMultipleOf()\l+ NotMultipleOf()\l+ AboveMaximum()\l+ AboveMaximum()\l+ AboveMaximum()\l+ BelowMinimum()\l+ BelowMinimum()\l+ BelowMinimum()\land 28 more...\l}" alt="" coords="395,5,579,259"/>
+</map>

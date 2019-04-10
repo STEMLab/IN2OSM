@@ -1,0 +1,8 @@
+<map id="WriteString" name="WriteString">
+<area shape="rect" id="node2" href="$stream_8h.html#aa817b00a466bb84d96c5de1616436c95" title="Reserve n characters for writing to a stream. " alt="" coords="186,5,277,32"/>
+<area shape="rect" id="node3" href="$encodings_8h.html#ad57ba7f2912c5509924b69dec7db4396" title="Write character to a stream, presuming buffer is reserved. " alt="" coords="189,56,273,83"/>
+<area shape="rect" id="node4" href="$class_writer.html#a5811ae5a9f749324058ae6c63ad58d98" title="ScanWriteUnescapedString" alt="" coords="140,107,323,133"/>
+<area shape="rect" id="node6" href="$struct_generic_string_stream.html#af6bb0127bbccb78c66052870fde2f63f" title="GenericStringStream\l::Peek" alt="" coords="160,158,303,199"/>
+<area shape="rect" id="node7" href="$struct_generic_string_stream.html#a443b9845a6e3d58438abe9de6c2003db" title="GenericStringStream\l::Take" alt="" coords="160,223,303,265"/>
+<area shape="rect" id="node5" href="$struct_generic_string_stream.html#a4942c1b9fd2b773ed5dddd92a17336ee" title="GenericStringStream\l::Tell" alt="" coords="371,99,513,141"/>
+</map>

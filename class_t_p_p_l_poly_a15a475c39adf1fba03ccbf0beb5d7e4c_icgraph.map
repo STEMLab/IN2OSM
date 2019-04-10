@@ -1,0 +1,9 @@
+<map id="Triangle" name="Triangle">
+<area shape="rect" id="node2" href="$class_t_p_p_l_partition.html#a9734b1d0d16c1d48088596eb09fbf65e" title="TPPLPartition::Triangulate_EC" alt="" coords="125,31,327,57"/>
+<area shape="rect" id="node6" href="$class_t_p_p_l_partition.html#a333835289d6cf8a868527efc83d54674" title="TPPLPartition::Triangulate_OPT" alt="" coords="121,81,331,108"/>
+<area shape="rect" id="node7" href="$class_t_p_p_l_partition.html#a17ac51e0a051c62c202909808f7515e1" title="TPPLPartition::Triangulate\lMonotone" alt="" coords="139,133,313,174"/>
+<area shape="rect" id="node3" href="$class_t_p_p_l_partition.html#a24c1b4144598661490126059302a15a0" title="TPPLPartition::Triangulate_EC" alt="" coords="394,5,595,32"/>
+<area shape="rect" id="node4" href="$class_t_p_p_l_partition.html#a051c6912d85470a5837ade1d738c74fb" title="TPPLPartition::ConvexPartition_HM" alt="" coords="379,56,611,83"/>
+<area shape="rect" id="node5" href="$class_t_p_p_l_partition.html#a256809859748d3093e92881812805535" title="TPPLPartition::ConvexPartition_HM" alt="" coords="659,56,891,83"/>
+<area shape="rect" id="node8" href="$class_t_p_p_l_partition.html#a518caaf3474e97fbbb4013eeee99eb7c" title="TPPLPartition::Triangulate_MONO" alt="" coords="383,140,606,167"/>
+</map>

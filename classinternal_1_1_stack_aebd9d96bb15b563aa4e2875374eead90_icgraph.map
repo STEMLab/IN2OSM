@@ -1,0 +1,4 @@
+<map id="Resize" name="Resize">
+<area shape="rect" id="node2" href="$classinternal_1_1_stack.html#a67424d37f2b8477f47c6e5ee6ea29740" title="internal::Stack\&lt; StackAllocator\l \&gt;::ShrinkToFit" alt="" coords="116,5,319,47"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_stack.html#a01a52a588011aa4e89dd935618546fff" title="internal::Stack\&lt; StackAllocator\l \&gt;::Expand" alt="" coords="116,71,319,112"/>
+</map>

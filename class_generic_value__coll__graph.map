@@ -1,0 +1,12 @@
+<map id="GenericValue&lt; Encoding, Allocator &gt;" name="GenericValue&lt; Encoding, Allocator &gt;">
+<area shape="rect" id="node4" href="$struct_generic_value_1_1_array_data.html" title="{ArrayData\n|+ size\l+ capacity\l|}" alt="" coords="31,593,114,685"/>
+<area shape="rect" id="node2" href="$union_generic_value_1_1_data.html" title="{Data\n||}" alt="" coords="365,755,415,832"/>
+<area shape="rect" id="node3" href="$struct_generic_value_1_1_string.html" title="{String\n|+ length\l+ hashcode\l+ str\l|}" alt="" coords="231,585,322,692"/>
+<area shape="rect" id="node5" href="$struct_generic_value_1_1_object_data.html" title="{ObjectData\n|+ size\l+ capacity\l|}" alt="" coords="346,593,434,685"/>
+<area shape="rect" id="node6" href="$struct_generic_member.html" title="Name&#45;value pair in a JSON object value. " alt="" coords="241,211,425,317"/>
+<area shape="rect" id="node7" href="$union_generic_value_1_1_number.html" title="{Number\n|+ i64\l+ u64\l+ d\l|}" alt="" coords="459,585,527,692"/>
+<area shape="rect" id="node8" href="$struct_generic_value_1_1_number_1_1_u.html" title="{U\n|+ u\l+ padding2\l|}" alt="" coords="449,218,536,310"/>
+<area shape="rect" id="node9" href="$struct_generic_value_1_1_number_1_1_i.html" title="{I\n|+ i\l+ padding\l|}" alt="" coords="560,218,639,310"/>
+<area shape="rect" id="node10" href="$struct_generic_value_1_1_short_string.html" title="{ShortString\n|+ str\l|+ SetLength()\l+ GetLength()\l+ Usable()\l}" alt="" coords="551,585,653,692"/>
+<area shape="rect" id="node11" href="$struct_generic_value_1_1_flag.html" title="{Flag\n|+ payload\l+ flags\l|}" alt="" coords="677,593,756,685"/>
+</map>

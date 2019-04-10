@@ -1,0 +1,8 @@
+<map id="IsReflex" name="IsReflex">
+<area shape="rect" id="node2" href="$class_t_p_p_l_partition.html#a5c5945b47ce31fa94e854356cab92ce3" title="UpdateVertexReflexity" alt="" coords="124,5,279,32"/>
+<area shape="rect" id="node4" href="$class_t_p_p_l_partition.html#a051c6912d85470a5837ade1d738c74fb" title="ConvexPartition_HM" alt="" coords="130,157,273,184"/>
+<area shape="rect" id="node6" href="$class_t_p_p_l_partition.html#aa81752dd7881cf52cc3e80d5fb730da7" title="TypeA" alt="" coords="171,56,231,83"/>
+<area shape="rect" id="node7" href="$class_t_p_p_l_partition.html#a9e5ffa07fed47a030e3af22527bcab9d" title="TypeB" alt="" coords="171,107,231,133"/>
+<area shape="rect" id="node3" href="$class_t_p_p_l_partition.html#af7f7fbaa641cbb2fe15cc934e632a9cc" title="ConvexPartition_OPT" alt="" coords="327,56,476,83"/>
+<area shape="rect" id="node5" href="$class_t_p_p_l_partition.html#a256809859748d3093e92881812805535" title="ConvexPartition_HM" alt="" coords="330,157,473,184"/>
+</map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>IndoorGML_OSM: xml_node&lt; Ch &gt; Class Template Reference</title>
+<title>IN2OSM: xml_node&lt; Ch &gt;</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,8 +28,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">IndoorGML_OSM
-   &#160;<span id="projectnumber">1.0.0</span>
+   <div id="projectname">IN2OSM
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
   </td>
  </tr>
@@ -88,7 +88,7 @@ $(document).ready(function(){initNavTree('classrapidxml_1_1xml__node.html','');}
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classrapidxml_1_1xml__node-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">xml_node&lt; Ch &gt; Class Template Reference</div>  </div>
+<div class="title">xml_node&lt; Ch &gt;</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -98,18 +98,18 @@ Inheritance diagram for xml_node&lt; Ch &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrapidxml_1_1xml__node__inherit__graph.png" border="0" usemap="#xml__node_3_01_ch_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="xml__node_3_01_ch_01_4_inherit__map" id="xml__node_3_01_ch_01_4_inherit__map">
-<area shape="rect" id="node3" href="classrapidxml_1_1xml__document.html" title="xml_document\&lt; Ch \&gt;" alt="" coords="5,155,153,181"/>
-<area shape="rect" id="node2" href="classrapidxml_1_1xml__base.html" title="xml_base\&lt; Ch \&gt;" alt="" coords="20,5,139,32"/>
+<area shape="rect" id="node3" href="classrapidxml_1_1xml__document.html" title="{xml_document\&lt; Ch \&gt;\n||+ xml_document()\l+ parse()\l+ clear()\l&#45; parse_bom()\l&#45; parse_xml_declaration()\l&#45; parse_comment()\l&#45; parse_doctype()\l&#45; parse_pi()\l&#45; parse_and_append_data()\l&#45; parse_cdata()\l&#45; parse_element()\l&#45; parse_node()\l&#45; parse_node_contents()\l&#45; parse_node_attributes()\l&#45; insert_coded_character()\l&#45; skip()\l&#45; skip_and_expand_character_refs()\l}" alt="" coords="5,725,235,1037"/>
+<area shape="rect" id="node2" href="classrapidxml_1_1xml__base.html" title="{xml_base\&lt; Ch \&gt;\n|# m_name\l# m_value\l# m_name_size\l# m_value_size\l# m_parent\l|+ xml_base()\l+ name()\l+ name_size()\l+ value()\l+ value_size()\l+ name()\l+ name()\l+ value()\l+ value()\l+ parent()\l# nullstr()\l}" alt="" coords="61,5,179,288"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+</div>
 <div class="dynheader">
 Collaboration diagram for xml_node&lt; Ch &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrapidxml_1_1xml__node__coll__graph.png" border="0" usemap="#xml__node_3_01_ch_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="xml__node_3_01_ch_01_4_coll__map" id="xml__node_3_01_ch_01_4_coll__map">
-<area shape="rect" id="node2" href="classrapidxml_1_1xml__base.html" title="xml_base\&lt; Ch \&gt;" alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node2" href="classrapidxml_1_1xml__base.html" title="{xml_base\&lt; Ch \&gt;\n|# m_name\l# m_value\l# m_parent\l|+ xml_base()\l+ name()\l+ name_size()\l+ value()\l+ value_size()\l+ name()\l+ name()\l+ value()\l+ value()\l+ parent()\l# nullstr()\l}" alt="" coords="13,160,132,413"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -501,7 +501,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">name</td><td>Name of attribute to find, or 0 to return first attribute regardless of its name; this string doesn't have to be zero-terminated if name_size is non-zero </td></tr>
     <tr><td class="paramname">name_size</td><td>Size of name, in characters, or 0 to have size calculated automatically from string </td></tr>
-    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for ASCII characters </td></tr>
+    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for <a class="el" href="struct_a_s_c_i_i.html" title="ASCII encoding. ">ASCII</a> characters </td></tr>
   </table>
   </dd>
 </dl>
@@ -569,7 +569,7 @@ Here is the caller graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">name</td><td>Name of child to find, or 0 to return first child regardless of its name; this string doesn't have to be zero-terminated if name_size is non-zero </td></tr>
     <tr><td class="paramname">name_size</td><td>Size of name, in characters, or 0 to have size calculated automatically from string </td></tr>
-    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for ASCII characters </td></tr>
+    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for <a class="el" href="struct_a_s_c_i_i.html" title="ASCII encoding. ">ASCII</a> characters </td></tr>
   </table>
   </dd>
 </dl>
@@ -761,7 +761,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">name</td><td>Name of attribute to find, or 0 to return last attribute regardless of its name; this string doesn't have to be zero-terminated if name_size is non-zero </td></tr>
     <tr><td class="paramname">name_size</td><td>Size of name, in characters, or 0 to have size calculated automatically from string </td></tr>
-    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for ASCII characters </td></tr>
+    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for <a class="el" href="struct_a_s_c_i_i.html" title="ASCII encoding. ">ASCII</a> characters </td></tr>
   </table>
   </dd>
 </dl>
@@ -818,7 +818,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">name</td><td>Name of child to find, or 0 to return last child regardless of its name; this string doesn't have to be zero-terminated if name_size is non-zero </td></tr>
     <tr><td class="paramname">name_size</td><td>Size of name, in characters, or 0 to have size calculated automatically from string </td></tr>
-    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for ASCII characters </td></tr>
+    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for <a class="el" href="struct_a_s_c_i_i.html" title="ASCII encoding. ">ASCII</a> characters </td></tr>
   </table>
   </dd>
 </dl>
@@ -1061,7 +1061,7 @@ Here is the caller graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">name</td><td>Name of sibling to find, or 0 to return next sibling regardless of its name; this string doesn't have to be zero-terminated if name_size is non-zero </td></tr>
     <tr><td class="paramname">name_size</td><td>Size of name, in characters, or 0 to have size calculated automatically from string </td></tr>
-    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for ASCII characters </td></tr>
+    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for <a class="el" href="struct_a_s_c_i_i.html" title="ASCII encoding. ">ASCII</a> characters </td></tr>
   </table>
   </dd>
 </dl>
@@ -1327,7 +1327,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">name</td><td>Name of sibling to find, or 0 to return previous sibling regardless of its name; this string doesn't have to be zero-terminated if name_size is non-zero </td></tr>
     <tr><td class="paramname">name_size</td><td>Size of name, in characters, or 0 to have size calculated automatically from string </td></tr>
-    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for ASCII characters </td></tr>
+    <tr><td class="paramname">case_sensitive</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for <a class="el" href="struct_a_s_c_i_i.html" title="ASCII encoding. ">ASCII</a> characters </td></tr>
   </table>
   </dd>
 </dl>
@@ -2178,7 +2178,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/byeonggon/IndoorGML_OSM/Rapidxml/<a class="el" href="rapidxml_8hpp_source.html">rapidxml.hpp</a></li>
+<li>Rapidxml/<a class="el" href="rapidxml_8hpp_source.html">rapidxml.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

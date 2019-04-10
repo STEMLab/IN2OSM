@@ -1,0 +1,8 @@
+<map id="RemoveHoles" name="RemoveHoles">
+<area shape="rect" id="node2" href="$class_t_p_p_l_partition.html#a39c0eb473fec6597b832b576f5b5cc19" title="InCone" alt="" coords="197,5,261,32"/>
+<area shape="rect" id="node4" href="$class_t_p_p_l_partition.html#a8464ff9a662f5250acf4bfae22783a62" title="Normalize" alt="" coords="188,56,269,83"/>
+<area shape="rect" id="node5" href="$class_t_p_p_l_partition.html#a6e88ba7434a662e544d00df7eed9b8ab" title="Intersects" alt="" coords="189,107,269,133"/>
+<area shape="rect" id="node6" href="$class_t_p_p_l_poly.html#ac692ff8821fcab50be699a3c8f455383" title="TPPLPoly::Init" alt="" coords="175,157,282,184"/>
+<area shape="rect" id="node7" href="$class_t_p_p_l_poly.html#abeaa44bf33d580b77f2794b24c74a4af" title="TPPLPoly::GetPoint" alt="" coords="159,208,299,235"/>
+<area shape="rect" id="node3" href="$class_t_p_p_l_partition.html#ae52154364d3f64a0de7d88f1cd93d3fd" title="IsConvex" alt="" coords="347,5,425,32"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_c_o_n_v_e_r_t_e_r_1_1_i_c.html" title="Parent class both Indoorgml and OSM. " alt="" coords="5,107,44,133"/>
+<area shape="rect" id="node2" href="$class_c_o_n_v_e_r_t_e_r_1_1_cell_space.html" title="CellSpace" alt="" coords="119,5,202,32"/>
+<area shape="rect" id="node3" href="$class_c_o_n_v_e_r_t_e_r_1_1_cell_space_boundary.html" title="CellSpaceBoundary class in IndoorGML, CellSpaceBoundary(way) in OSM &#160;Member of pos in CellSpaceBounda..." alt="" coords="92,56,229,83"/>
+<area shape="rect" id="node4" href="$class_c_o_n_v_e_r_t_e_r_1_1_pos.html" title="Pos class in IndoorGML, Node in OSM &#160;latitude in OSM and IndoorGML &#160;longitude in OSM and IndoorGML &#160;h..." alt="" coords="138,107,183,133"/>
+<area shape="rect" id="node5" href="$class_c_o_n_v_e_r_t_e_r_1_1_state.html" title="State class in IndoorGML, State(Node) in OSM &#160;State Pos. " alt="" coords="134,157,187,184"/>
+<area shape="rect" id="node6" href="$class_c_o_n_v_e_r_t_e_r_1_1_transition.html" title="Transition class in IndoorGML, Transition(way) in OSM &#160;weight in IndoorGML &#160;Member of pos in Transiti..." alt="" coords="121,208,200,235"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classinternal_1_1_i_schema_state_factory.html" title="ISchemaStateFactory\l\&lt; SchemaDocumentType\l::SchemaType \&gt;" alt="" coords="9,5,180,61"/>
+<area shape="rect" id="node2" href="$class_generic_schema_validator.html" title="JSON Schema Validator. " alt="" coords="232,71,444,127"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_i_schema_validator.html" title="ISchemaValidator" alt="" coords="32,85,157,112"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_i_validation_error_handler.html" title="IValidationErrorHandler\l\&lt; SchemaDocumentType::\lSchemaType \&gt;" alt="" coords="5,136,184,192"/>
+</map>

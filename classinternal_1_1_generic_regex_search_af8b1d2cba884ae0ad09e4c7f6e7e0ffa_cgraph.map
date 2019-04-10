@@ -1,0 +1,6 @@
+<map id="SearchWithAnchoring" name="SearchWithAnchoring">
+<area shape="rect" id="node2" href="$classinternal_1_1_stack.html#abcfbdba215d3b15fbb4b682969943a6e" title="internal::Stack::Empty" alt="" coords="209,5,361,32"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_decoded_stream.html#a0137fbe44d75af70e10bb9f67172f2e6" title="internal::DecodedStream\l::Take" alt="" coords="201,57,368,98"/>
+<area shape="rect" id="node5" href="$namespaceinternal.html#a72b2c71d36273b9691487f58c671ce04" title="Custom swap() to avoid dependency on C++ &lt;algorithm&gt; header. " alt="" coords="232,123,337,149"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_decoded_stream.html#a3c80c21235e4c5ee89b7ed1c6ca9d496" title="internal::DecodedStream\l::Decode" alt="" coords="416,57,583,98"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="Schema&lt; SchemaDocumentType &gt;" name="Schema&lt; SchemaDocumentType &gt;">
+<area shape="rect" id="node2" href="$structinternal_1_1_schema_1_1_property.html" title="{Property\n|+ dependenciesValidatorIndex\l+ dependencies\l+ required\l|+ Property()\l+ ~Property()\l}" alt="" coords="557,1820,755,1941"/>
+<area shape="rect" id="node15" href="$structinternal_1_1_schema_1_1_schema_array.html" title="{SchemaArray\n|+ begin\l+ count\l|+ SchemaArray()\l+ ~SchemaArray()\l}" alt="" coords="286,1827,415,1934"/>
+<area shape="rect" id="node17" href="$structinternal_1_1_schema_1_1_pattern_property.html" title="{PatternProperty\n||+ PatternProperty()\l+ ~PatternProperty()\l}" alt="" coords="5,1835,147,1927"/>
+<area shape="rect" id="node3" href="$class_generic_value.html" title="{GenericValue\&lt; EncodingType,\l AllocatorType \&gt;\n|+ kDefaultArrayCapacity\l+ kDefaultObjectCapacity\l|+ RAPIDJSON_DISABLEIF\l_RETURN()\l+ GetStringPointer()\l+ SetStringPointer()\l+ GetElementsPointer()\l+ SetElementsPointer()\l+ GetMembersPointer()\l+ SetMembersPointer()\l+ SetArrayRaw()\l+ SetObjectRaw()\l+ SetStringRaw()\l+ SetStringRaw()\l+ RawAssign()\l+ StringEqual()\l+ operator=()\l+ operator=()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\l* GenericValue()\land 8 more...\l* operator=()\l* operator=()\l}" alt="" coords="626,484,825,1001"/>
+<area shape="rect" id="node4" href="$union_generic_value_1_1_data.html" title="{Data\n||}" alt="" coords="847,344,897,421"/>
+<area shape="rect" id="node7" href="$class_generic_value.html" title="Represents a JSON value. Use Value for UTF8 encoding and default allocator. " alt="" coords="917,484,1105,1001"/>
+<area shape="rect" id="node5" href="$struct_generic_value_1_1_string.html" title="{String\n|+ length\l+ hashcode\l+ str\l|}" alt="" coords="611,175,701,281"/>
+<area shape="rect" id="node6" href="$struct_generic_value_1_1_array_data.html" title="{ArrayData\n|+ size\l+ capacity\l|}" alt="" coords="867,1372,949,1464"/>
+<area shape="rect" id="node8" href="$struct_generic_value_1_1_object_data.html" title="{ObjectData\n|+ size\l+ capacity\l|}" alt="" coords="725,182,813,274"/>
+<area shape="rect" id="node9" href="$struct_generic_member.html" title="Name&#45;value pair in a JSON object value. " alt="" coords="620,5,804,112"/>
+<area shape="rect" id="node10" href="$union_generic_value_1_1_number.html" title="{Number\n|+ i64\l+ u64\l+ d\l|}" alt="" coords="838,175,906,281"/>
+<area shape="rect" id="node11" href="$struct_generic_value_1_1_number_1_1_u.html" title="{U\n|+ u\l+ padding2\l|}" alt="" coords="829,13,915,105"/>
+<area shape="rect" id="node12" href="$struct_generic_value_1_1_number_1_1_i.html" title="{I\n|+ i\l+ padding\l|}" alt="" coords="939,13,1018,105"/>
+<area shape="rect" id="node13" href="$struct_generic_value_1_1_short_string.html" title="{ShortString\n|+ str\l|+ SetLength()\l+ GetLength()\l+ Usable()\l}" alt="" coords="930,175,1033,281"/>
+<area shape="rect" id="node14" href="$struct_generic_value_1_1_flag.html" title="{Flag\n|+ payload\l+ flags\l|}" alt="" coords="1057,182,1135,274"/>
+<area shape="rect" id="node16" href="$classinternal_1_1_generic_regex.html" title="Regular expression engine with subset of ECMAscript grammar. " alt="" coords="99,506,274,979"/>
+</map>

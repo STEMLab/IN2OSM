@@ -1,0 +1,6 @@
+<map id="GetRange" name="GetRange">
+<area shape="rect" id="node2" href="$struct_u_t_f8.html#a02c97aeeff618dbe5fa80eba4f302540" title="Decode" alt="" coords="136,5,203,32"/>
+<area shape="rect" id="node4" href="$struct_u_t_f8.html#aedb08c4303ea8811b961e75e9dbbfac8" title="Validate" alt="" coords="135,56,204,83"/>
+<area shape="rect" id="node3" href="$struct_auto_u_t_f.html#a0faf7c0e95d7c2329e4cc0b1744ca045" title="AutoUTF::Decode" alt="" coords="253,5,381,32"/>
+<area shape="rect" id="node5" href="$struct_auto_u_t_f.html#a9af2b306237612146130419c8f7c6717" title="AutoUTF::Validate" alt="" coords="252,56,383,83"/>
+</map>

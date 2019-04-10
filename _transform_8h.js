@@ -1,6 +1,7 @@
 var _transform_8h =
 [
     [ "CellSpace", "class_c_o_n_v_e_r_t_e_r_1_1_cell_space.html", "class_c_o_n_v_e_r_t_e_r_1_1_cell_space" ],
+    [ "Point2D", "struct_c_o_n_v_e_r_t_e_r_1_1_point2_d.html", "struct_c_o_n_v_e_r_t_e_r_1_1_point2_d" ],
     [ "CellSpace_ID", "_transform_8h.html#a4a80e32be641db5a03b8dcfdb126b3f9", null ],
     [ "CellSpaceBoundary_ID", "_transform_8h.html#ad0eefd9719bb7b7f784fdcd1aab85c1b", null ],
     [ "OSM_NODE_ID", "_transform_8h.html#afa2d0485eb58948009b2eddbf21048ee", null ],

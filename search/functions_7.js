@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['name',['name',['../classrapidxml_1_1xml__base.html#af8436e9ee14c127220113eaa956eafee',1,'rapidxml::xml_base::name() const'],['../classrapidxml_1_1xml__base.html#a4e7e23d06d48126c65b1f6266acfba5c',1,'rapidxml::xml_base::name(const Ch *name, std::size_t size)'],['../classrapidxml_1_1xml__base.html#ae099c291e104a0d277307fe71f5e0f9e',1,'rapidxml::xml_base::name(const Ch *name)']]],
-  ['name_5fsize',['name_size',['../classrapidxml_1_1xml__base.html#ad01e2eff02202b130baad012d1ed7328',1,'rapidxml::xml_base']]],
-  ['next_5fattribute',['next_attribute',['../classrapidxml_1_1xml__attribute.html#a5a9c842d6ace4908d361e4a37d765d68',1,'rapidxml::xml_attribute']]],
-  ['next_5fsibling',['next_sibling',['../classrapidxml_1_1xml__node.html#af90fc6230f1929fad951b92025d16654',1,'rapidxml::xml_node']]],
-  ['node_5fiterator',['node_iterator',['../classrapidxml_1_1node__iterator.html#ad79e25000466ec78178df7ed4be82fae',1,'rapidxml::node_iterator::node_iterator()'],['../classrapidxml_1_1node__iterator.html#ab1ef96e4af5af81a24ea1f0123f85a45',1,'rapidxml::node_iterator::node_iterator(xml_node&lt; Ch &gt; *node)']]],
-  ['nullstr',['nullstr',['../classrapidxml_1_1xml__base.html#a641d0b8df8e0c3c7e0db06ced0e0749f',1,'rapidxml::xml_base']]]
+  ['handleerror',['HandleError',['../class_generic_reader.html#a496897e468031bedcd2b8255174d0d95',1,'GenericReader']]],
+  ['handlerefschema',['HandleRefSchema',['../class_generic_schema_document.html#ad4f0f03e1a603f0afa567c5d8471f456',1,'GenericSchemaDocument']]],
+  ['hasallocator',['HasAllocator',['../classinternal_1_1_stack.html#ae20d2fc84db7671df042fccae0ec7264',1,'internal::Stack']]],
+  ['hasbom',['HasBOM',['../class_auto_u_t_f_input_stream.html#a5fa427b55b7fd562933c6449a0bb8ce1',1,'AutoUTFInputStream::HasBOM()'],['../class_generic_stream_wrapper.html#a5fa427b55b7fd562933c6449a0bb8ce1',1,'GenericStreamWrapper::HasBOM()']]],
+  ['hash',['Hash',['../classinternal_1_1_hasher.html#abf0e84a836f20f290fc30a4035287fbd',1,'internal::Hasher']]],
+  ['hasher',['Hasher',['../classinternal_1_1_hasher.html#a0287c64846f1f492bc60d18c43ff51b6',1,'internal::Hasher']]],
+  ['hasmember',['HasMember',['../class_generic_object.html#a66481861c5b2c18098018767fdb8c36f',1,'GenericObject::HasMember(const Ch *name) const'],['../class_generic_object.html#ad4328dab9cf368426c0fb8a05e2ac607',1,'GenericObject::HasMember(const GenericValue&lt; EncodingType, SourceAllocator &gt; &amp;name) const']]],
+  ['hasparseerror',['HasParseError',['../class_generic_document.html#a9331aca709e54229818862b4bc213bed',1,'GenericDocument::HasParseError()'],['../class_generic_reader.html#a9331aca709e54229818862b4bc213bed',1,'GenericReader::HasParseError()']]]
 ];

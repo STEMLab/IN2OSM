@@ -1,0 +1,3 @@
+<map id="GenericReader&lt; SourceEncoding, TargetEncoding, StackAllocator &gt;::StackStream&lt; CharType &gt;" name="GenericReader&lt; SourceEncoding, TargetEncoding, StackAllocator &gt;::StackStream&lt; CharType &gt;">
+<area shape="rect" id="node2" href="$classinternal_1_1_stack.html" title="{Stack\&lt; StackAllocator \&gt;\n|&#45; allocator_\l&#45; ownAllocator_\l&#45; stack_\l&#45; stackTop_\l&#45; stackEnd_\l|+ Stack()\l+ ~Stack()\l+ Swap()\l+ Clear()\l+ ShrinkToFit()\l+ Reserve()\l+ Push()\l+ PushUnsafe()\l+ Pop()\l+ Top()\land 10 more...\l&#45; Stack()\l&#45; Expand()\l&#45; Resize()\l&#45; Destroy()\l&#45; operator=()\l}" alt="" coords="33,145,198,501"/>
+</map>

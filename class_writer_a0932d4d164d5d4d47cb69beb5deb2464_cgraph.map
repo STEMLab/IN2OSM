@@ -1,0 +1,5 @@
+<map id="StartObject" name="StartObject">
+<area shape="rect" id="node2" href="$class_writer.html#aa7acf8b71a11cb67124c5cad6547c289" title="Prefix" alt="" coords="173,5,229,32"/>
+<area shape="rect" id="node4" href="$class_writer.html#a724f2509e0c2505f3e2909a0a67d23f0" title="WriteStartObject" alt="" coords="141,56,260,83"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_stack.html#a0af4f3bf511770f64efd9b03197fe05d" title="internal::Stack::GetSize" alt="" coords="308,5,469,32"/>
+</map>

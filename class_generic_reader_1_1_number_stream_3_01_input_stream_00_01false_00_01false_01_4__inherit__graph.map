@@ -1,0 +1,4 @@
+<map id="GenericReader&lt; SourceEncoding, TargetEncoding, StackAllocator &gt;::NumberStream&lt; InputStream, false, false &gt;" name="GenericReader&lt; SourceEncoding, TargetEncoding, StackAllocator &gt;::NumberStream&lt; InputStream, false, false &gt;">
+<area shape="rect" id="node2" href="$class_generic_reader_1_1_number_stream_3_01_input_stream_00_01true_00_01false_01_4.html" title="{NumberStream\&lt; InputStream,\l true, false \&gt;\n|&#45; stackStream\l|+ NumberStream()\l+ TakePush()\l+ Push()\l+ Length()\l+ Pop()\l}" alt="" coords="17,292,214,443"/>
+<area shape="rect" id="node3" href="$class_generic_reader_1_1_number_stream_3_01_input_stream_00_01true_00_01true_01_4.html" title="{NumberStream\&lt; InputStream,\l true, true \&gt;\n||+ NumberStream()\l+ Take()\l}" alt="" coords="17,491,214,597"/>
+</map>

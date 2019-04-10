@@ -1,5 +1,7 @@
 var _i_o_8cpp =
 [
+    [ "ISNOT_INDOORGML", "_i_o_8cpp.html#acc6e34a4902fa46d6a15afbafeec5610", null ],
+    [ "ISNOT_INDORGML_MESSAGE", "_i_o_8cpp.html#aae006aeefd01b9a9bdbbccb990da4d78", null ],
     [ "lowercase", "_i_o_8cpp.html#a97e8f14796288778ec7519c813f59b6b", null ],
     [ "CellSpace_ID", "_i_o_8cpp.html#a4a80e32be641db5a03b8dcfdb126b3f9", null ],
     [ "CellSpaceBoundary_ID", "_i_o_8cpp.html#ad0eefd9719bb7b7f784fdcd1aab85c1b", null ],

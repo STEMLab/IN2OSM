@@ -1,0 +1,12 @@
+<map id="Uint64" name="Uint64">
+<area shape="rect" id="node2" href="$class_writer.html#aa7acf8b71a11cb67124c5cad6547c289" title="Prefix" alt="" coords="131,25,187,52"/>
+<area shape="rect" id="node4" href="$class_writer.html#a6a871b44e089883e1f8c9034a715f530" title="EndValue" alt="" coords="119,95,198,121"/>
+<area shape="rect" id="node7" href="$class_writer.html#afdfd07a5f0a71a279c063c279b7e10eb" title="WriteUint64" alt="" coords="113,171,204,197"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_stack.html#a0af4f3bf511770f64efd9b03197fe05d" title="internal::Stack::GetSize" alt="" coords="252,5,413,32"/>
+<area shape="rect" id="node5" href="$classinternal_1_1_stack.html#abcfbdba215d3b15fbb4b682969943a6e" title="internal::Stack::Empty" alt="" coords="257,56,409,83"/>
+<area shape="rect" id="node6" href="$class_writer.html#a0e2644b2df3c228e8d71a55b60723f31" title="Flush the output stream. " alt="" coords="305,107,360,133"/>
+<area shape="rect" id="node8" href="$namespaceinternal.html#aff16deebb94b3ea88a1dfff7bbc377b0" title="internal::u64toa" alt="" coords="277,157,388,184"/>
+<area shape="rect" id="node10" href="$stream_8h.html#aa817b00a466bb84d96c5de1616436c95" title="Reserve n characters for writing to a stream. " alt="" coords="287,208,378,235"/>
+<area shape="rect" id="node11" href="$encodings_8h.html#ad57ba7f2912c5509924b69dec7db4396" title="Write character to a stream, presuming buffer is reserved. " alt="" coords="291,259,375,285"/>
+<area shape="rect" id="node9" href="$namespaceinternal.html#a95459e80b3f0e89ad03ebd0c8e55844c" title="internal::GetDigitsLut" alt="" coords="461,157,607,184"/>
+</map>

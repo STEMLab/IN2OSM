@@ -1,0 +1,4 @@
+<map id="GetCapacity" name="GetCapacity">
+<area shape="rect" id="node2" href="$classinternal_1_1_stack.html#a01a52a588011aa4e89dd935618546fff" title="internal::Stack\&lt; StackAllocator\l \&gt;::Expand" alt="" coords="148,5,351,47"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_stack.html#aebd9d96bb15b563aa4e2875374eead90" title="internal::Stack\&lt; StackAllocator\l \&gt;::Resize" alt="" coords="148,71,351,112"/>
+</map>

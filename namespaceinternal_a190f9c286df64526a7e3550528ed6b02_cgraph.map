@@ -1,0 +1,11 @@
+<map id="CheckWithinHalfULP" name="CheckWithinHalfULP">
+<area shape="rect" id="node2" href="$classinternal_1_1_double.html#ae614b5c260583215860240b81f5f4d4a" title="internal::Double::Integer\lSignificand" alt="" coords="200,5,361,47"/>
+<area shape="rect" id="node5" href="$classinternal_1_1_double.html#aa11874369d046de0798de1e70bc6ea21" title="internal::Double::Integer\lExponent" alt="" coords="200,71,361,112"/>
+<area shape="rect" id="node7" href="$namespaceinternal.html#ace304441347098a4953ea99f50805da9" title="Min3" alt="" coords="255,137,306,163"/>
+<area shape="rect" id="node8" href="$classinternal_1_1_big_integer.html#a81d2a6e13783095b0fd2b472269e4e7b" title="internal::BigInteger\l::MultiplyPow5" alt="" coords="215,188,346,229"/>
+<area shape="rect" id="node9" href="$classinternal_1_1_big_integer.html#aae8d27745810b8d57be1506e87379490" title="internal::BigInteger\l::Difference" alt="" coords="215,253,346,295"/>
+<area shape="rect" id="node10" href="$classinternal_1_1_big_integer.html#a73b0b22b98c08b9daaf90c1f82223912" title="internal::BigInteger\l::Compare" alt="" coords="432,283,563,324"/>
+<area shape="rect" id="node3" href="$classinternal_1_1_double.html#a6d2c61f0e899175534c73c286e0c13d9" title="internal::Double::IsNormal" alt="" coords="410,46,585,73"/>
+<area shape="rect" id="node4" href="$classinternal_1_1_double.html#a8fc19d25c0365d059183d2ff73c37e0e" title="internal::Double::Significand" alt="" coords="633,21,819,47"/>
+<area shape="rect" id="node6" href="$classinternal_1_1_double.html#a87fa45096b5bd83b4cff6e5ee12f4909" title="internal::Double::Exponent" alt="" coords="409,97,585,123"/>
+</map>
